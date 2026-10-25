@@ -1586,6 +1586,7 @@ function bindControls() {
   $("share").addEventListener("click", share);
   $("download").addEventListener("click", downloadSong);
   $("share-cancel").addEventListener("click", () => $("share-dialog").close());
+  $("notice-ok").addEventListener("click", () => $("notice").close());
   $("download-dialog").addEventListener("close", releaseUrls);
   $("share-confirm").addEventListener("click", () => {
     $("share-dialog").close();
@@ -1718,6 +1719,7 @@ async function main() {
   requestAnimationFrame(frame);
   $("loading").classList.add("done");
   try { sessionStorage.removeItem("w3b-refreshed"); } catch (error) { /* private mode */ }
+  $("notice").showModal();
 }
 
 main().catch((error) => {
