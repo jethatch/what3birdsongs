@@ -4,7 +4,7 @@ import {
   stopsToGeoJSON, wrapLng,
 } from "./routing.js";
 import { GRIDS } from "./grid.js";
-import { loadBirds, prepareBirds, birdsFor, catalogueInfo } from "./birds.js";
+import { loadBirds, prepareBirds, prepareCells, birdsFor, birdsAt, spotIn, catalogueInfo } from "./birds.js";
 import { Aviary, Player, LiveRecorder, renderSong, songSeconds } from "./audio.js";
 import { combine, licenceName, licenceUrl } from "./licences.js";
 import { LiveSession, liveSupport, paceName } from "./live.js";
@@ -62,6 +62,7 @@ const state = {
   pace: "steady",
   route: null,
   routePending: false, // a road route has been asked for and isn't back yet
+  birdsFailed: false, // the range lists for the route couldn't be fetched
   cueStop: 0,
   playing: null, // null | "route" | "spot" | "live"
   finished: false,
@@ -122,10 +123,15 @@ function recall(key) {
   try { return JSON.parse(localStorage.getItem(key)); } catch (error) { return null; }
 }
 
+// Files offered for download are kept only while their dialog is open.
 function objectUrl(blob) {
   const url = URL.createObjectURL(blob);
   objectUrls.push(url);
   return url;
+}
+
+function releaseUrls() {
+  for (const url of objectUrls.splice(0)) URL.revokeObjectURL(url);
 }
 
 function grid() {
@@ -473,15 +479,20 @@ function showCandidates(which, results, chosen, open = false) {
 // Route
 // ---------------------------------------------------------------------------
 
-// The birds of each stop, taken at the centre of its hexagon. The range
-// tiles the stops need are fetched first.
+// The birds of each stop: those of one spot inside its hexagon, picked by
+// the hexagon's ID (see spotIn in birds.js). A trip that starts and ends in
+// the same hexagon gives its end stop the birds of the end point itself.
+// The range tiles the stops need are fetched first.
 async function giveBirds(stops) {
-  await prepareBirds(stops.map((stop) => stop.point));
-  for (const stop of stops) {
-    const found = birdsFor(stop.point[0], stop.point[1]);
+  const spots = stops.map((stop, i) => (i > 0 && stop.cell === stops[i - 1].cell
+    ? h3.latLngToCell(stop.point[0], stop.point[1], 15)
+    : spotIn(stop.cell)));
+  await prepareCells(spots);
+  stops.forEach((stop, i) => {
+    const found = birdsAt(spots[i]);
     stop.birds = found ? found.birds : [];
     stop.local = found ? found.local : 0;
-  }
+  });
 }
 
 async function pathRoute() {
@@ -512,6 +523,7 @@ async function rebuildRoute({ fit = true } = {}) {
   // place could be played and then swapped out from under the song.
   state.route = null;
   state.routePending = false;
+  state.birdsFailed = false;
 
   if (state.path) {
     let route;
@@ -520,7 +532,7 @@ async function rebuildRoute({ fit = true } = {}) {
     } catch (error) {
       console.warn(error);
       if (request !== routeRequest) return;
-      toast("The bird lists for this route didn’t load. Check your connection and try again.");
+      state.birdsFailed = true;
       renderRoute();
       return;
     }
@@ -556,8 +568,8 @@ async function rebuildRoute({ fit = true } = {}) {
       console.warn(error);
       if (request !== routeRequest) return;
       state.routePending = false;
+      state.birdsFailed = true;
       renderRoute();
-      toast("The bird lists for this trip didn’t load. Check your connection and try again.");
       return;
     }
     if (request !== routeRequest) return;
@@ -586,6 +598,16 @@ function renderRoute() {
   $("route-note").hidden = !state.path;
   summary.classList.toggle("busy", state.routePending);
   renderSummaries();
+  if (!route && state.birdsFailed) {
+    summary.innerHTML = 'The bird lists for this trip didn’t load. <button type="button" class="link" id="retry-birds">Try again</button>';
+    $("retry-birds").addEventListener("click", () => rebuildRoute());
+    $("deck-title").textContent = "The birds didn’t load.";
+    $("deck-sub").textContent = "";
+    $("chart").replaceChildren();
+    $("now").replaceChildren();
+    $("progress-bar").style.width = "0";
+    return;
+  }
   if (!route) {
     summary.textContent = state.routePending ? (state.mode === "road" ? "Finding a road route…" : "Finding the birds…") : "";
     $("deck-title").textContent = live
@@ -612,7 +634,7 @@ function renderRoute() {
       : route.mode === "road"
         ? `${formatKm(route.distanceKm)} by road`
         : `${formatKm(route.straightKm)} as the crow flies`;
-    facts = `${distance} · hexagons about ${formatKm(route.grid.spacingKm(route.res))} across`;
+    facts = `${distance} · a stop every ${formatKm(route.grid.spacingKm(route.res))}`;
     if (route.note) notes.push(route.note);
     if (route.mode === "road" && route.snapKm) {
       const far = Math.max(...route.snapKm);
@@ -626,7 +648,7 @@ function renderRoute() {
   if (quiet === route.stops.length) {
     notes.push("None of these stops has any birds: the area is the US, Canada and Mexico, on land and near the coast.");
   } else if (quiet) {
-    notes.push(`${quiet} ${quiet === 1 ? "stop is" : "stops are"} outside the area or out at sea, and stay quiet.`);
+    notes.push(`${quiet} ${quiet === 1 ? "stop is" : "stops are"} outside the area or out at sea: a short quiet turn each.`);
   }
   summary.innerHTML = `<strong>${count}</strong> · ${escapeHTML(facts)}` +
     notes.map((text) => `<span class="note">${escapeHTML(text)}</span>`).join("");
@@ -670,7 +692,7 @@ function onChartKey(event) {
 }
 
 function totalBars() {
-  return state.route.stops.length * state.perStop;
+  return makeSong().bars;
 }
 
 function renderSongInfo(position) {
@@ -700,17 +722,31 @@ function renderSongInfo(position) {
 // Playback
 // ---------------------------------------------------------------------------
 
-function makeSong() {
+// The song: each stop takes three turns (birds in turn) or one (all
+// together); a stop with no birds takes one quiet turn either way.
+// barAt() says which stop and bird a turn is, and which of its stop's turns.
+function makeSong(per = state.perStop) {
   const stops = state.route.stops;
+  const first = [];
+  const owner = [];
+  stops.forEach((stop, i) => {
+    first.push(owner.length);
+    const turns = stop.birds.length ? per : 1;
+    for (let t = 0; t < turns; t++) owner.push(i);
+  });
   return {
-    per: state.perStop,
-    get bars() { return stops.length * this.per; },
+    per,
+    bars: owner.length,
+    // The first turn of a stop (or the song's length, past the last stop).
+    firstBar: (stop) => (stop < stops.length ? first[stop] : owner.length),
+    stopAt: (bar) => owner[Math.min(bar, owner.length - 1)],
     barAt(bar) {
-      const stop = Math.floor(bar / this.per);
+      const stop = owner[bar];
+      const turn = bar - first[stop];
       const birds = stops[stop].birds;
-      if (this.per === 1) return { birds, stop, which: -1 };
-      const which = bar % 3;
-      return { birds: birds[which] ? [birds[which]] : [], stop, which };
+      if (!birds.length) return { birds: [], stop, which: -1, turn: 0, turns: 1 };
+      if (per === 1) return { birds, stop, which: -1, turn: 0, turns: 1 };
+      return { birds: [birds[turn]], stop, which: turn, turn, turns: 3 };
     },
   };
 }
@@ -761,7 +797,7 @@ async function togglePlay() {
     song = makeSong();
     state.playing = "route";
     const request = routeRequest;
-    await startAudio(() => player.play(song, state.cueStop * song.per));
+    await startAudio(() => player.play(song, song.firstBar(state.cueStop)));
     // The route changed while the recordings were still loading.
     if (request !== routeRequest) stopPlayback();
   }
@@ -791,7 +827,7 @@ function jumpToStop(index) {
   if (!state.route || live) return;
   state.finished = false;
   if (state.playing === "route" && player.state === "playing") {
-    player.seek(index * song.per);
+    player.seek(song.firstBar(index));
     return;
   }
   stopPlayback();
@@ -855,6 +891,8 @@ function showStop(route, stop, which, played, sounding) {
   for (let i = 0; i < items.length; i++) {
     items[i].classList.toggle("played", i < played);
     items[i].classList.toggle("current", i === current);
+    if (i === current) items[i].firstChild.setAttribute("aria-current", "step");
+    else items[i].firstChild.removeAttribute("aria-current");
     for (const span of items[i].querySelectorAll(".c")) {
       span.classList.toggle("on", i === current && sounding && (which === -1 || Number(span.dataset.which) === which));
     }
@@ -890,8 +928,7 @@ function renderPlayhead(position) {
     stop = position.info.stop;
     which = position.info.which;
     if (!stops[stop]) return;
-    const per = song.per;
-    const into = per === 3 ? ((position.bar % 3) + position.fraction) / 3 : position.fraction;
+    const into = (position.info.turn + position.fraction) / position.info.turns;
     const next = stops[Math.min(last, stop + 1)].trackKm;
     km = stops[stop].trackKm + (next - stops[stop].trackKm) * into;
     played = stop;
@@ -953,6 +990,13 @@ function renderNow(stop, which, sounding) {
   }).join("");
 }
 
+// An empty src asks some browsers to fetch the page itself; leave it out.
+function setImage(img, url) {
+  if (url) img.src = url;
+  else img.removeAttribute("src");
+  img.hidden = !url;
+}
+
 // Who recorded a bird and took its picture, and on what terms. Opens when
 // a bird card is selected; the sonogram is only fetched then.
 function openBird(index) {
@@ -961,10 +1005,9 @@ function openBird(index) {
   const rec = bird.rec;
   $("bird-title").textContent = bird.name;
   $("bird-sci").textContent = bird.sci;
-  $("bird-photo").src = bird.photo || "";
-  $("bird-photo").hidden = !bird.photo;
+  setImage($("bird-photo"), bird.photo);
   const rows = [
-    ["Recording", `<a href="https://xeno-canto.org/${encodeURIComponent(rec.xc)}" target="_blank" rel="noopener">XC${escapeHTML(rec.xc)}</a> by ${escapeHTML(rec.by || "unknown")}${rec.where ? `, recorded in ${escapeHTML(rec.where)}` : ""}${rec.type ? ` (${escapeHTML(rec.type)})` : ""}`],
+    ["Recording", `<a href="https://xeno-canto.org/${encodeURIComponent(rec.xc)}" target="_blank" rel="noopener">XC${escapeHTML(rec.xc)}</a> by ${escapeHTML(rec.by || "unknown")}${rec.type ? ` (${escapeHTML(rec.type)})` : ""}. ${rec.where ? `Made in ${escapeHTML(rec.where)}, ` : "Made "}wherever the recordist was, not at this place: one recording stands in for the species everywhere.`],
     ["Licence", `<a href="${escapeHTML(rec.licUrl || licenceUrl(rec.lic))}" target="_blank" rel="noopener">${escapeHTML(licenceName(rec.lic))}</a>. Cut to a few seconds and re-encoded here.`],
   ];
   if (bird.photo) {
@@ -972,7 +1015,7 @@ function openBird(index) {
   }
   $("bird-credits").innerHTML = rows.map(([term, text]) => `<dt>${term}</dt><dd>${text}</dd>`).join("");
   $("bird-sono-figure").hidden = !rec.sono;
-  $("bird-sono").src = rec.sono || "";
+  setImage($("bird-sono"), rec.sono);
   $("bird-dialog").showModal();
 }
 
@@ -1019,19 +1062,22 @@ async function openSpot(lat, lng, autoplay) {
   const opened = { popup: null, birds: [] };
   spot = opened;
   let found = null;
+  let failed = false;
   try {
     await prepareBirds([[lat, lng]]);
     found = birdsFor(lat, lng);
   } catch (error) {
     console.warn(error);
+    failed = true;
   }
   if (spot !== opened) return;
   opened.birds = found ? found.birds : [];
+  const why = failed ? "The bird list for this area didn’t load. Click the map again to retry." : QUIET;
   content.innerHTML = `
-    <p class="spot-title">${escapeHTML(formatLatLng(lat, lng))}${found ? ` · three of the ${found.local} birds expected here` : ""}</p>
+    <p class="spot-title">${escapeHTML(formatLatLng(lat, lng))}${found ? ` · three of the ${found.local} birds on this area’s range-map list` : ""}</p>
     ${found
       ? `<div class="spot-birds">${found.birds.map((bird) => birdCard(bird)).join("")}</div>`
-      : `<p class="spot-quiet">${escapeHTML(QUIET)}</p>`}
+      : `<p class="spot-quiet">${escapeHTML(why)}</p>`}
     <div class="spot-actions">
       ${found ? '<button type="button" class="button" data-action="hear">▶ Hear it</button>' : ""}
       <button type="button" class="button quiet" data-action="start">Start here</button>
@@ -1159,6 +1205,8 @@ async function onLiveStop(stop) {
     setLiveStatus("");
     writeHash();
   }
+  // Stops can arrive faster than their birds load; only the newest counts.
+  const ticket = (session.ticket = (session.ticket || 0) + 1);
   let route;
   try {
     route = await pathRoute();
@@ -1167,7 +1215,7 @@ async function onLiveStop(stop) {
     setLiveStatus("The birds for this spot didn’t load; trying again at the next one.");
     return;
   }
-  if (live !== session) return;
+  if (live !== session || ticket !== session.ticket) return;
   state.route = route;
   drawRoute();
   renderRoute();
@@ -1306,13 +1354,13 @@ function creditsText(title, birds, licence) {
     title,
     "",
     "Made with what3birdsongs (https://jethatch.github.io/what3birdsongs/).",
-    `This recording mixes the bird recordings below, each cut to a few seconds and re-encoded. Taken together, their licences allow it to be shared under ${licence}, with every recordist credited as below.`,
+    `This recording mixes the bird recordings below, each cut to a few seconds and re-encoded. Taken together, their licences allow it to be shared under ${licence.name} (${licence.url}), with every recordist credited as below.`,
     "",
     "Recordings, from xeno-canto (https://xeno-canto.org/):",
   ];
   for (const bird of birds) {
     const rec = bird.rec;
-    lines.push(`- ${bird.name} (${bird.sci}): XC${rec.xc} by ${rec.by || "unknown"}, ${licenceName(rec.lic)}, https://xeno-canto.org/${rec.xc}`);
+    lines.push(`- ${bird.name} (${bird.sci}): XC${rec.xc} by ${rec.by || "unknown"}, https://xeno-canto.org/${rec.xc}, ${licenceName(rec.lic)} (${rec.licUrl || licenceUrl(rec.lic)})`);
   }
   lines.push("", "Which birds a place gets comes from iNaturalist's open range maps (CC BY 4.0).");
   return lines.join("\n") + "\n";
@@ -1330,7 +1378,7 @@ function offerFile(title, blob, extension, birds) {
     return;
   }
   const stem = fileStem(title);
-  const credits = new Blob([creditsText(title, birds, check.licence)], { type: "text/plain" });
+  const credits = new Blob([creditsText(title, birds, { name: check.licence, url: check.url })], { type: "text/plain" });
   for (const [label, file, name] of [
     [`Song (${formatSize(blob.size)})`, blob, `${stem}.${extension}`],
     ["Credits", credits, `${stem}-credits.txt`],
@@ -1343,7 +1391,7 @@ function offerFile(title, blob, extension, birds) {
     links.append(link);
   }
   $("download-title").textContent = "Your song";
-  $("download-text").textContent = `It mixes ${birds.length} ${birds.length === 1 ? "recording" : "recordings"}, so it is shared under ${check.licence}. Keep the credits with it: they name every recordist.`;
+  $("download-text").innerHTML = `It mixes ${birds.length} ${birds.length === 1 ? "recording" : "recordings"}, so it can only be shared under <a href="${escapeHTML(check.url)}" target="_blank" rel="noopener">${escapeHTML(check.licence)}</a>: ${escapeHTML(check.plain)} Keep the credits file with it; it names every recordist.`;
   $("download-dialog").showModal();
 }
 
@@ -1420,12 +1468,15 @@ function setPerStop(per) {
   if (!state.route) return;
   if (state.playing === "route") {
     // Finish the turn in progress, then carry on from the next stop
-    // boundary counted the new way.
+    // counted the new way.
     const playing = song;
+    const next = makeSong(per);
     player.onNextBarLine((bar) => {
-      const stop = Math.ceil(bar / playing.per);
-      playing.per = per;
-      return stop * per;
+      const stop = playing.stopAt(bar);
+      const at = bar >= playing.bars ? next.bars : bar === playing.firstBar(stop) ? next.firstBar(stop) : next.firstBar(stop + 1);
+      player.song = next;
+      song = next;
+      return at;
     });
   }
   renderChart();
@@ -1535,6 +1586,7 @@ function bindControls() {
   $("share").addEventListener("click", share);
   $("download").addEventListener("click", downloadSong);
   $("share-cancel").addEventListener("click", () => $("share-dialog").close());
+  $("download-dialog").addEventListener("close", releaseUrls);
   $("share-confirm").addEventListener("click", () => {
     $("share-dialog").close();
     state.pathShared = true;
@@ -1551,6 +1603,7 @@ function bindControls() {
   $("theme-toggle").addEventListener("click", () => setTheme(theme === "dark" ? "light" : "dark"));
   $("about-open").addEventListener("click", () => $("about").showModal());
   $("what-open").addEventListener("click", () => $("what").showModal());
+  $("caveat-open").addEventListener("click", () => $("about").showModal());
   for (const id of ["about", "what", "share-dialog", "bird-dialog", "download-dialog"]) {
     // A click on the backdrop closes the dialog. The backdrop reports the
     // dialog as its target, and so does the dialog's own padding, so go by

@@ -176,6 +176,8 @@ export class Player {
 
   async resume() {
     if (this.state !== "paused") return;
+    // The birds were stopped by the pause; start the interrupted turn again.
+    if (this.slot !== 0) this.seek(this.bar);
     await Tone.start();
     this.transport.start();
     this.state = "playing";
@@ -206,6 +208,8 @@ export class Player {
   tick(time) {
     const now = Math.round(this.transport.getTicksAtTime(time) / this.slotTicks);
     if (this.pendingSeek != null) {
+      // Whatever was singing gives way.
+      this.aviary.silence();
       this.bar = this.pendingSeek;
       this.slot = 0;
       this.endingSlots = 0;
@@ -346,7 +350,8 @@ async function renderChunk(song, pace, fromBar, untilBar, seconds) {
 export async function renderSong(song, pace, onProgress = () => {}) {
   const seconds = songSeconds(song.bars, pace) + 0.3;
   if (!(seconds <= MAX_RENDER_SECONDS)) {
-    throw new Error(`Songs over ${MAX_RENDER_SECONDS / 60} minutes are too long to download. Try a quicker pace, the birds together, or a shorter trip.`);
+    const minutes = Math.round(seconds / 60);
+    throw new Error(`This song is about ${minutes} minutes long, and downloads stop at ${MAX_RENDER_SECONDS / 60}. Try “All together” (a third as long), a quicker pace, or a shorter trip.`);
   }
   const birds = [];
   for (let bar = 0; bar < song.bars; bar++) birds.push(...song.barAt(bar).birds);

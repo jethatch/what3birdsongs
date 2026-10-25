@@ -147,7 +147,7 @@
   "taxon": 882,
   "name": "Gallus gallus",
   "en": "Red Junglefowl",
-  "hexagons": 406
+  "hexagons": 12458
  },
  {
   "taxon": 890,
@@ -171,13 +171,13 @@
   "taxon": 931,
   "name": "Lagopus lagopus",
   "en": "Willow Ptarmigan",
-  "hexagons": 5781
+  "hexagons": 5786
  },
  {
   "taxon": 949,
   "name": "Lagopus muta",
   "en": "Rock Ptarmigan",
-  "hexagons": 4816
+  "hexagons": 4818
  },
  {
   "taxon": 974,
@@ -599,7 +599,7 @@
   "taxon": 2548,
   "name": "Megaceryle alcyon",
   "en": "Belted Kingfisher",
-  "hexagons": 10223
+  "hexagons": 10226
  },
  {
   "taxon": 2552,
@@ -929,7 +929,7 @@
   "taxon": 3810,
   "name": "Pygoscelis adeliae",
   "en": "Adelie Penguin",
-  "hexagons": 12696
+  "hexagons": 98
  },
  {
   "taxon": 3812,
@@ -947,7 +947,7 @@
   "taxon": 3820,
   "name": "Aptenodytes forsteri",
   "en": "Emperor Penguin",
-  "hexagons": 90
+  "hexagons": 60
  },
  {
   "taxon": 3834,
@@ -995,13 +995,13 @@
   "taxon": 3850,
   "name": "Calidris himantopus",
   "en": "Stilt Sandpiper",
-  "hexagons": 12725
+  "hexagons": 12758
  },
  {
   "taxon": 3851,
   "name": "Calidris bairdii",
   "en": "Baird's Sandpiper",
-  "hexagons": 12561
+  "hexagons": 12566
  },
  {
   "taxon": 3852,
@@ -1019,7 +1019,7 @@
   "taxon": 3855,
   "name": "Calidris mauri",
   "en": "Western Sandpiper",
-  "hexagons": 7246
+  "hexagons": 7247
  },
  {
   "taxon": 3856,
@@ -1037,7 +1037,7 @@
   "taxon": 3862,
   "name": "Calidris pusilla",
   "en": "Semipalmated Sandpiper",
-  "hexagons": 12784
+  "hexagons": 12789
  },
  {
   "taxon": 3863,
@@ -1055,7 +1055,7 @@
   "taxon": 3865,
   "name": "Calidris melanotos",
   "en": "Pectoral Sandpiper",
-  "hexagons": 12790
+  "hexagons": 12791
  },
  {
   "taxon": 3866,
@@ -1073,19 +1073,19 @@
   "taxon": 3869,
   "name": "Limnodromus griseus",
   "en": "Short-billed Dowitcher",
-  "hexagons": 12045
+  "hexagons": 12155
  },
  {
   "taxon": 3873,
   "name": "Limnodromus scolopaceus",
   "en": "Long-billed Dowitcher",
-  "hexagons": 9972
+  "hexagons": 9975
  },
  {
   "taxon": 3875,
   "name": "Tringa solitaria",
   "en": "Solitary Sandpiper",
-  "hexagons": 11536
+  "hexagons": 11539
  },
  {
   "taxon": 3878,
@@ -1127,7 +1127,7 @@
   "taxon": 3893,
   "name": "Tringa flavipes",
   "en": "Lesser Yellowlegs",
-  "hexagons": 12646
+  "hexagons": 12649
  },
  {
   "taxon": 3896,
@@ -1211,7 +1211,7 @@
   "taxon": 3950,
   "name": "Limosa haemastica",
   "en": "Hudsonian Godwit",
-  "hexagons": 10024
+  "hexagons": 10048
  },
  {
   "taxon": 3951,
@@ -1229,7 +1229,7 @@
   "taxon": 3959,
   "name": "Phalaropus lobatus",
   "en": "Red-necked Phalarope",
-  "hexagons": 12791
+  "hexagons": 8561
  },
  {
   "taxon": 3962,
@@ -1369,7 +1369,7 @@
   "taxon": 4184,
   "name": "Fulmarus glacialoides",
   "en": "Southern Fulmar",
-  "hexagons": 531,
+  "hexagons": 46,
   "why": "no recording with a licence that allows a clip"
  },
  {
@@ -1382,7 +1382,7 @@
   "taxon": 4195,
   "name": "Pagodroma nivea",
   "en": "Snow Petrel",
-  "hexagons": 12765
+  "hexagons": 28
  },
  {
   "taxon": 4197,
@@ -1394,14 +1394,8 @@
   "taxon": 4198,
   "name": "Macronectes giganteus",
   "en": "Southern Giant Petrel",
-  "hexagons": 857,
+  "hexagons": 166,
   "why": "no recording with a licence that allows a clip"
- },
- {
-  "taxon": 4202,
-  "name": "Thalassoica antarctica",
-  "en": "Antarctic Petrel",
-  "hexagons": 12793
  },
  {
   "taxon": 4205,
@@ -1419,13 +1413,13 @@
   "taxon": 4209,
   "name": "Podiceps auritus",
   "en": "Horned Grebe",
-  "hexagons": 11773
+  "hexagons": 11778
  },
  {
   "taxon": 4224,
   "name": "Podiceps grisegena",
   "en": "Red-necked Grebe",
-  "hexagons": 9163
+  "hexagons": 9165
  },
  {
   "taxon": 4234,
@@ -1637,7 +1631,7 @@
   "taxon": 4449,
   "name": "Sterna paradisaea",
   "en": "Arctic Tern",
-  "hexagons": 12593
+  "hexagons": 12363
  },
  {
   "taxon": 4450,
@@ -1655,13 +1649,13 @@
   "taxon": 4470,
   "name": "Sterna vittata",
   "en": "Antarctic Tern",
-  "hexagons": 885
+  "hexagons": 54
  },
  {
   "taxon": 4481,
   "name": "Stercorarius longicaudus",
   "en": "Long-tailed Jaeger",
-  "hexagons": 197
+  "hexagons": 10139
  },
  {
   "taxon": 4489,
@@ -1673,7 +1667,7 @@
   "taxon": 4491,
   "name": "Stercorarius pomarinus",
   "en": "Pomarine Jaeger",
-  "hexagons": 12617
+  "hexagons": 11998
  },
  {
   "taxon": 4493,
@@ -1685,7 +1679,7 @@
   "taxon": 4494,
   "name": "Rissa tridactyla",
   "en": "Black-legged Kittiwake",
-  "hexagons": 12451
+  "hexagons": 7540
  },
  {
   "taxon": 4496,
@@ -1734,7 +1728,7 @@
   "taxon": 4516,
   "name": "Uria lomvia",
   "en": "Thick-billed Murre",
-  "hexagons": 2139
+  "hexagons": 6328
  },
  {
   "taxon": 4519,
@@ -1868,7 +1862,7 @@
   "taxon": 4621,
   "name": "Gavia pacifica",
   "en": "Pacific Loon",
-  "hexagons": 10181
+  "hexagons": 10185
  },
  {
   "taxon": 4622,
@@ -1892,7 +1886,7 @@
   "taxon": 4627,
   "name": "Gavia stellata",
   "en": "Red-throated Loon",
-  "hexagons": 36
+  "hexagons": 8381
  },
  {
   "taxon": 4631,
@@ -1935,13 +1929,13 @@
   "taxon": 4647,
   "name": "Falco peregrinus",
   "en": "Peregrine Falcon",
-  "hexagons": 1
+  "hexagons": 12784
  },
  {
   "taxon": 4657,
   "name": "Falco rusticolus",
   "en": "Gyrfalcon",
-  "hexagons": 8543
+  "hexagons": 9834
  },
  {
   "taxon": 4664,
@@ -2155,7 +2149,7 @@
   "taxon": 4893,
   "name": "Pluvialis dominica",
   "en": "American Golden-Plover",
-  "hexagons": 12773
+  "hexagons": 12788
  },
  {
   "taxon": 4896,
@@ -2281,7 +2275,7 @@
   "taxon": 5074,
   "name": "Aquila chrysaetos",
   "en": "Golden Eagle",
-  "hexagons": 8172
+  "hexagons": 8176
  },
  {
   "taxon": 5097,
@@ -2323,7 +2317,7 @@
   "taxon": 5200,
   "name": "Buteo lagopus",
   "en": "Rough-legged Hawk",
-  "hexagons": 9865
+  "hexagons": 9872
  },
  {
   "taxon": 5206,
@@ -2407,7 +2401,7 @@
   "taxon": 5305,
   "name": "Haliaeetus leucocephalus",
   "en": "Bald Eagle",
-  "hexagons": 9333
+  "hexagons": 9336
  },
  {
   "taxon": 5309,
@@ -2876,7 +2870,7 @@
   "taxon": 6917,
   "name": "Cygnus columbianus",
   "en": "Tundra Swan",
-  "hexagons": 11456
+  "hexagons": 11468
  },
  {
   "taxon": 6921,
@@ -2906,7 +2900,7 @@
   "taxon": 6937,
   "name": "Anas crecca",
   "en": "Green-winged Teal",
-  "hexagons": 12249
+  "hexagons": 12254
  },
  {
   "taxon": 6948,
@@ -2930,7 +2924,7 @@
   "taxon": 6993,
   "name": "Bucephala albeola",
   "en": "Bufflehead",
-  "hexagons": 9930
+  "hexagons": 9934
  },
  {
   "taxon": 6994,
@@ -2954,7 +2948,7 @@
   "taxon": 7004,
   "name": "Mergus merganser",
   "en": "Common Merganser",
-  "hexagons": 9691
+  "hexagons": 9694
  },
  {
   "taxon": 7007,
@@ -2996,7 +2990,7 @@
   "taxon": 7019,
   "name": "Anser albifrons",
   "en": "Greater White-fronted Goose",
-  "hexagons": 12513
+  "hexagons": 12532
  },
  {
   "taxon": 7024,
@@ -3014,19 +3008,19 @@
   "taxon": 7030,
   "name": "Somateria spectabilis",
   "en": "King Eider",
-  "hexagons": 9387
+  "hexagons": 10744
  },
  {
   "taxon": 7036,
   "name": "Melanitta perspicillata",
   "en": "Surf Scoter",
-  "hexagons": 11760
+  "hexagons": 11764
  },
  {
   "taxon": 7044,
   "name": "Aythya collaris",
   "en": "Ring-necked Duck",
-  "hexagons": 10914
+  "hexagons": 10917
  },
  {
   "taxon": 7045,
@@ -3044,13 +3038,13 @@
   "taxon": 7047,
   "name": "Aythya marila",
   "en": "Greater Scaup",
-  "hexagons": 12618
+  "hexagons": 12619
  },
  {
   "taxon": 7054,
   "name": "Aythya affinis",
   "en": "Lesser Scaup",
-  "hexagons": 11578
+  "hexagons": 11581
  },
  {
   "taxon": 7055,
@@ -3068,7 +3062,7 @@
   "taxon": 7057,
   "name": "Aythya valisineria",
   "en": "Canvasback",
-  "hexagons": 9649
+  "hexagons": 9650
  },
  {
   "taxon": 7067,
@@ -3098,7 +3092,7 @@
   "taxon": 7087,
   "name": "Branta bernicla",
   "en": "Brant",
-  "hexagons": 6986
+  "hexagons": 9034
  },
  {
   "taxon": 7089,
@@ -3200,7 +3194,7 @@
   "taxon": 7170,
   "name": "Clangula hyemalis",
   "en": "Long-tailed Duck",
-  "hexagons": 24
+  "hexagons": 9742
  },
  {
   "taxon": 7172,
@@ -3266,7 +3260,7 @@
   "taxon": 7429,
   "name": "Bombycilla garrulus",
   "en": "Bohemian Waxwing",
-  "hexagons": 6330
+  "hexagons": 6333
  },
  {
   "taxon": 7450,
@@ -3494,7 +3488,7 @@
   "taxon": 8010,
   "name": "Corvus corax",
   "en": "Common Raven",
-  "hexagons": 11223
+  "hexagons": 11226
  },
  {
   "taxon": 8020,
@@ -3722,7 +3716,7 @@
   "taxon": 9092,
   "name": "Melospiza lincolnii",
   "en": "Lincoln's Sparrow",
-  "hexagons": 11113
+  "hexagons": 11121
  },
  {
   "taxon": 9096,
@@ -3782,7 +3776,7 @@
   "taxon": 9176,
   "name": "Zonotrichia leucophrys",
   "en": "White-crowned Sparrow",
-  "hexagons": 12390
+  "hexagons": 12396
  },
  {
   "taxon": 9182,
@@ -4215,7 +4209,7 @@
   "taxon": 9771,
   "name": "Pinicola enucleator",
   "en": "Pine Grosbeak",
-  "hexagons": 7181
+  "hexagons": 7184
  },
  {
   "taxon": 9801,
@@ -4347,7 +4341,7 @@
   "taxon": 9981,
   "name": "Passerculus sandwichensis",
   "en": "Savannah Sparrow",
-  "hexagons": 12175
+  "hexagons": 12178
  },
  {
   "taxon": 10001,
@@ -4413,7 +4407,7 @@
   "taxon": 10094,
   "name": "Junco hyemalis",
   "en": "Dark-eyed Junco",
-  "hexagons": 9193
+  "hexagons": 9196
  },
  {
   "taxon": 10115,
@@ -4617,7 +4611,7 @@
   "taxon": 10322,
   "name": "Euphagus carolinus",
   "en": "Rusty Blackbird",
-  "hexagons": 11076
+  "hexagons": 11101
  },
  {
   "taxon": 10325,
@@ -5044,7 +5038,7 @@
   "taxon": 11941,
   "name": "Riparia riparia",
   "en": "Bank Swallow",
-  "hexagons": 12779
+  "hexagons": 8019
  },
  {
   "taxon": 11970,
@@ -5104,7 +5098,7 @@
   "taxon": 12727,
   "name": "Turdus migratorius",
   "en": "American Robin",
-  "hexagons": 9337
+  "hexagons": 9340
  },
  {
   "taxon": 12741,
@@ -5164,7 +5158,7 @@
   "taxon": 12878,
   "name": "Catharus ustulatus",
   "en": "Swainson's Thrush",
-  "hexagons": 11246
+  "hexagons": 11250
  },
  {
   "taxon": 12883,
@@ -5188,7 +5182,7 @@
   "taxon": 12890,
   "name": "Catharus guttatus",
   "en": "Hermit Thrush",
-  "hexagons": 10126
+  "hexagons": 10129
  },
  {
   "taxon": 12899,
@@ -5483,7 +5477,7 @@
   "taxon": 14823,
   "name": "Sitta canadensis",
   "en": "Red-breasted Nuthatch",
-  "hexagons": 9216
+  "hexagons": 9222
  },
  {
   "taxon": 14824,
@@ -5501,7 +5495,7 @@
   "taxon": 14850,
   "name": "Sturnus vulgaris",
   "en": "European Starling",
-  "hexagons": 10523
+  "hexagons": 10543
  },
  {
   "taxon": 14880,
@@ -6582,7 +6576,7 @@
   "taxon": 19079,
   "name": "Agapornis roseicollis",
   "en": "Rosy-faced Lovebird",
-  "hexagons": 12035
+  "hexagons": 12098
  },
  {
   "taxon": 19100,
@@ -6810,7 +6804,7 @@
   "taxon": 19890,
   "name": "Strix nebulosa",
   "en": "Great Gray Owl",
-  "hexagons": 4517
+  "hexagons": 4520
  },
  {
   "taxon": 19893,
@@ -6847,7 +6841,7 @@
   "taxon": 20044,
   "name": "Bubo virginianus",
   "en": "Great Horned Owl",
-  "hexagons": 9818
+  "hexagons": 9821
  },
  {
   "taxon": 20059,
@@ -6883,7 +6877,7 @@
   "taxon": 20359,
   "name": "Aegolius funereus",
   "en": "Boreal Owl",
-  "hexagons": 5759
+  "hexagons": 5762
  },
  {
   "taxon": 20372,
@@ -7040,7 +7034,7 @@
   "taxon": 59220,
   "name": "Branta hutchinsii",
   "en": "Cackling Goose",
-  "hexagons": 11745
+  "hexagons": 11755
  },
  {
   "taxon": 62148,
@@ -7076,7 +7070,7 @@
   "taxon": 72458,
   "name": "Actitis macularius",
   "en": "Spotted Sandpiper",
-  "hexagons": 11177
+  "hexagons": 11178
  },
  {
   "taxon": 72486,
@@ -7378,7 +7372,7 @@
   "taxon": 116840,
   "name": "Calcarius lapponicus",
   "en": "Lapland Longspur",
-  "hexagons": 11775
+  "hexagons": 12263
  },
  {
   "taxon": 116841,
@@ -7420,7 +7414,7 @@
   "taxon": 116999,
   "name": "Pandion haliaetus",
   "en": "Osprey",
-  "hexagons": 12005
+  "hexagons": 7952
  },
  {
   "taxon": 117002,
@@ -7480,7 +7474,7 @@
   "taxon": 117059,
   "name": "Plectrophenax nivalis",
   "en": "Snow Bunting",
-  "hexagons": 9396
+  "hexagons": 10822
  },
  {
   "taxon": 117100,
@@ -7556,7 +7550,7 @@
   "taxon": 144220,
   "name": "Melanitta americana",
   "en": "Black Scoter",
-  "hexagons": 10491
+  "hexagons": 10495
  },
  {
   "taxon": 144221,
@@ -7593,7 +7587,7 @@
   "taxon": 144296,
   "name": "Stercorarius maccormicki",
   "en": "South Polar Skua",
-  "hexagons": 11590
+  "hexagons": 12639
  },
  {
   "taxon": 144297,
@@ -7653,7 +7647,7 @@
   "taxon": 144496,
   "name": "Gallinago delicata",
   "en": "Wilson's Snipe",
-  "hexagons": 11285
+  "hexagons": 11288
  },
  {
   "taxon": 144497,
@@ -7665,7 +7659,7 @@
   "taxon": 144502,
   "name": "Chroicocephalus philadelphia",
   "en": "Bonaparte's Gull",
-  "hexagons": 11016
+  "hexagons": 11025
  },
  {
   "taxon": 144510,
@@ -7707,7 +7701,7 @@
   "taxon": 144525,
   "name": "Onychoprion fuscatus",
   "en": "Sooty Tern",
-  "hexagons": 573
+  "hexagons": 66
  },
  {
   "taxon": 144527,
@@ -7767,7 +7761,7 @@
   "taxon": 144594,
   "name": "Bubo scandiacus",
   "en": "Snowy Owl",
-  "hexagons": 8162
+  "hexagons": 8163
  },
  {
   "taxon": 144659,
@@ -7797,7 +7791,7 @@
   "taxon": 144815,
   "name": "Poecile atricapillus",
   "en": "Black-capped Chickadee",
-  "hexagons": 6302
+  "hexagons": 6306
  },
  {
   "taxon": 144816,
@@ -7899,7 +7893,7 @@
   "taxon": 145088,
   "name": "Ixoreus naevius",
   "en": "Varied Thrush",
-  "hexagons": 7002
+  "hexagons": 7011
  },
  {
   "taxon": 145089,
@@ -8020,7 +8014,7 @@
   "taxon": 145240,
   "name": "Setophaga striata",
   "en": "Blackpoll Warbler",
-  "hexagons": 10164
+  "hexagons": 10165
  },
  {
   "taxon": 145242,
@@ -8104,7 +8098,7 @@
   "taxon": 145276,
   "name": "Cardellina pusilla",
   "en": "Wilson's Warbler",
-  "hexagons": 12192
+  "hexagons": 12196
  },
  {
   "taxon": 145277,
@@ -8673,7 +8667,7 @@
   "taxon": 474210,
   "name": "Spizelloides arborea",
   "en": "American Tree Sparrow",
-  "hexagons": 8747
+  "hexagons": 8751
  },
  {
   "taxon": 474332,
@@ -8691,7 +8685,7 @@
   "taxon": 475116,
   "name": "Ardenna tenuirostris",
   "en": "Short-tailed Shearwater",
-  "hexagons": 1243
+  "hexagons": 1244
  },
  {
   "taxon": 475119,
@@ -8721,7 +8715,7 @@
   "taxon": 485176,
   "name": "Mareca americana",
   "en": "American Wigeon",
-  "hexagons": 11514
+  "hexagons": 11517
  },
  {
   "taxon": 485628,
@@ -8769,7 +8763,7 @@
   "taxon": 508048,
   "name": "Antigone canadensis",
   "en": "Sandhill Crane",
-  "hexagons": 12328
+  "hexagons": 12331
  },
  {
   "taxon": 508057,
@@ -8879,13 +8873,13 @@
   "taxon": 558426,
   "name": "Anser caerulescens",
   "en": "Snow Goose",
-  "hexagons": 12548
+  "hexagons": 12550
  },
  {
   "taxon": 558427,
   "name": "Anser rossii",
   "en": "Ross's Goose",
-  "hexagons": 10105
+  "hexagons": 10117
  },
  {
   "taxon": 558428,
@@ -8927,7 +8921,7 @@
   "taxon": 558439,
   "name": "Mareca strepera",
   "en": "Gadwall",
-  "hexagons": 8992
+  "hexagons": 9002
  },
  {
   "taxon": 558440,
@@ -8975,7 +8969,7 @@
   "taxon": 558512,
   "name": "Lanius borealis",
   "en": "Northern Shrike",
-  "hexagons": 8553
+  "hexagons": 8557
  },
  {
   "taxon": 558570,
@@ -9329,7 +9323,7 @@
   "taxon": 1188213,
   "name": "Numenius hudsonicus",
   "en": "Hudsonian Whimbrel",
-  "hexagons": 12572
+  "hexagons": 12697
  },
  {
   "taxon": 1286833,
@@ -9413,7 +9407,7 @@
   "taxon": 1289388,
   "name": "Corthylio calendula",
   "en": "Ruby-crowned Kinglet",
-  "hexagons": 10115
+  "hexagons": 10122
  },
  {
   "taxon": 1289407,
@@ -9828,7 +9822,7 @@
   "taxon": 1578489,
   "name": "Larus smithsonianus",
   "en": "American Herring Gull",
-  "hexagons": 12509
+  "hexagons": 12515
  },
  {
   "taxon": 1578501,
@@ -9875,7 +9869,7 @@
   "taxon": 1579016,
   "name": "Astur atricapillus",
   "en": "American Goshawk",
-  "hexagons": 6439,
+  "hexagons": 6443,
   "why": "no recordings under this name"
  },
  {

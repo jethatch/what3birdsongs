@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>what3birdsongs</title>
-  <meta name="description" content="Every place in the US, Canada and Mexico is three birds expected there. Pick two places and hear the trip between them.">
+  <meta name="description" content="Every place in the US, Canada and Mexico gets three birds from those mapped there. Pick two places and hear the trip between them.">
   <meta name="theme-color" content="#0d0d0f">
   <!-- Link previews. These need absolute addresses, so they name the site this is published at. -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="what3birdsongs">
   <meta property="og:title" content="what3birdsongs">
-  <meta property="og:description" content="Every place in the US, Canada and Mexico is three birds expected there. Pick two places and hear the trip between them.">
+  <meta property="og:description" content="Every place in the US, Canada and Mexico gets three birds from those mapped there. Pick two places and hear the trip between them.">
   <meta property="og:url" content="https://jethatch.github.io/what3birdsongs/">
   <meta property="og:image" content="https://jethatch.github.io/what3birdsongs/img/preview.png">
   <meta property="og:image:width" content="1200">
@@ -50,7 +50,7 @@
             <button type="button" id="about-open" class="icon-button" aria-label="How it works" title="How it works">?</button>
           </div>
         </div>
-        <p class="tagline">Every place in the US, Canada and Mexico is three birds expected there. Pick two places and hear the trip between them. <button type="button" class="link" id="what-open">What is this?</button></p>
+        <p class="tagline">Every place in the US, Canada and Mexico gets three birds from those mapped there. Pick two places and hear the trip between them. <button type="button" class="link" id="what-open">What is this?</button></p>
       </header>
 
       <section class="card" id="trip" aria-labelledby="trip-title">
@@ -148,10 +148,11 @@
           </div>
           <p class="explain" id="pace-explain" aria-live="polite"></p>
         </fieldset>
+        <p class="hint">The birds come from a model of where each species may turn up, rarities and escaped cage birds included, in any season. Each sings in one recording made somewhere else. <button type="button" class="link" id="caveat-open">More</button></p>
       </section>
 
       <footer class="credits">
-        Recordings from <a href="https://xeno-canto.org/" target="_blank" rel="noopener">xeno-canto</a>, photos and range maps from <a href="https://www.inaturalist.org/" target="_blank" rel="noopener">iNaturalist</a>, each credited to the people who made them. Select a bird in the player to see who. Grown out of <a href="https://jethatch.github.io/what3chords-songs/" target="_blank" rel="noopener">what3chords songs</a>.
+        Recordings from <a href="https://xeno-canto.org/" target="_blank" rel="noopener">xeno-canto</a>, photos and range maps from <a href="https://www.inaturalist.org/" target="_blank" rel="noopener">iNaturalist</a>. Click a bird’s photo to see who recorded and photographed it. Grown out of <a href="https://jethatch.github.io/what3chords-songs/" target="_blank" rel="noopener">what3chords songs</a>.
       </footer>
     </aside>
 
@@ -255,15 +256,23 @@
     <form method="dialog"><button class="icon-button dialog-close" aria-label="Close">×</button></form>
     <h2 id="about-title">How it works</h2>
     <h3>Three birds for every place</h3>
-    <p>The land is divided into hexagons of about 1,770 km² on the <a href="https://h3geo.org/" target="_blank" rel="noopener">H3</a> grid, and each hexagon has a list of the birds that iNaturalist’s range maps expect there: from a few dozen in the far north to several hundred in the south. Within its hexagon, each spot gets three different birds from that list, picked by shuffling the finer part of its H3 address, as what3chords does with chords. Spots a few metres apart usually share their first bird, while the third changes with almost every step. Click anywhere on the map to hear a spot.</p>
+    <p>The land is divided into large hexagons of about 1,770 km² on the <a href="https://h3geo.org/" target="_blank" rel="noopener">H3</a> grid (the map doesn’t draw these), and each has a list of the birds that iNaturalist’s range maps expect there: from a few dozen in the far north to several hundred in the south. Within its hexagon, each spot gets three different birds from that list, picked by shuffling the finer part of its H3 address, as what3chords does with chords. Spots a few metres apart usually share their first bird, while the third changes with almost every step. Click anywhere on the map to hear a spot.</p>
     <p>Each bird is heard in one recording from <a href="https://xeno-canto.org/" target="_blank" rel="noopener">xeno-canto</a>: a few seconds where it sings loudest, or where the recordist marked it. Select a bird in the player to see who recorded it and took its photo, and on what terms.</p>
+    <h3>What the birds are, and aren’t</h3>
+    <ul>
+      <li><strong>Mapped, not counted.</strong> The lists come from a model of where each species may be found, trained on people’s sightings. It is generous: rare visitors, birds passing through, and escaped or introduced birds (parrots, lovebirds, the odd swan) are on the lists alongside common residents, and any of them can be one of a spot’s three.</li>
+      <li><strong>No seasons.</strong> A bird on a list sings there all year, even if it only passes through in May.</li>
+      <li><strong>Recorded elsewhere.</strong> Each species has one recording, made wherever its recordist was, often in another state or country. It stands in for the species everywhere.</li>
+      <li><strong>Picked, not ranked.</strong> Which three birds a spot gets is arithmetic on its address, not how common they are there. Many places will sound exotic.</li>
+      <li><strong>Not every bird.</strong> 83 species are missing: their names differ between iNaturalist and xeno-canto, xeno-canto withholds recordings of them to protect them, or none of their recordings may be cut.</li>
+    </ul>
     <h3>A trip is a song</h3>
-    <p>Enter a start and an end. The route between them is a chain of hexagons, sized so the trip has a sensible number of stops, and each stop plays the birds of the place it stands on.</p>
+    <p>Enter a start and an end. The route between them is a chain of smaller hexagons, sized so the trip has a sensible number of stops. Each stop plays the birds of one spot inside its hexagon, picked by the hexagon’s own ID, so a stop always sounds the same; clicking elsewhere in the same hexagon gives that other spot’s birds.</p>
     <ul>
       <li><strong>Hex walk</strong> is greedy local routing: at every hexagon, step to the neighbour nearest the destination. It runs entirely in your browser and cheerfully crosses water.</li>
       <li><strong>Follow roads</strong> asks the public <a href="https://project-osrm.org/" target="_blank" rel="noopener">OSRM</a> demo server for a driving route and collects the hexagons along it. If the server is down, no road connects the two places, or a pin is far from any road, you get the walk instead.</li>
     </ul>
-    <p>Stops outside the US, Canada and Mexico, and well out at sea, have no birds and stay quiet.</p>
+    <p>Stops outside the US, Canada and Mexico, and well out at sea, have no birds; each takes one short quiet turn.</p>
     <h3>Playing it</h3>
     <p>Each stop plays its three birds in turn, or all together. The pace sets how long each turn lasts. Press play (or the space bar), and select any stop in the chart to jump there.</p>
     <p>The share button copies a link that opens this trip with this sound. The download button saves the song as a WAV file, with a text file of credits, when the recordings’ licences allow them to be mixed into one file.</p>
@@ -271,7 +280,7 @@
     <h3>Going live</h3>
     <p><strong>Go live</strong> follows your location instead of a planned route. The hexagon you are in plays its birds round and round until you cross into the next. Hexagons are about 50 m across on foot and larger when you travel faster, because a phone’s sense of where it is wanders by several metres.</p>
     <p>The page keeps the screen awake while a session runs, because a web page cannot keep playing once the phone locks. When you end the session the route becomes an ordinary trip you can replay, and a recording of what you heard can be downloaded, licences permitting. None of it is kept once you close the page.</p>
-    <p>This page does not send your location anywhere. Two things to know: the map loads its tiles for wherever you are from CARTO, as any online map does, and a link to the route is only made if you press share and agree.</p>
+    <p>This page does not send your location anywhere, and a link to a travelled route is only made if you press share and agree. It does talk to other services: the map loads its tiles from CARTO for wherever it is showing (including where you are, in a live session); place search sends what you type to Nominatim or Photon; “Follow roads” sends the start and end to the OSRM server; the page’s fonts and libraries come from Google Fonts and jsDelivr; and a bird’s sonogram is loaded from xeno-canto when you open its credits.</p>
     <h3>Credits</h3>
     <p class="fine">Preview: the explanatory text on this page was written by Claude, Anthropic’s AI model, while building it. It has not yet been reviewed.</p>
     <p class="fine">Bird recordings from <a href="https://xeno-canto.org/" target="_blank" rel="noopener">xeno-canto</a>, each under its recordist’s Creative Commons licence, cut and re-encoded here. Bird photos from <a href="https://www.inaturalist.org/" target="_blank" rel="noopener">iNaturalist</a>, each under its photographer’s licence. Range maps from iNaturalist’s open range map dataset (<span id="geomodel-version">geomodel</span>, CC BY 4.0). Names in English follow iNaturalist.</p>

@@ -11,6 +11,9 @@
 // does) so that neighbouring places don't share most of their birds. That
 // number is stretched evenly over every way of picking three different
 // birds from the local list, in order, and read as three picks.
+//
+// A stop on a route is a coarser hexagon. It plays the birds of one spot
+// inside it, picked by the hexagon's own ID (see spotIn).
 
 import { ADDRESS_RES } from "./grid.js";
 
@@ -81,10 +84,15 @@ function loadTile(tile) {
 
 // Fetches whatever range tiles these points need. Points outside the area
 // need none.
-export async function prepareBirds(points) {
+export function prepareBirds(points) {
+  return prepareCells(points.map(([lat, lng]) => h3.latLngToCell(lat, lng, LOCAL_RES)));
+}
+
+// The same for cells of resolution 4 or finer.
+export async function prepareCells(cells) {
   const wanted = new Set();
-  for (const [lat, lng] of points) {
-    const tile = tileOf(h3.latLngToCell(lat, lng, LOCAL_RES));
+  for (const cell of cells) {
+    const tile = tileOf(h3.cellToParent(cell, LOCAL_RES));
     if (catalogue.tiles.has(tile)) wanted.add(tile);
   }
   await Promise.all([...wanted].map(loadTile));
@@ -122,10 +130,38 @@ function localNumber(cell15) {
   return n;
 }
 
+// A 53-bit hash of a string (cyrb53), for picking a spot inside a cell.
+function hash(text) {
+  let h1 = 0xdeadbeef;
+  let h2 = 0x41c6ce57;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+}
+
+// The spot that stands for a whole cell of a route: one of its finest
+// cells, picked by the cell's own ID, so every visit and every link gets the
+// same one. (The cell's centre won't do: its finer digits are all zero, so
+// every stop would share the same few birds.)
+export function spotIn(cell) {
+  if (h3.getResolution(cell) >= ADDRESS_RES) return cell;
+  const size = h3.cellToChildrenSize(cell, ADDRESS_RES);
+  return h3.childPosToCell(hash(cell) % size, cell, ADDRESS_RES);
+}
+
 // A place's three birds, synchronously, once prepareBirds() has fetched its
 // tile: { birds: [three], local: how many birds the hexagon has } or null.
 export function birdsFor(lat, lng) {
-  const cell15 = h3.latLngToCell(lat, lng, ADDRESS_RES);
+  return birdsAt(h3.latLngToCell(lat, lng, ADDRESS_RES));
+}
+
+// The same for a finest-level cell.
+export function birdsAt(cell15) {
   const list = localBirds(h3.cellToParent(cell15, LOCAL_RES));
   if (!list || list.length < 3) return null;
   const k = BigInt(list.length);

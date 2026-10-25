@@ -9,15 +9,22 @@
 - **The maps are generous.** "Expected nearby" includes birds that are rare, seasonal or vagrant in a place. Examples found while testing: Allen's Hummingbird (a West Coast bird) is expected in scattered hexagons as far east as Massachusetts, and LeConte's Sparrow around Boston. Nothing was filtered out; every species the model expects in a hexagon is in that hexagon's list.
 - **Introduced and escaped birds.** The maps include non-native species wherever they are seen, so a Yellow-collared Lovebird (an African parrot, presumably from escaped pets) can be one of a Boston spot's three birds.
 - **No seasons.** A bird expected somewhere at any time of year sings there in every season: summer warblers in January, winter ducks in July.
+- **A fault in the range files, repaired.** For 27 species whose ranges ring a pole (Arctic birds whose ranges cross the Bering Strait, such as Bank Swallow, Peregrine Falcon, Osprey and Arctic Tern, and some Antarctic seabirds), iNaturalist's exported outlines close with a detour down the 180th meridian to the opposite pole. Read as stored, Snow Petrel and Adélie Penguin covered almost all of North America. For those outlines, which side is the range was decided by where iNaturalist has research-grade, non-captive sightings of the species in North America (tools/poles.py fetches iNaturalist's map grid of sightings; tools/ranges.py picks the side holding more of them). Where a bird has almost no sightings on either side, that part of its range is left out. This is a judgement on top of the model, made automatically.
 - **Hexagon size.** The lists are per H3 resolution-4 hexagon (about 1,770 km²), so a city park and the farmland 20 km away share a list.
 - **Area.** The US (without Hawaii), Canada and Mexico, from Natural Earth's 1:50m country outlines, including every hexagon that touches them. Hexagons along the borders with Guatemala and Belize, and along the coasts, therefore reach a little past the countries; their lists still come from the range maps.
 - **Taxonomy.** Species and English names follow iNaturalist. xeno-canto follows a different taxonomy (IOC), so some species are named differently there or split or lumped differently, and a recording found under the same scientific name may not be quite the same bird.
+
+## Addresses
+
+- **A spot's birds** are picked by arithmetic on its H3 address within its resolution-4 hexagon, not by how common they are there, so many places sound exotic.
+- **A route's stops** are coarser hexagons. Each plays the birds of one spot inside it, picked by the hexagon's own ID, so a stop always sounds the same; clicking elsewhere in it gives different birds.
 
 ## Recordings
 
 - **Source.** xeno-canto, through its API (v3), with Jim Thatcher's personal API key, used only by the build script on one machine; the page itself never calls the API. Requests were made one at a time with pauses between them and identified by the project's name and address.
 - **One recording per species,** chosen by a score: songs over calls, recordings made in the US, Canada or Mexico, higher quality ratings, fewer other species in the background, no playback used, a reasonable length. The choice is automatic and has not been checked by ear.
 - **The clip** is about six seconds: where the bird is loudest (or where an annotation in the recording says it sings), high-passed, brought to an even loudness, faded in and out, and re-encoded as a 40 kbit/s mono MP3. That is a derivative of each recording.
+- **A few clips are very short or very quiet** (seven are under three seconds, because the recordings are; two are much quieter than the rest).
 - **Licences.** Only Creative Commons licences that allow derivatives are used: no "no derivatives" recordings. Most recordings are non-commercial (BY-NC or BY-NC-SA).
 - **Species set aside.** Species with no recording under their iNaturalist name, or none with a usable licence, or restricted species whose recordings xeno-canto withholds, are not in the page. They are listed, with the reason, in `library/species.json` for sorting out later.
 

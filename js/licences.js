@@ -15,6 +15,14 @@ const NAMES = {
   "by-sa": "CC BY-SA 4.0",
   "by-nc-sa": "CC BY-NC-SA 4.0",
 };
+// What each licence lets the person downloading do, in a sentence.
+const PLAIN = {
+  "cc0": "anyone may use it for anything.",
+  "by": "you may share and adapt it, for any purpose, crediting the recordists.",
+  "by-nc": "you may share and adapt it, crediting the recordists, but not for commercial purposes.",
+  "by-sa": "you may share and adapt it, crediting the recordists and sharing anything you make from it under the same licence.",
+  "by-nc-sa": "you may share and adapt it, crediting the recordists, not for commercial purposes, and sharing anything you make from it under the same licence.",
+};
 
 // "by-nc-sa 4.0" -> "by-nc-sa"
 function kind(code) {
@@ -34,7 +42,7 @@ export function combine(licences) {
     return { ok: false, why: "it mixes a share-alike recording with non-commercial ones, and no single licence honours both" };
   }
   const licence = ncsa ? "by-nc-sa" : sa ? "by-sa" : nc ? "by-nc" : kinds.has("by") ? "by" : "cc0";
-  return { ok: true, licence: NAMES[licence], code: licence };
+  return { ok: true, licence: NAMES[licence], code: licence, plain: PLAIN[licence], url: licenceUrl(licence === "cc0" ? "cc0" : `${licence} 4.0`) };
 }
 
 export function licenceName(code) {
