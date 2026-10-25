@@ -166,8 +166,13 @@ def choose(data):
         for answer in kept["answers"].values():
             candidates += usable(answer.get("recordings", []))
         if not candidates:
-            found = sum(len(a.get("recordings", [])) for a in kept["answers"].values())
-            why = "no recordings under this name" if not found else "no recording with a licence that allows a clip"
+            recordings = [r for a in kept["answers"].values() for r in a.get("recordings", [])]
+            if not recordings:
+                why = "no recordings under this name"
+            elif all("_meta" in r or not r.get("file") for r in recordings):
+                why = "restricted species: xeno-canto withholds its recordings"
+            else:
+                why = "no recording with a licence that allows a clip"
             unmatched.append({**bird, "why": why})
             continue
         best = max(candidates, key=score)

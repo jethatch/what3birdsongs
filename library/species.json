@@ -1,0 +1,10039 @@
+[
+ {
+  "taxon": 7,
+  "name": "Aramus guarauna",
+  "en": "Limpkin",
+  "hexagons": 1594
+ },
+ {
+  "taxon": 19,
+  "name": "Eurypyga helias",
+  "en": "Sunbittern",
+  "hexagons": 20
+ },
+ {
+  "taxon": 26,
+  "name": "Grus monacha",
+  "en": "Hooded Crane",
+  "hexagons": 1
+ },
+ {
+  "taxon": 34,
+  "name": "Grus americana",
+  "en": "Whooping Crane",
+  "hexagons": 2544
+ },
+ {
+  "taxon": 41,
+  "name": "Grus grus",
+  "en": "Common Crane",
+  "hexagons": 32
+ },
+ {
+  "taxon": 53,
+  "name": "Balearica regulorum",
+  "en": "Gray Crowned-Crane",
+  "hexagons": 3
+ },
+ {
+  "taxon": 68,
+  "name": "Heliornis fulica",
+  "en": "Sungrebe",
+  "hexagons": 272
+ },
+ {
+  "taxon": 162,
+  "name": "Porzana carolina",
+  "en": "Sora",
+  "hexagons": 8643
+ },
+ {
+  "taxon": 243,
+  "name": "Rallus limicola",
+  "en": "Virginia Rail",
+  "hexagons": 7847
+ },
+ {
+  "taxon": 300,
+  "name": "Pardirallus maculatus",
+  "en": "Spotted Rail",
+  "hexagons": 321
+ },
+ {
+  "taxon": 316,
+  "name": "Laterallus jamaicensis",
+  "en": "Black Rail",
+  "hexagons": 453
+ },
+ {
+  "taxon": 322,
+  "name": "Laterallus exilis",
+  "en": "Gray-breasted Crake",
+  "hexagons": 3
+ },
+ {
+  "taxon": 323,
+  "name": "Laterallus ruber",
+  "en": "Ruddy Crake",
+  "hexagons": 251
+ },
+ {
+  "taxon": 443,
+  "name": "Crex crex",
+  "en": "Corn Crake",
+  "hexagons": 7
+ },
+ {
+  "taxon": 457,
+  "name": "Aramides axillaris",
+  "en": "Rufous-necked Wood-Rail",
+  "hexagons": 168
+ },
+ {
+  "taxon": 473,
+  "name": "Fulica americana",
+  "en": "American Coot",
+  "hexagons": 8640
+ },
+ {
+  "taxon": 482,
+  "name": "Fulica atra",
+  "en": "Common Coot",
+  "hexagons": 47
+ },
+ {
+  "taxon": 498,
+  "name": "Amaurolimnas concolor",
+  "en": "Uniform Crake",
+  "hexagons": 72
+ },
+ {
+  "taxon": 519,
+  "name": "Porphyrio martinica",
+  "en": "Purple Gallinule",
+  "hexagons": 1086
+ },
+ {
+  "taxon": 542,
+  "name": "Coturnicops noveboracensis",
+  "en": "Yellow Rail",
+  "hexagons": 2503
+ },
+ {
+  "taxon": 791,
+  "name": "Coturnix japonica",
+  "en": "Japanese Quail",
+  "hexagons": 5457
+ },
+ {
+  "taxon": 804,
+  "name": "Coturnix coturnix",
+  "en": "Common Quail",
+  "hexagons": 50
+ },
+ {
+  "taxon": 831,
+  "name": "Perdix perdix",
+  "en": "Gray Partridge",
+  "hexagons": 1865
+ },
+ {
+  "taxon": 846,
+  "name": "Alectoris chukar",
+  "en": "Chukar",
+  "hexagons": 5677
+ },
+ {
+  "taxon": 882,
+  "name": "Gallus gallus",
+  "en": "Red Junglefowl",
+  "hexagons": 406
+ },
+ {
+  "taxon": 890,
+  "name": "Bonasa umbellus",
+  "en": "Ruffed Grouse",
+  "hexagons": 5490
+ },
+ {
+  "taxon": 906,
+  "name": "Meleagris gallopavo",
+  "en": "Wild Turkey",
+  "hexagons": 5577
+ },
+ {
+  "taxon": 913,
+  "name": "Meleagris ocellata",
+  "en": "Ocellated Turkey",
+  "hexagons": 112
+ },
+ {
+  "taxon": 931,
+  "name": "Lagopus lagopus",
+  "en": "Willow Ptarmigan",
+  "hexagons": 5781
+ },
+ {
+  "taxon": 949,
+  "name": "Lagopus muta",
+  "en": "Rock Ptarmigan",
+  "hexagons": 4816
+ },
+ {
+  "taxon": 974,
+  "name": "Lagopus leucura",
+  "en": "White-tailed Ptarmigan",
+  "hexagons": 1400
+ },
+ {
+  "taxon": 981,
+  "name": "Phasianus colchicus",
+  "en": "Ring-necked Pheasant",
+  "hexagons": 5952
+ },
+ {
+  "taxon": 1056,
+  "name": "Tragopan temminckii",
+  "en": "Temminck's Tragopan",
+  "hexagons": 1
+ },
+ {
+  "taxon": 1066,
+  "name": "Tympanuchus cupido",
+  "en": "Greater Prairie-Chicken",
+  "hexagons": 372
+ },
+ {
+  "taxon": 1070,
+  "name": "Tympanuchus phasianellus",
+  "en": "Sharp-tailed Grouse",
+  "hexagons": 3401
+ },
+ {
+  "taxon": 1078,
+  "name": "Tympanuchus pallidicinctus",
+  "en": "Lesser Prairie-Chicken",
+  "hexagons": 152
+ },
+ {
+  "taxon": 1093,
+  "name": "Lophura edwardsi",
+  "en": "Edwards's Pheasant",
+  "hexagons": 4,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1096,
+  "name": "Lophura nycthemera",
+  "en": "Silver Pheasant",
+  "hexagons": 42
+ },
+ {
+  "taxon": 1154,
+  "name": "Syrmaticus reevesii",
+  "en": "Reeves's Pheasant",
+  "hexagons": 83
+ },
+ {
+  "taxon": 1175,
+  "name": "Lophophorus impejanus",
+  "en": "Himalayan Monal",
+  "hexagons": 6
+ },
+ {
+  "taxon": 1182,
+  "name": "Polyplectron napoleonis",
+  "en": "Palawan Peacock-Pheasant",
+  "hexagons": 2
+ },
+ {
+  "taxon": 1186,
+  "name": "Polyplectron bicalcaratum",
+  "en": "Grey Peacock-Pheasant",
+  "hexagons": 3
+ },
+ {
+  "taxon": 1204,
+  "name": "Pavo cristatus",
+  "en": "Indian Peafowl",
+  "hexagons": 7299
+ },
+ {
+  "taxon": 1230,
+  "name": "Chrysolophus pictus",
+  "en": "Golden Pheasant",
+  "hexagons": 4224
+ },
+ {
+  "taxon": 1231,
+  "name": "Chrysolophus amherstiae",
+  "en": "Lady Amherst's Pheasant",
+  "hexagons": 2459
+ },
+ {
+  "taxon": 1241,
+  "name": "Dendragapus obscurus",
+  "en": "Dusky Grouse",
+  "hexagons": 1237
+ },
+ {
+  "taxon": 1264,
+  "name": "Centrocercus urophasianus",
+  "en": "Greater Sage-Grouse",
+  "hexagons": 732
+ },
+ {
+  "taxon": 1265,
+  "name": "Centrocercus minimus",
+  "en": "Gunnison Sage-Grouse",
+  "hexagons": 41
+ },
+ {
+  "taxon": 1280,
+  "name": "Colinus virginianus",
+  "en": "Northern Bobwhite",
+  "hexagons": 4319
+ },
+ {
+  "taxon": 1321,
+  "name": "Colinus nigrogularis",
+  "en": "Black-throated Bobwhite",
+  "hexagons": 131
+ },
+ {
+  "taxon": 1327,
+  "name": "Dendrortyx leucophrys",
+  "en": "Buffy-crowned Wood-Partridge",
+  "hexagons": 23
+ },
+ {
+  "taxon": 1331,
+  "name": "Dendrortyx macroura",
+  "en": "Long-tailed Wood-Partridge",
+  "hexagons": 37
+ },
+ {
+  "taxon": 1339,
+  "name": "Dactylortyx thoracicus",
+  "en": "Singing Quail",
+  "hexagons": 318
+ },
+ {
+  "taxon": 1360,
+  "name": "Odontophorus guttatus",
+  "en": "Spotted Wood-Quail",
+  "hexagons": 161
+ },
+ {
+  "taxon": 1392,
+  "name": "Cyrtonyx montezumae",
+  "en": "Montezuma Quail",
+  "hexagons": 651
+ },
+ {
+  "taxon": 1399,
+  "name": "Oreortyx pictus",
+  "en": "Mountain Quail",
+  "hexagons": 391
+ },
+ {
+  "taxon": 1406,
+  "name": "Callipepla gambelii",
+  "en": "Gambel's Quail",
+  "hexagons": 872
+ },
+ {
+  "taxon": 1409,
+  "name": "Callipepla californica",
+  "en": "California Quail",
+  "hexagons": 1033
+ },
+ {
+  "taxon": 1415,
+  "name": "Callipepla douglasii",
+  "en": "Elegant Quail",
+  "hexagons": 126
+ },
+ {
+  "taxon": 1419,
+  "name": "Callipepla squamata",
+  "en": "Scaled Quail",
+  "hexagons": 757
+ },
+ {
+  "taxon": 1425,
+  "name": "Philortyx fasciatus",
+  "en": "Banded Quail",
+  "hexagons": 128
+ },
+ {
+  "taxon": 1428,
+  "name": "Numida meleagris",
+  "en": "Helmeted Guineafowl",
+  "hexagons": 9481
+ },
+ {
+  "taxon": 1439,
+  "name": "Guttera pucherani",
+  "en": "Eastern Crested Guineafowl",
+  "hexagons": 4
+ },
+ {
+  "taxon": 1468,
+  "name": "Galbula ruficauda",
+  "en": "Rufous-tailed Jacamar",
+  "hexagons": 98
+ },
+ {
+  "taxon": 1514,
+  "name": "Malacoptila panamensis",
+  "en": "White-whiskered Puffbird",
+  "hexagons": 103
+ },
+ {
+  "taxon": 1705,
+  "name": "Morococcyx erythropygus",
+  "en": "Lesser Ground-Cuckoo",
+  "hexagons": 260
+ },
+ {
+  "taxon": 1758,
+  "name": "Piaya cayana",
+  "en": "Common Squirrel-Cuckoo",
+  "hexagons": 362
+ },
+ {
+  "taxon": 1787,
+  "name": "Clamator glandarius",
+  "en": "Great Spotted Cuckoo",
+  "hexagons": 1
+ },
+ {
+  "taxon": 1815,
+  "name": "Neomorphus geoffroyi",
+  "en": "Rufous-vented Ground-Cuckoo",
+  "hexagons": 39
+ },
+ {
+  "taxon": 1899,
+  "name": "Cuculus saturatus",
+  "en": "Himalayan Cuckoo",
+  "hexagons": 44
+ },
+ {
+  "taxon": 1907,
+  "name": "Cuculus canorus",
+  "en": "Common Cuckoo",
+  "hexagons": 148
+ },
+ {
+  "taxon": 1927,
+  "name": "Cuculus optatus",
+  "en": "Oriental Cuckoo",
+  "hexagons": 483
+ },
+ {
+  "taxon": 1960,
+  "name": "Coccyzus erythropthalmus",
+  "en": "Black-billed Cuckoo",
+  "hexagons": 4184
+ },
+ {
+  "taxon": 1964,
+  "name": "Coccyzus minor",
+  "en": "Mangrove Cuckoo",
+  "hexagons": 521
+ },
+ {
+  "taxon": 1965,
+  "name": "Coccyzus americanus",
+  "en": "Yellow-billed Cuckoo",
+  "hexagons": 4507
+ },
+ {
+  "taxon": 1966,
+  "name": "Coccyzus melacoryphus",
+  "en": "Dark-billed Cuckoo",
+  "hexagons": 5
+ },
+ {
+  "taxon": 1971,
+  "name": "Crotophaga ani",
+  "en": "Smooth-billed Ani",
+  "hexagons": 103
+ },
+ {
+  "taxon": 1972,
+  "name": "Crotophaga sulcirostris",
+  "en": "Groove-billed Ani",
+  "hexagons": 912
+ },
+ {
+  "taxon": 1982,
+  "name": "Dromococcyx phasianellus",
+  "en": "Pheasant Cuckoo",
+  "hexagons": 348
+ },
+ {
+  "taxon": 1986,
+  "name": "Geococcyx californianus",
+  "en": "Greater Roadrunner",
+  "hexagons": 1920
+ },
+ {
+  "taxon": 1987,
+  "name": "Geococcyx velox",
+  "en": "Lesser Roadrunner",
+  "hexagons": 461
+ },
+ {
+  "taxon": 1989,
+  "name": "Tapera naevia",
+  "en": "Striped Cuckoo",
+  "hexagons": 274
+ },
+ {
+  "taxon": 2052,
+  "name": "Crax rubra",
+  "en": "Great Curassow",
+  "hexagons": 243
+ },
+ {
+  "taxon": 2058,
+  "name": "Oreophasis derbianus",
+  "en": "Horned Guan",
+  "hexagons": 4
+ },
+ {
+  "taxon": 2062,
+  "name": "Penelope purpurascens",
+  "en": "Crested Guan",
+  "hexagons": 450
+ },
+ {
+  "taxon": 2081,
+  "name": "Ortalis leucogastra",
+  "en": "White-bellied Chachalaca",
+  "hexagons": 60
+ },
+ {
+  "taxon": 2082,
+  "name": "Ortalis wagleri",
+  "en": "Rufous-bellied Chachalaca",
+  "hexagons": 113
+ },
+ {
+  "taxon": 2089,
+  "name": "Ortalis poliocephala",
+  "en": "West Mexican Chachalaca",
+  "hexagons": 225
+ },
+ {
+  "taxon": 2090,
+  "name": "Ortalis vetula",
+  "en": "Plain Chachalaca",
+  "hexagons": 331
+ },
+ {
+  "taxon": 2111,
+  "name": "Penelopina nigra",
+  "en": "Highland Guan",
+  "hexagons": 39
+ },
+ {
+  "taxon": 2124,
+  "name": "Momotus mexicanus",
+  "en": "Russet-crowned Motmot",
+  "hexagons": 218
+ },
+ {
+  "taxon": 2154,
+  "name": "Electron platyrhynchum",
+  "en": "Broad-billed Motmot",
+  "hexagons": 27
+ },
+ {
+  "taxon": 2163,
+  "name": "Baryphthengus martii",
+  "en": "Rufous Motmot",
+  "hexagons": 25
+ },
+ {
+  "taxon": 2168,
+  "name": "Eumomota superciliosa",
+  "en": "Turquoise-browed Motmot",
+  "hexagons": 175
+ },
+ {
+  "taxon": 2177,
+  "name": "Hylomanes momotula",
+  "en": "Tody Motmot",
+  "hexagons": 119
+ },
+ {
+  "taxon": 2182,
+  "name": "Aspatha gularis",
+  "en": "Blue-throated Motmot",
+  "hexagons": 13
+ },
+ {
+  "taxon": 2248,
+  "name": "Merops bullockoides",
+  "en": "White-fronted Bee-eater",
+  "hexagons": 11
+ },
+ {
+  "taxon": 2413,
+  "name": "Dacelo novaeguineae",
+  "en": "Laughing Kookaburra",
+  "hexagons": 10
+ },
+ {
+  "taxon": 2454,
+  "name": "Todiramphus cinnamominus",
+  "en": "Guam Kingfisher",
+  "hexagons": 150,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 2548,
+  "name": "Megaceryle alcyon",
+  "en": "Belted Kingfisher",
+  "hexagons": 10223
+ },
+ {
+  "taxon": 2552,
+  "name": "Megaceryle torquata",
+  "en": "Ringed Kingfisher",
+  "hexagons": 604
+ },
+ {
+  "taxon": 2669,
+  "name": "Chloroceryle americana",
+  "en": "Green Kingfisher",
+  "hexagons": 1100
+ },
+ {
+  "taxon": 2675,
+  "name": "Chloroceryle inda",
+  "en": "Green-and-rufous Kingfisher",
+  "hexagons": 1
+ },
+ {
+  "taxon": 2676,
+  "name": "Chloroceryle aenea",
+  "en": "American Pygmy Kingfisher",
+  "hexagons": 252
+ },
+ {
+  "taxon": 2679,
+  "name": "Chloroceryle amazona",
+  "en": "Amazon Kingfisher",
+  "hexagons": 336
+ },
+ {
+  "taxon": 2863,
+  "name": "Ptilinopus porphyreus",
+  "en": "Pink-headed Fruit Dove",
+  "hexagons": 6
+ },
+ {
+  "taxon": 2927,
+  "name": "Streptopelia orientalis",
+  "en": "Oriental Turtle-Dove",
+  "hexagons": 9
+ },
+ {
+  "taxon": 2958,
+  "name": "Streptopelia hypopyrrha",
+  "en": "Adamawa Turtle-Dove",
+  "hexagons": 1
+ },
+ {
+  "taxon": 2966,
+  "name": "Streptopelia roseogrisea",
+  "en": "African Collared-Dove",
+  "hexagons": 98
+ },
+ {
+  "taxon": 2969,
+  "name": "Streptopelia decaocto",
+  "en": "Eurasian Collared-Dove",
+  "hexagons": 5986
+ },
+ {
+  "taxon": 2998,
+  "name": "Claravis pretiosa",
+  "en": "Blue Ground Dove",
+  "hexagons": 324
+ },
+ {
+  "taxon": 3012,
+  "name": "Columba arquatrix",
+  "en": "Rameron Pigeon",
+  "hexagons": 6
+ },
+ {
+  "taxon": 3017,
+  "name": "Columba livia",
+  "en": "Rock Pigeon",
+  "hexagons": 60
+ },
+ {
+  "taxon": 3079,
+  "name": "Patagioenas nigrirostris",
+  "en": "Short-billed Pigeon",
+  "hexagons": 57
+ },
+ {
+  "taxon": 3082,
+  "name": "Patagioenas speciosa",
+  "en": "Scaled Pigeon",
+  "hexagons": 124
+ },
+ {
+  "taxon": 3085,
+  "name": "Patagioenas cayennensis",
+  "en": "Pale-vented Pigeon",
+  "hexagons": 168
+ },
+ {
+  "taxon": 3093,
+  "name": "Patagioenas leucocephala",
+  "en": "White-crowned Pigeon",
+  "hexagons": 114
+ },
+ {
+  "taxon": 3095,
+  "name": "Patagioenas subvinacea",
+  "en": "Ruddy Pigeon",
+  "hexagons": 9
+ },
+ {
+  "taxon": 3108,
+  "name": "Patagioenas fasciata",
+  "en": "Band-tailed Pigeon",
+  "hexagons": 1659
+ },
+ {
+  "taxon": 3117,
+  "name": "Patagioenas flavirostris",
+  "en": "Red-billed Pigeon",
+  "hexagons": 477
+ },
+ {
+  "taxon": 3168,
+  "name": "Gallicolumba luzonica",
+  "en": "Luzon Bleeding-heart",
+  "hexagons": 7
+ },
+ {
+  "taxon": 3268,
+  "name": "Leptotila plumbeiceps",
+  "en": "Gray-headed Dove",
+  "hexagons": 109
+ },
+ {
+  "taxon": 3272,
+  "name": "Leptotila jamaicensis",
+  "en": "Caribbean Dove",
+  "hexagons": 76
+ },
+ {
+  "taxon": 3280,
+  "name": "Leptotila verreauxi",
+  "en": "White-tipped Dove",
+  "hexagons": 773
+ },
+ {
+  "taxon": 3328,
+  "name": "Turtur tympanistria",
+  "en": "Tambourine Dove",
+  "hexagons": 9
+ },
+ {
+  "taxon": 3340,
+  "name": "Treron waalia",
+  "en": "Bruce's Green-Pigeon",
+  "hexagons": 3
+ },
+ {
+  "taxon": 3424,
+  "name": "Treron sieboldii",
+  "en": "White-bellied Green-Pigeon",
+  "hexagons": 14
+ },
+ {
+  "taxon": 3454,
+  "name": "Zenaida macroura",
+  "en": "Mourning Dove",
+  "hexagons": 6774
+ },
+ {
+  "taxon": 3460,
+  "name": "Zenaida asiatica",
+  "en": "White-winged Dove",
+  "hexagons": 3404
+ },
+ {
+  "taxon": 3465,
+  "name": "Zenaida aurita",
+  "en": "Zenaida Dove",
+  "hexagons": 43
+ },
+ {
+  "taxon": 3499,
+  "name": "Geotrygon chrysia",
+  "en": "Key West Quail-Dove",
+  "hexagons": 10
+ },
+ {
+  "taxon": 3503,
+  "name": "Geotrygon montana",
+  "en": "Ruddy Quail-Dove",
+  "hexagons": 422
+ },
+ {
+  "taxon": 3544,
+  "name": "Columbina inca",
+  "en": "Inca Dove",
+  "hexagons": 1742
+ },
+ {
+  "taxon": 3545,
+  "name": "Columbina passerina",
+  "en": "Common Ground Dove",
+  "hexagons": 1815
+ },
+ {
+  "taxon": 3570,
+  "name": "Columbina minuta",
+  "en": "Plain-breasted Ground Dove",
+  "hexagons": 250
+ },
+ {
+  "taxon": 3580,
+  "name": "Columbina talpacoti",
+  "en": "Ruddy Ground Dove",
+  "hexagons": 517
+ },
+ {
+  "taxon": 3593,
+  "name": "Goura victoria",
+  "en": "Victoria Crowned-Pigeon",
+  "hexagons": 9
+ },
+ {
+  "taxon": 3597,
+  "name": "Otidiphaps nobilis",
+  "en": "Pheasant Pigeon",
+  "hexagons": 15
+ },
+ {
+  "taxon": 3609,
+  "name": "Geopelia cuneata",
+  "en": "Diamond Dove",
+  "hexagons": 116
+ },
+ {
+  "taxon": 3704,
+  "name": "Colius striatus",
+  "en": "Speckled Mousebird",
+  "hexagons": 1
+ },
+ {
+  "taxon": 3734,
+  "name": "Platalea alba",
+  "en": "African Spoonbill",
+  "hexagons": 16
+ },
+ {
+  "taxon": 3739,
+  "name": "Threskiornis aethiopicus",
+  "en": "African Sacred Ibis",
+  "hexagons": 3
+ },
+ {
+  "taxon": 3743,
+  "name": "Bostrychia hagedash",
+  "en": "Hadada Ibis",
+  "hexagons": 4
+ },
+ {
+  "taxon": 3750,
+  "name": "Eudocimus ruber",
+  "en": "Scarlet Ibis",
+  "hexagons": 10
+ },
+ {
+  "taxon": 3751,
+  "name": "Eudocimus albus",
+  "en": "White Ibis",
+  "hexagons": 1881
+ },
+ {
+  "taxon": 3753,
+  "name": "Geronticus eremita",
+  "en": "Northern Bald Ibis",
+  "hexagons": 16
+ },
+ {
+  "taxon": 3756,
+  "name": "Plegadis falcinellus",
+  "en": "Glossy Ibis",
+  "hexagons": 4497
+ },
+ {
+  "taxon": 3759,
+  "name": "Plegadis chihi",
+  "en": "White-faced Ibis",
+  "hexagons": 4709
+ },
+ {
+  "taxon": 3776,
+  "name": "Lophotibis cristata",
+  "en": "Madagascar Ibis",
+  "hexagons": 3
+ },
+ {
+  "taxon": 3786,
+  "name": "Sula nebouxii",
+  "en": "Blue-footed Booby",
+  "hexagons": 287
+ },
+ {
+  "taxon": 3788,
+  "name": "Sula dactylatra",
+  "en": "Masked Booby",
+  "hexagons": 358
+ },
+ {
+  "taxon": 3793,
+  "name": "Sula sula",
+  "en": "Red-footed Booby",
+  "hexagons": 230
+ },
+ {
+  "taxon": 3797,
+  "name": "Sula leucogaster",
+  "en": "Brown Booby",
+  "hexagons": 432
+ },
+ {
+  "taxon": 3802,
+  "name": "Morus bassanus",
+  "en": "Northern Gannet",
+  "hexagons": 479
+ },
+ {
+  "taxon": 3810,
+  "name": "Pygoscelis adeliae",
+  "en": "Adelie Penguin",
+  "hexagons": 12696
+ },
+ {
+  "taxon": 3812,
+  "name": "Spheniscus magellanicus",
+  "en": "Magellanic Penguin",
+  "hexagons": 7
+ },
+ {
+  "taxon": 3817,
+  "name": "Eudyptula minor",
+  "en": "Little Penguin",
+  "hexagons": 10
+ },
+ {
+  "taxon": 3820,
+  "name": "Aptenodytes forsteri",
+  "en": "Emperor Penguin",
+  "hexagons": 90
+ },
+ {
+  "taxon": 3834,
+  "name": "Scopus umbretta",
+  "en": "Hamerkop",
+  "hexagons": 18
+ },
+ {
+  "taxon": 3837,
+  "name": "Calidris temminckii",
+  "en": "Temminck's Stint",
+  "hexagons": 127
+ },
+ {
+  "taxon": 3838,
+  "name": "Calidris minuta",
+  "en": "Little Stint",
+  "hexagons": 502
+ },
+ {
+  "taxon": 3839,
+  "name": "Calidris ptilocnemis",
+  "en": "Rock Sandpiper",
+  "hexagons": 747
+ },
+ {
+  "taxon": 3844,
+  "name": "Calidris acuminata",
+  "en": "Sharp-tailed Sandpiper",
+  "hexagons": 980
+ },
+ {
+  "taxon": 3845,
+  "name": "Calidris canutus",
+  "en": "Red Knot",
+  "hexagons": 178
+ },
+ {
+  "taxon": 3848,
+  "name": "Calidris subminuta",
+  "en": "Long-toed Stint",
+  "hexagons": 357
+ },
+ {
+  "taxon": 3850,
+  "name": "Calidris himantopus",
+  "en": "Stilt Sandpiper",
+  "hexagons": 12725
+ },
+ {
+  "taxon": 3851,
+  "name": "Calidris bairdii",
+  "en": "Baird's Sandpiper",
+  "hexagons": 12561
+ },
+ {
+  "taxon": 3852,
+  "name": "Calidris tenuirostris",
+  "en": "Great Knot",
+  "hexagons": 243
+ },
+ {
+  "taxon": 3854,
+  "name": "Calidris ruficollis",
+  "en": "Red-necked Stint",
+  "hexagons": 1107
+ },
+ {
+  "taxon": 3855,
+  "name": "Calidris mauri",
+  "en": "Western Sandpiper",
+  "hexagons": 7246
+ },
+ {
+  "taxon": 3856,
+  "name": "Calidris maritima",
+  "en": "Purple Sandpiper",
+  "hexagons": 1347
+ },
+ {
+  "taxon": 3857,
+  "name": "Calidris alpina",
+  "en": "Dunlin",
+  "hexagons": 32
+ },
+ {
+  "taxon": 3862,
+  "name": "Calidris pusilla",
+  "en": "Semipalmated Sandpiper",
+  "hexagons": 12784
+ },
+ {
+  "taxon": 3863,
+  "name": "Calidris ferruginea",
+  "en": "Curlew Sandpiper",
+  "hexagons": 1477
+ },
+ {
+  "taxon": 3864,
+  "name": "Calidris minutilla",
+  "en": "Least Sandpiper",
+  "hexagons": 12666
+ },
+ {
+  "taxon": 3865,
+  "name": "Calidris melanotos",
+  "en": "Pectoral Sandpiper",
+  "hexagons": 12790
+ },
+ {
+  "taxon": 3866,
+  "name": "Calidris fuscicollis",
+  "en": "White-rumped Sandpiper",
+  "hexagons": 9476
+ },
+ {
+  "taxon": 3868,
+  "name": "Limnodromus semipalmatus",
+  "en": "Asian Dowitcher",
+  "hexagons": 13
+ },
+ {
+  "taxon": 3869,
+  "name": "Limnodromus griseus",
+  "en": "Short-billed Dowitcher",
+  "hexagons": 12045
+ },
+ {
+  "taxon": 3873,
+  "name": "Limnodromus scolopaceus",
+  "en": "Long-billed Dowitcher",
+  "hexagons": 9972
+ },
+ {
+  "taxon": 3875,
+  "name": "Tringa solitaria",
+  "en": "Solitary Sandpiper",
+  "hexagons": 11536
+ },
+ {
+  "taxon": 3878,
+  "name": "Tringa nebularia",
+  "en": "Common Greenshank",
+  "hexagons": 117
+ },
+ {
+  "taxon": 3879,
+  "name": "Tringa totanus",
+  "en": "Common Redshank",
+  "hexagons": 163
+ },
+ {
+  "taxon": 3881,
+  "name": "Tringa stagnatilis",
+  "en": "Marsh Sandpiper",
+  "hexagons": 44
+ },
+ {
+  "taxon": 3882,
+  "name": "Tringa erythropus",
+  "en": "Spotted Redshank",
+  "hexagons": 74
+ },
+ {
+  "taxon": 3888,
+  "name": "Tringa glareola",
+  "en": "Wood Sandpiper",
+  "hexagons": 313
+ },
+ {
+  "taxon": 3892,
+  "name": "Tringa melanoleuca",
+  "en": "Greater Yellowlegs",
+  "hexagons": 11750
+ },
+ {
+  "taxon": 3893,
+  "name": "Tringa flavipes",
+  "en": "Lesser Yellowlegs",
+  "hexagons": 12646
+ },
+ {
+  "taxon": 3896,
+  "name": "Numenius arquata",
+  "en": "Eurasian Curlew",
+  "hexagons": 22
+ },
+ {
+  "taxon": 3898,
+  "name": "Numenius madagascariensis",
+  "en": "Far Eastern Curlew",
+  "hexagons": 324
+ },
+ {
+  "taxon": 3901,
+  "name": "Numenius phaeopus",
+  "en": "Eurasian Whimbrel",
+  "hexagons": 2048
+ },
+ {
+  "taxon": 3906,
+  "name": "Numenius americanus",
+  "en": "Long-billed Curlew",
+  "hexagons": 3868
+ },
+ {
+  "taxon": 3909,
+  "name": "Numenius tahitiensis",
+  "en": "Bristle-thighed Curlew",
+  "hexagons": 598
+ },
+ {
+  "taxon": 3914,
+  "name": "Gallinago hardwickii",
+  "en": "Latham's Snipe",
+  "hexagons": 29
+ },
+ {
+  "taxon": 3921,
+  "name": "Gallinago stenura",
+  "en": "Pin-tailed Snipe",
+  "hexagons": 726
+ },
+ {
+  "taxon": 3925,
+  "name": "Gallinago solitaria",
+  "en": "Solitary Snipe",
+  "hexagons": 35
+ },
+ {
+  "taxon": 3931,
+  "name": "Scolopax rusticola",
+  "en": "Eurasian Woodcock",
+  "hexagons": 30
+ },
+ {
+  "taxon": 3936,
+  "name": "Scolopax minor",
+  "en": "American Woodcock",
+  "hexagons": 3383
+ },
+ {
+  "taxon": 3938,
+  "name": "Arenaria interpres",
+  "en": "Ruddy Turnstone",
+  "hexagons": 142
+ },
+ {
+  "taxon": 3941,
+  "name": "Arenaria melanocephala",
+  "en": "Black Turnstone",
+  "hexagons": 1020
+ },
+ {
+  "taxon": 3947,
+  "name": "Limosa limosa",
+  "en": "Black-tailed Godwit",
+  "hexagons": 340
+ },
+ {
+  "taxon": 3950,
+  "name": "Limosa haemastica",
+  "en": "Hudsonian Godwit",
+  "hexagons": 10024
+ },
+ {
+  "taxon": 3951,
+  "name": "Limosa lapponica",
+  "en": "Bar-tailed Godwit",
+  "hexagons": 796
+ },
+ {
+  "taxon": 3954,
+  "name": "Limosa fedoa",
+  "en": "Marbled Godwit",
+  "hexagons": 8154
+ },
+ {
+  "taxon": 3959,
+  "name": "Phalaropus lobatus",
+  "en": "Red-necked Phalarope",
+  "hexagons": 12791
+ },
+ {
+  "taxon": 3962,
+  "name": "Bartramia longicauda",
+  "en": "Upland Sandpiper",
+  "hexagons": 7521
+ },
+ {
+  "taxon": 3969,
+  "name": "Xenus cinereus",
+  "en": "Terek Sandpiper",
+  "hexagons": 385
+ },
+ {
+  "taxon": 3978,
+  "name": "Actitis hypoleucos",
+  "en": "Common Sandpiper",
+  "hexagons": 81
+ },
+ {
+  "taxon": 4027,
+  "name": "Pterodroma cookii",
+  "en": "Cook's Petrel",
+  "hexagons": 48
+ },
+ {
+  "taxon": 4029,
+  "name": "Pterodroma hasitata",
+  "en": "Black-capped Petrel",
+  "hexagons": 11,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4037,
+  "name": "Pterodroma inexpectata",
+  "en": "Mottled Petrel",
+  "hexagons": 22
+ },
+ {
+  "taxon": 4038,
+  "name": "Pterodroma externa",
+  "en": "Juan Fernandez Petrel",
+  "hexagons": 8
+ },
+ {
+  "taxon": 4048,
+  "name": "Pterodroma ultima",
+  "en": "Murphy's Petrel",
+  "hexagons": 6
+ },
+ {
+  "taxon": 4061,
+  "name": "Pterodroma sandwichensis",
+  "en": "Hawaiian Petrel",
+  "hexagons": 18
+ },
+ {
+  "taxon": 4093,
+  "name": "Puffinus puffinus",
+  "en": "Manx Shearwater",
+  "hexagons": 801
+ },
+ {
+  "taxon": 4101,
+  "name": "Puffinus nativitatis",
+  "en": "Christmas Shearwater",
+  "hexagons": 30
+ },
+ {
+  "taxon": 4105,
+  "name": "Puffinus opisthomelas",
+  "en": "Black-vented Shearwater",
+  "hexagons": 211
+ },
+ {
+  "taxon": 4134,
+  "name": "Bulweria bulwerii",
+  "en": "Bulwer's Petrel",
+  "hexagons": 9
+ },
+ {
+  "taxon": 4141,
+  "name": "Phoebastria nigripes",
+  "en": "Black-footed Albatross",
+  "hexagons": 435
+ },
+ {
+  "taxon": 4142,
+  "name": "Phoebastria albatrus",
+  "en": "Short-tailed Albatross",
+  "hexagons": 382,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4143,
+  "name": "Phoebastria irrorata",
+  "en": "Waved Albatross",
+  "hexagons": 2
+ },
+ {
+  "taxon": 4144,
+  "name": "Phoebastria immutabilis",
+  "en": "Laysan Albatross",
+  "hexagons": 272
+ },
+ {
+  "taxon": 4146,
+  "name": "Oceanites oceanicus",
+  "en": "Wilson's Storm-Petrel",
+  "hexagons": 40
+ },
+ {
+  "taxon": 4149,
+  "name": "Oceanites gracilis",
+  "en": "Elliot's Storm-Petrel",
+  "hexagons": 4
+ },
+ {
+  "taxon": 4153,
+  "name": "Pelagodroma marina",
+  "en": "White-faced Storm-Petrel",
+  "hexagons": 11
+ },
+ {
+  "taxon": 4170,
+  "name": "Hydrobates pelagicus",
+  "en": "European Storm-Petrel",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4180,
+  "name": "Fulmarus glacialis",
+  "en": "Northern Fulmar",
+  "hexagons": 9
+ },
+ {
+  "taxon": 4184,
+  "name": "Fulmarus glacialoides",
+  "en": "Southern Fulmar",
+  "hexagons": 531,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 4189,
+  "name": "Calonectris leucomelas",
+  "en": "Streaked Shearwater",
+  "hexagons": 27
+ },
+ {
+  "taxon": 4195,
+  "name": "Pagodroma nivea",
+  "en": "Snow Petrel",
+  "hexagons": 12765
+ },
+ {
+  "taxon": 4197,
+  "name": "Macronectes halli",
+  "en": "Northern Giant Petrel",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4198,
+  "name": "Macronectes giganteus",
+  "en": "Southern Giant Petrel",
+  "hexagons": 857,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 4202,
+  "name": "Thalassoica antarctica",
+  "en": "Antarctic Petrel",
+  "hexagons": 12793
+ },
+ {
+  "taxon": 4205,
+  "name": "Podiceps nigricollis",
+  "en": "Eared Grebe",
+  "hexagons": 7567
+ },
+ {
+  "taxon": 4208,
+  "name": "Podiceps cristatus",
+  "en": "Great Crested Grebe",
+  "hexagons": 9
+ },
+ {
+  "taxon": 4209,
+  "name": "Podiceps auritus",
+  "en": "Horned Grebe",
+  "hexagons": 11773
+ },
+ {
+  "taxon": 4224,
+  "name": "Podiceps grisegena",
+  "en": "Red-necked Grebe",
+  "hexagons": 9163
+ },
+ {
+  "taxon": 4234,
+  "name": "Aechmophorus clarkii",
+  "en": "Clark's Grebe",
+  "hexagons": 3087
+ },
+ {
+  "taxon": 4235,
+  "name": "Aechmophorus occidentalis",
+  "en": "Western Grebe",
+  "hexagons": 4090
+ },
+ {
+  "taxon": 4239,
+  "name": "Tachybaptus dominicus",
+  "en": "Least Grebe",
+  "hexagons": 1260
+ },
+ {
+  "taxon": 4246,
+  "name": "Podilymbus podiceps",
+  "en": "Pied-billed Grebe",
+  "hexagons": 7643
+ },
+ {
+  "taxon": 4257,
+  "name": "Phoenicopterus ruber",
+  "en": "American Flamingo",
+  "hexagons": 283
+ },
+ {
+  "taxon": 4258,
+  "name": "Phoenicopterus chilensis",
+  "en": "Chilean Flamingo",
+  "hexagons": 12
+ },
+ {
+  "taxon": 4259,
+  "name": "Phoeniconaias minor",
+  "en": "Lesser Flamingo",
+  "hexagons": 36
+ },
+ {
+  "taxon": 4270,
+  "name": "Phalacrocorax carbo",
+  "en": "Great Cormorant",
+  "hexagons": 685
+ },
+ {
+  "taxon": 4293,
+  "name": "Phalacrocorax capillatus",
+  "en": "Japanese Cormorant",
+  "hexagons": 39,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 4314,
+  "name": "Phaethon lepturus",
+  "en": "White-tailed Tropicbird",
+  "hexagons": 69
+ },
+ {
+  "taxon": 4317,
+  "name": "Phaethon aethereus",
+  "en": "Red-billed Tropicbird",
+  "hexagons": 335
+ },
+ {
+  "taxon": 4320,
+  "name": "Phaethon rubricauda",
+  "en": "Red-tailed Tropicbird",
+  "hexagons": 11
+ },
+ {
+  "taxon": 4327,
+  "name": "Pelecanus onocrotalus",
+  "en": "Great White Pelican",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4328,
+  "name": "Pelecanus occidentalis",
+  "en": "Brown Pelican",
+  "hexagons": 2357
+ },
+ {
+  "taxon": 4334,
+  "name": "Pelecanus erythrorhynchos",
+  "en": "American White Pelican",
+  "hexagons": 7823
+ },
+ {
+  "taxon": 4335,
+  "name": "Pelecanus rufescens",
+  "en": "Pink-backed Pelican",
+  "hexagons": 3
+ },
+ {
+  "taxon": 4345,
+  "name": "Larus occidentalis",
+  "en": "Western Gull",
+  "hexagons": 656
+ },
+ {
+  "taxon": 4349,
+  "name": "Larus hyperboreus",
+  "en": "Glaucous Gull",
+  "hexagons": 9135
+ },
+ {
+  "taxon": 4353,
+  "name": "Larus heermanni",
+  "en": "Heermann's Gull",
+  "hexagons": 513
+ },
+ {
+  "taxon": 4354,
+  "name": "Larus livens",
+  "en": "Yellow-footed Gull",
+  "hexagons": 335
+ },
+ {
+  "taxon": 4356,
+  "name": "Larus canus",
+  "en": "Common Gull",
+  "hexagons": 293
+ },
+ {
+  "taxon": 4361,
+  "name": "Larus glaucoides",
+  "en": "Iceland Gull",
+  "hexagons": 158
+ },
+ {
+  "taxon": 4364,
+  "name": "Larus delawarensis",
+  "en": "Ring-billed Gull",
+  "hexagons": 8135
+ },
+ {
+  "taxon": 4366,
+  "name": "Larus schistisagus",
+  "en": "Slaty-backed Gull",
+  "hexagons": 1052
+ },
+ {
+  "taxon": 4368,
+  "name": "Larus marinus",
+  "en": "Great Black-backed Gull",
+  "hexagons": 2283
+ },
+ {
+  "taxon": 4370,
+  "name": "Larus crassirostris",
+  "en": "Black-tailed Gull",
+  "hexagons": 76
+ },
+ {
+  "taxon": 4381,
+  "name": "Larus fuscus",
+  "en": "Lesser Black-backed Gull",
+  "hexagons": 59
+ },
+ {
+  "taxon": 4385,
+  "name": "Larus californicus",
+  "en": "California Gull",
+  "hexagons": 4052
+ },
+ {
+  "taxon": 4388,
+  "name": "Larus dominicanus",
+  "en": "Kelp Gull",
+  "hexagons": 329
+ },
+ {
+  "taxon": 4399,
+  "name": "Larus glaucescens",
+  "en": "Glaucous-winged Gull",
+  "hexagons": 1423
+ },
+ {
+  "taxon": 4414,
+  "name": "Cepphus carbo",
+  "en": "Spectacled Guillemot",
+  "hexagons": 10,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4415,
+  "name": "Cepphus columba",
+  "en": "Pigeon Guillemot",
+  "hexagons": 895
+ },
+ {
+  "taxon": 4418,
+  "name": "Cepphus grylle",
+  "en": "Black Guillemot",
+  "hexagons": 159
+ },
+ {
+  "taxon": 4436,
+  "name": "Sterna dougallii",
+  "en": "Roseate Tern",
+  "hexagons": 358
+ },
+ {
+  "taxon": 4449,
+  "name": "Sterna paradisaea",
+  "en": "Arctic Tern",
+  "hexagons": 12593
+ },
+ {
+  "taxon": 4450,
+  "name": "Sterna hirundo",
+  "en": "Common Tern",
+  "hexagons": 592
+ },
+ {
+  "taxon": 4457,
+  "name": "Sterna forsteri",
+  "en": "Forster's Tern",
+  "hexagons": 6343
+ },
+ {
+  "taxon": 4470,
+  "name": "Sterna vittata",
+  "en": "Antarctic Tern",
+  "hexagons": 885
+ },
+ {
+  "taxon": 4481,
+  "name": "Stercorarius longicaudus",
+  "en": "Long-tailed Jaeger",
+  "hexagons": 197
+ },
+ {
+  "taxon": 4489,
+  "name": "Stercorarius parasiticus",
+  "en": "Parasitic Jaeger",
+  "hexagons": 321
+ },
+ {
+  "taxon": 4491,
+  "name": "Stercorarius pomarinus",
+  "en": "Pomarine Jaeger",
+  "hexagons": 12617
+ },
+ {
+  "taxon": 4493,
+  "name": "Rissa brevirostris",
+  "en": "Red-legged Kittiwake",
+  "hexagons": 188
+ },
+ {
+  "taxon": 4494,
+  "name": "Rissa tridactyla",
+  "en": "Black-legged Kittiwake",
+  "hexagons": 12451
+ },
+ {
+  "taxon": 4496,
+  "name": "Rynchops niger",
+  "en": "Black Skimmer",
+  "hexagons": 1179
+ },
+ {
+  "taxon": 4501,
+  "name": "Alca torda",
+  "en": "Razorbill",
+  "hexagons": 656
+ },
+ {
+  "taxon": 4504,
+  "name": "Fratercula arctica",
+  "en": "Atlantic Puffin",
+  "hexagons": 422
+ },
+ {
+  "taxon": 4508,
+  "name": "Fratercula corniculata",
+  "en": "Horned Puffin",
+  "hexagons": 1105
+ },
+ {
+  "taxon": 4509,
+  "name": "Fratercula cirrhata",
+  "en": "Tufted Puffin",
+  "hexagons": 736,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4512,
+  "name": "Chlidonias niger",
+  "en": "Black Tern",
+  "hexagons": 8308
+ },
+ {
+  "taxon": 4514,
+  "name": "Chlidonias leucopterus",
+  "en": "White-winged Tern",
+  "hexagons": 30
+ },
+ {
+  "taxon": 4516,
+  "name": "Uria lomvia",
+  "en": "Thick-billed Murre",
+  "hexagons": 2139
+ },
+ {
+  "taxon": 4519,
+  "name": "Uria aalge",
+  "en": "Common Murre",
+  "hexagons": 1155
+ },
+ {
+  "taxon": 4524,
+  "name": "Alle alle",
+  "en": "Dovekie",
+  "hexagons": 68
+ },
+ {
+  "taxon": 4531,
+  "name": "Brachyramphus marmoratus",
+  "en": "Marbled Murrelet",
+  "hexagons": 1156
+ },
+ {
+  "taxon": 4533,
+  "name": "Brachyramphus brevirostris",
+  "en": "Kittlitz's Murrelet",
+  "hexagons": 718,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4535,
+  "name": "Anous stolidus",
+  "en": "Brown Noddy",
+  "hexagons": 284
+ },
+ {
+  "taxon": 4537,
+  "name": "Anous minutus",
+  "en": "Black Noddy",
+  "hexagons": 6
+ },
+ {
+  "taxon": 4542,
+  "name": "Aethia cristatella",
+  "en": "Crested Auklet",
+  "hexagons": 142,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 4543,
+  "name": "Aethia psittacula",
+  "en": "Parakeet Auklet",
+  "hexagons": 418
+ },
+ {
+  "taxon": 4544,
+  "name": "Aethia pusilla",
+  "en": "Least Auklet",
+  "hexagons": 167
+ },
+ {
+  "taxon": 4547,
+  "name": "Ptychoramphus aleuticus",
+  "en": "Cassin's Auklet",
+  "hexagons": 613
+ },
+ {
+  "taxon": 4551,
+  "name": "Larosterna inca",
+  "en": "Inca Tern",
+  "hexagons": 7
+ },
+ {
+  "taxon": 4553,
+  "name": "Cerorhinca monocerata",
+  "en": "Rhinoceros Auklet",
+  "hexagons": 468
+ },
+ {
+  "taxon": 4555,
+  "name": "Pagophila eburnea",
+  "en": "Ivory Gull",
+  "hexagons": 95
+ },
+ {
+  "taxon": 4557,
+  "name": "Rhodostethia rosea",
+  "en": "Ross's Gull",
+  "hexagons": 1356
+ },
+ {
+  "taxon": 4561,
+  "name": "Synthliboramphus antiquus",
+  "en": "Ancient Murrelet",
+  "hexagons": 430
+ },
+ {
+  "taxon": 4562,
+  "name": "Synthliboramphus craveri",
+  "en": "Craveri's Murrelet",
+  "hexagons": 139
+ },
+ {
+  "taxon": 4564,
+  "name": "Creagrus furcatus",
+  "en": "Swallow-tailed Gull",
+  "hexagons": 20
+ },
+ {
+  "taxon": 4569,
+  "name": "Phaetusa simplex",
+  "en": "Large-billed Tern",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4571,
+  "name": "Xema sabini",
+  "en": "Sabine's Gull",
+  "hexagons": 15
+ },
+ {
+  "taxon": 4578,
+  "name": "Jacana spinosa",
+  "en": "Northern Jacana",
+  "hexagons": 574
+ },
+ {
+  "taxon": 4580,
+  "name": "Jacana jacana",
+  "en": "Wattled Jacana",
+  "hexagons": 2
+ },
+ {
+  "taxon": 4621,
+  "name": "Gavia pacifica",
+  "en": "Pacific Loon",
+  "hexagons": 10181
+ },
+ {
+  "taxon": 4622,
+  "name": "Gavia adamsii",
+  "en": "Yellow-billed Loon",
+  "hexagons": 317
+ },
+ {
+  "taxon": 4623,
+  "name": "Gavia arctica",
+  "en": "Arctic Loon",
+  "hexagons": 495
+ },
+ {
+  "taxon": 4626,
+  "name": "Gavia immer",
+  "en": "Common Loon",
+  "hexagons": 36
+ },
+ {
+  "taxon": 4627,
+  "name": "Gavia stellata",
+  "en": "Red-throated Loon",
+  "hexagons": 36
+ },
+ {
+  "taxon": 4631,
+  "name": "Fregata magnificens",
+  "en": "Magnificent Frigatebird",
+  "hexagons": 810
+ },
+ {
+  "taxon": 4634,
+  "name": "Fregata ariel",
+  "en": "Lesser Frigatebird",
+  "hexagons": 68,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4636,
+  "name": "Fregata minor",
+  "en": "Great Frigatebird",
+  "hexagons": 54
+ },
+ {
+  "taxon": 4643,
+  "name": "Falco subbuteo",
+  "en": "Eurasian Hobby",
+  "hexagons": 99
+ },
+ {
+  "taxon": 4644,
+  "name": "Falco mexicanus",
+  "en": "Prairie Falcon",
+  "hexagons": 3226
+ },
+ {
+  "taxon": 4645,
+  "name": "Falco femoralis",
+  "en": "Aplomado Falcon",
+  "hexagons": 446
+ },
+ {
+  "taxon": 4647,
+  "name": "Falco peregrinus",
+  "en": "Peregrine Falcon",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4657,
+  "name": "Falco rusticolus",
+  "en": "Gyrfalcon",
+  "hexagons": 8543
+ },
+ {
+  "taxon": 4664,
+  "name": "Falco rufigularis",
+  "en": "Bat Falcon",
+  "hexagons": 568
+ },
+ {
+  "taxon": 4665,
+  "name": "Falco sparverius",
+  "en": "American Kestrel",
+  "hexagons": 9900
+ },
+ {
+  "taxon": 4672,
+  "name": "Falco columbarius",
+  "en": "Merlin",
+  "hexagons": 12782
+ },
+ {
+  "taxon": 4682,
+  "name": "Falco deiroleucus",
+  "en": "Orange-breasted Falcon",
+  "hexagons": 105
+ },
+ {
+  "taxon": 4698,
+  "name": "Micrastur semitorquatus",
+  "en": "Collared Forest-Falcon",
+  "hexagons": 556
+ },
+ {
+  "taxon": 4699,
+  "name": "Micrastur ruficollis",
+  "en": "Barred Forest-Falcon",
+  "hexagons": 265
+ },
+ {
+  "taxon": 4715,
+  "name": "Caracara plancus",
+  "en": "Crested Caracara",
+  "hexagons": 1592
+ },
+ {
+  "taxon": 4719,
+  "name": "Herpetotheres cachinnans",
+  "en": "Laughing Falcon",
+  "hexagons": 470
+ },
+ {
+  "taxon": 4732,
+  "name": "Ciconia abdimii",
+  "en": "Abdim's Stork",
+  "hexagons": 3
+ },
+ {
+  "taxon": 4733,
+  "name": "Ciconia ciconia",
+  "en": "White Stork",
+  "hexagons": 5
+ },
+ {
+  "taxon": 4742,
+  "name": "Mycteria americana",
+  "en": "Wood Stork",
+  "hexagons": 1523
+ },
+ {
+  "taxon": 4745,
+  "name": "Mycteria cinerea",
+  "en": "Milky Stork",
+  "hexagons": 3
+ },
+ {
+  "taxon": 4754,
+  "name": "Ephippiorhynchus senegalensis",
+  "en": "Saddle-billed Stork",
+  "hexagons": 4,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4756,
+  "name": "Cathartes aura",
+  "en": "Turkey Vulture",
+  "hexagons": 7252
+ },
+ {
+  "taxon": 4761,
+  "name": "Cathartes burrovianus",
+  "en": "Lesser Yellow-headed Vulture",
+  "hexagons": 253
+ },
+ {
+  "taxon": 4763,
+  "name": "Sarcoramphus papa",
+  "en": "King Vulture",
+  "hexagons": 218
+ },
+ {
+  "taxon": 4765,
+  "name": "Coragyps atratus",
+  "en": "Black Vulture",
+  "hexagons": 2830
+ },
+ {
+  "taxon": 4773,
+  "name": "Jabiru mycteria",
+  "en": "Jabiru",
+  "hexagons": 184
+ },
+ {
+  "taxon": 4776,
+  "name": "Anastomus lamelligerus",
+  "en": "African Openbill",
+  "hexagons": 10,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 4778,
+  "name": "Gymnogyps californianus",
+  "en": "California Condor",
+  "hexagons": 439,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4788,
+  "name": "Eudromias morinellus",
+  "en": "Eurasian Dotterel",
+  "hexagons": 70,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 4793,
+  "name": "Charadrius vociferus",
+  "en": "Killdeer",
+  "hexagons": 7938
+ },
+ {
+  "taxon": 4798,
+  "name": "Charadrius melodus",
+  "en": "Piping Plover",
+  "hexagons": 2968
+ },
+ {
+  "taxon": 4801,
+  "name": "Charadrius hiaticula",
+  "en": "Common Ringed Plover",
+  "hexagons": 219
+ },
+ {
+  "taxon": 4817,
+  "name": "Charadrius semipalmatus",
+  "en": "Semipalmated Plover",
+  "hexagons": 12792
+ },
+ {
+  "taxon": 4836,
+  "name": "Himantopus mexicanus",
+  "en": "Black-necked Stilt",
+  "hexagons": 4982
+ },
+ {
+  "taxon": 4838,
+  "name": "Haematopus bachmani",
+  "en": "Black Oystercatcher",
+  "hexagons": 728
+ },
+ {
+  "taxon": 4840,
+  "name": "Haematopus palliatus",
+  "en": "American Oystercatcher",
+  "hexagons": 612
+ },
+ {
+  "taxon": 4843,
+  "name": "Haematopus ostralegus",
+  "en": "Eurasian Oystercatcher",
+  "hexagons": 208
+ },
+ {
+  "taxon": 4857,
+  "name": "Vanellus vanellus",
+  "en": "Northern Lapwing",
+  "hexagons": 139
+ },
+ {
+  "taxon": 4867,
+  "name": "Vanellus chilensis",
+  "en": "Southern Lapwing",
+  "hexagons": 48
+ },
+ {
+  "taxon": 4885,
+  "name": "Recurvirostra americana",
+  "en": "American Avocet",
+  "hexagons": 6803
+ },
+ {
+  "taxon": 4889,
+  "name": "Pluvialis apricaria",
+  "en": "European Golden-Plover",
+  "hexagons": 176
+ },
+ {
+  "taxon": 4892,
+  "name": "Pluvialis squatarola",
+  "en": "Black-bellied Plover",
+  "hexagons": 12234
+ },
+ {
+  "taxon": 4893,
+  "name": "Pluvialis dominica",
+  "en": "American Golden-Plover",
+  "hexagons": 12773
+ },
+ {
+  "taxon": 4896,
+  "name": "Pluvialis fulva",
+  "en": "Pacific Golden-Plover",
+  "hexagons": 2017
+ },
+ {
+  "taxon": 4922,
+  "name": "Burhinus capensis",
+  "en": "Spotted Thick-knee",
+  "hexagons": 1
+ },
+ {
+  "taxon": 4937,
+  "name": "Egretta caerulea",
+  "en": "Little Blue Heron",
+  "hexagons": 3327
+ },
+ {
+  "taxon": 4938,
+  "name": "Egretta tricolor",
+  "en": "Tricolored Heron",
+  "hexagons": 2367
+ },
+ {
+  "taxon": 4940,
+  "name": "Egretta thula",
+  "en": "Snowy Egret",
+  "hexagons": 4361
+ },
+ {
+  "taxon": 4943,
+  "name": "Egretta garzetta",
+  "en": "Little Egret",
+  "hexagons": 80
+ },
+ {
+  "taxon": 4947,
+  "name": "Egretta sacra",
+  "en": "Pacific Reef Heron",
+  "hexagons": 6
+ },
+ {
+  "taxon": 4948,
+  "name": "Egretta rufescens",
+  "en": "Reddish Egret",
+  "hexagons": 997
+ },
+ {
+  "taxon": 4954,
+  "name": "Ardea cinerea",
+  "en": "Grey Heron",
+  "hexagons": 20
+ },
+ {
+  "taxon": 4956,
+  "name": "Ardea herodias",
+  "en": "Great Blue Heron",
+  "hexagons": 7871
+ },
+ {
+  "taxon": 4981,
+  "name": "Nycticorax nycticorax",
+  "en": "Black-crowned Night Heron",
+  "hexagons": 6955
+ },
+ {
+  "taxon": 4999,
+  "name": "Nyctanassa violacea",
+  "en": "Yellow-crowned Night Heron",
+  "hexagons": 3943
+ },
+ {
+  "taxon": 5020,
+  "name": "Butorides virescens",
+  "en": "Green Heron",
+  "hexagons": 4781
+ },
+ {
+  "taxon": 5031,
+  "name": "Botaurus pinnatus",
+  "en": "Pinnated Bittern",
+  "hexagons": 274
+ },
+ {
+  "taxon": 5033,
+  "name": "Botaurus stellaris",
+  "en": "Eurasian Bittern",
+  "hexagons": 1
+ },
+ {
+  "taxon": 5034,
+  "name": "Botaurus lentiginosus",
+  "en": "American Bittern",
+  "hexagons": 8587
+ },
+ {
+  "taxon": 5036,
+  "name": "Cochlearius cochlearius",
+  "en": "Boat-billed Heron",
+  "hexagons": 381
+ },
+ {
+  "taxon": 5049,
+  "name": "Tigrisoma mexicanum",
+  "en": "Bare-throated Tiger-Heron",
+  "hexagons": 447
+ },
+ {
+  "taxon": 5052,
+  "name": "Agamia agami",
+  "en": "Agami Heron",
+  "hexagons": 183
+ },
+ {
+  "taxon": 5063,
+  "name": "Anhinga anhinga",
+  "en": "Anhinga",
+  "hexagons": 1392
+ },
+ {
+  "taxon": 5074,
+  "name": "Aquila chrysaetos",
+  "en": "Golden Eagle",
+  "hexagons": 8172
+ },
+ {
+  "taxon": 5097,
+  "name": "Accipiter striatus",
+  "en": "Sharp-shinned Hawk",
+  "hexagons": 10618
+ },
+ {
+  "taxon": 5106,
+  "name": "Accipiter nisus",
+  "en": "Eurasian Sparrowhawk",
+  "hexagons": 13
+ },
+ {
+  "taxon": 5180,
+  "name": "Buteo albonotatus",
+  "en": "Zone-tailed Hawk",
+  "hexagons": 1912
+ },
+ {
+  "taxon": 5181,
+  "name": "Buteo regalis",
+  "en": "Ferruginous Hawk",
+  "hexagons": 3237
+ },
+ {
+  "taxon": 5186,
+  "name": "Buteo brachyurus",
+  "en": "Short-tailed Hawk",
+  "hexagons": 1214
+ },
+ {
+  "taxon": 5196,
+  "name": "Buteo swainsoni",
+  "en": "Swainson's Hawk",
+  "hexagons": 4920
+ },
+ {
+  "taxon": 5200,
+  "name": "Buteo lagopus",
+  "en": "Rough-legged Hawk",
+  "hexagons": 9865
+ },
+ {
+  "taxon": 5206,
+  "name": "Buteo lineatus",
+  "en": "Red-shouldered Hawk",
+  "hexagons": 3959
+ },
+ {
+  "taxon": 5212,
+  "name": "Buteo jamaicensis",
+  "en": "Red-tailed Hawk",
+  "hexagons": 7725
+ },
+ {
+  "taxon": 5227,
+  "name": "Buteo platypterus",
+  "en": "Broad-winged Hawk",
+  "hexagons": 7878
+ },
+ {
+  "taxon": 5233,
+  "name": "Buteogallus anthracinus",
+  "en": "Common Black Hawk",
+  "hexagons": 1370
+ },
+ {
+  "taxon": 5238,
+  "name": "Buteogallus urubitinga",
+  "en": "Great Black Hawk",
+  "hexagons": 506
+ },
+ {
+  "taxon": 5268,
+  "name": "Milvus migrans",
+  "en": "Black Kite",
+  "hexagons": 18
+ },
+ {
+  "taxon": 5277,
+  "name": "Elanus leucurus",
+  "en": "White-tailed Kite",
+  "hexagons": 1819
+ },
+ {
+  "taxon": 5280,
+  "name": "Harpagus bidentatus",
+  "en": "Double-toothed Kite",
+  "hexagons": 272
+ },
+ {
+  "taxon": 5283,
+  "name": "Leptodon cayanensis",
+  "en": "Gray-headed Kite",
+  "hexagons": 254
+ },
+ {
+  "taxon": 5291,
+  "name": "Spizaetus tyrannus",
+  "en": "Black Hawk-Eagle",
+  "hexagons": 421
+ },
+ {
+  "taxon": 5294,
+  "name": "Spizaetus ornatus",
+  "en": "Ornate Hawk-Eagle",
+  "hexagons": 450
+ },
+ {
+  "taxon": 5301,
+  "name": "Elanoides forficatus",
+  "en": "Swallow-tailed Kite",
+  "hexagons": 2088
+ },
+ {
+  "taxon": 5304,
+  "name": "Haliaeetus pelagicus",
+  "en": "Steller's Sea-Eagle",
+  "hexagons": 42
+ },
+ {
+  "taxon": 5305,
+  "name": "Haliaeetus leucocephalus",
+  "en": "Bald Eagle",
+  "hexagons": 9333
+ },
+ {
+  "taxon": 5309,
+  "name": "Haliaeetus albicilla",
+  "en": "White-tailed Eagle",
+  "hexagons": 299
+ },
+ {
+  "taxon": 5329,
+  "name": "Chondrohierax uncinatus",
+  "en": "Hook-billed Kite",
+  "hexagons": 630
+ },
+ {
+  "taxon": 5342,
+  "name": "Gampsonyx swainsonii",
+  "en": "Pearl Kite",
+  "hexagons": 80
+ },
+ {
+  "taxon": 5346,
+  "name": "Busarellus nigricollis",
+  "en": "Black-collared Hawk",
+  "hexagons": 227
+ },
+ {
+  "taxon": 5349,
+  "name": "Rostrhamus sociabilis",
+  "en": "Snail Kite",
+  "hexagons": 412
+ },
+ {
+  "taxon": 5355,
+  "name": "Parabuteo unicinctus",
+  "en": "Harris's Hawk",
+  "hexagons": 1562
+ },
+ {
+  "taxon": 5411,
+  "name": "Geranospiza caerulescens",
+  "en": "Crane Hawk",
+  "hexagons": 472
+ },
+ {
+  "taxon": 5415,
+  "name": "Ictinia plumbea",
+  "en": "Plumbeous Kite",
+  "hexagons": 163
+ },
+ {
+  "taxon": 5416,
+  "name": "Ictinia mississippiensis",
+  "en": "Mississippi Kite",
+  "hexagons": 2859
+ },
+ {
+  "taxon": 5483,
+  "name": "Tockus deckeni",
+  "en": "Von der Decken's Hornbill",
+  "hexagons": 2
+ },
+ {
+  "taxon": 5532,
+  "name": "Buceros rhinoceros",
+  "en": "Rhinoceros Hornbill",
+  "hexagons": 2
+ },
+ {
+  "taxon": 5582,
+  "name": "Metallura williami",
+  "en": "Viridian Metaltail",
+  "hexagons": 8
+ },
+ {
+  "taxon": 5589,
+  "name": "Phaethornis striigularis",
+  "en": "Stripe-throated Hermit",
+  "hexagons": 255
+ },
+ {
+  "taxon": 5628,
+  "name": "Phaethornis guy",
+  "en": "Green Hermit",
+  "hexagons": 1
+ },
+ {
+  "taxon": 5660,
+  "name": "Eupherusa cyanophrys",
+  "en": "Blue-capped Hummingbird",
+  "hexagons": 10
+ },
+ {
+  "taxon": 5662,
+  "name": "Eupherusa eximia",
+  "en": "Stripe-tailed Hummingbird",
+  "hexagons": 142
+ },
+ {
+  "taxon": 5672,
+  "name": "Amazilia yucatanensis",
+  "en": "Buff-bellied Hummingbird",
+  "hexagons": 586
+ },
+ {
+  "taxon": 5676,
+  "name": "Amazilia tzacatl",
+  "en": "Rufous-tailed Hummingbird",
+  "hexagons": 140
+ },
+ {
+  "taxon": 5758,
+  "name": "Amazilia rutila",
+  "en": "Cinnamon Hummingbird",
+  "hexagons": 385
+ },
+ {
+  "taxon": 5798,
+  "name": "Anthracothorax prevostii",
+  "en": "Green-breasted Mango",
+  "hexagons": 263
+ },
+ {
+  "taxon": 5815,
+  "name": "Chalybura urochrysia",
+  "en": "Bronze-tailed Plumeleteer",
+  "hexagons": 16
+ },
+ {
+  "taxon": 5821,
+  "name": "Lampornis amethystinus",
+  "en": "Amethyst-throated Mountain-gem",
+  "hexagons": 250
+ },
+ {
+  "taxon": 5827,
+  "name": "Lampornis clemenciae",
+  "en": "Blue-throated Mountain-gem",
+  "hexagons": 619
+ },
+ {
+  "taxon": 5831,
+  "name": "Lampornis castaneoventris",
+  "en": "White-throated Mountain-gem",
+  "hexagons": 1
+ },
+ {
+  "taxon": 5834,
+  "name": "Lampornis viridipallens",
+  "en": "Green-throated Mountain-gem",
+  "hexagons": 29
+ },
+ {
+  "taxon": 5839,
+  "name": "Lampornis sybillae",
+  "en": "Green-breasted Mountain-gem",
+  "hexagons": 11
+ },
+ {
+  "taxon": 5840,
+  "name": "Lampornis calolaemus",
+  "en": "Purple-throated Mountain-gem",
+  "hexagons": 8
+ },
+ {
+  "taxon": 5869,
+  "name": "Heliomaster longirostris",
+  "en": "Long-billed Starthroat",
+  "hexagons": 277
+ },
+ {
+  "taxon": 5873,
+  "name": "Heliomaster constantii",
+  "en": "Plain-capped Starthroat",
+  "hexagons": 528
+ },
+ {
+  "taxon": 5914,
+  "name": "Heliodoxa jacula",
+  "en": "Green-crowned Brilliant",
+  "hexagons": 9
+ },
+ {
+  "taxon": 5987,
+  "name": "Campylopterus hemileucurus",
+  "en": "Violet Sabrewing",
+  "hexagons": 152
+ },
+ {
+  "taxon": 6028,
+  "name": "Abeillia abeillei",
+  "en": "Emerald-chinned Hummingbird",
+  "hexagons": 32
+ },
+ {
+  "taxon": 6032,
+  "name": "Threnetes ruckeri",
+  "en": "Band-tailed Barbthroat",
+  "hexagons": 13
+ },
+ {
+  "taxon": 6076,
+  "name": "Colibri delphinae",
+  "en": "Brown Violetear",
+  "hexagons": 61
+ },
+ {
+  "taxon": 6134,
+  "name": "Panterpe insignis",
+  "en": "Fiery-throated Hummingbird",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6141,
+  "name": "Cynanthus latirostris",
+  "en": "Broad-billed Hummingbird",
+  "hexagons": 1458
+ },
+ {
+  "taxon": 6237,
+  "name": "Coeligena lutetiae",
+  "en": "Buff-winged Starfrontlet",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6282,
+  "name": "Eriocnemis mosquera",
+  "en": "Golden-breasted Puffleg",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6297,
+  "name": "Ramphomicron microrhynchum",
+  "en": "Purple-backed Thornbill",
+  "hexagons": 3
+ },
+ {
+  "taxon": 6316,
+  "name": "Calypte costae",
+  "en": "Costa's Hummingbird",
+  "hexagons": 1054
+ },
+ {
+  "taxon": 6317,
+  "name": "Calypte anna",
+  "en": "Anna's Hummingbird",
+  "hexagons": 2091
+ },
+ {
+  "taxon": 6322,
+  "name": "Doryfera ludovicae",
+  "en": "Green-fronted Lancebill",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6349,
+  "name": "Lophornis helenae",
+  "en": "Black-crested Coquette",
+  "hexagons": 32
+ },
+ {
+  "taxon": 6359,
+  "name": "Selasphorus sasin",
+  "en": "Allen's Hummingbird",
+  "hexagons": 836
+ },
+ {
+  "taxon": 6363,
+  "name": "Selasphorus rufus",
+  "en": "Rufous Hummingbird",
+  "hexagons": 6849
+ },
+ {
+  "taxon": 6364,
+  "name": "Selasphorus flammula",
+  "en": "Volcano Hummingbird",
+  "hexagons": 1,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 6369,
+  "name": "Selasphorus platycercus",
+  "en": "Broad-tailed Hummingbird",
+  "hexagons": 2240
+ },
+ {
+  "taxon": 6371,
+  "name": "Calothorax lucifer",
+  "en": "Lucifer Hummingbird",
+  "hexagons": 498
+ },
+ {
+  "taxon": 6387,
+  "name": "Heliothryx barroti",
+  "en": "Purple-crowned Fairy",
+  "hexagons": 96
+ },
+ {
+  "taxon": 6392,
+  "name": "Glaucis aeneus",
+  "en": "Bronzy Hermit",
+  "hexagons": 9
+ },
+ {
+  "taxon": 6396,
+  "name": "Discosura conversii",
+  "en": "Green Thorntail",
+  "hexagons": 5
+ },
+ {
+  "taxon": 6417,
+  "name": "Florisuga mellivora",
+  "en": "White-necked Jacobin",
+  "hexagons": 154
+ },
+ {
+  "taxon": 6432,
+  "name": "Archilochus colubris",
+  "en": "Ruby-throated Hummingbird",
+  "hexagons": 4988
+ },
+ {
+  "taxon": 6433,
+  "name": "Archilochus alexandri",
+  "en": "Black-chinned Hummingbird",
+  "hexagons": 2804
+ },
+ {
+  "taxon": 6437,
+  "name": "Lamprolaima rhami",
+  "en": "Garnet-throated Hummingbird",
+  "hexagons": 34
+ },
+ {
+  "taxon": 6460,
+  "name": "Tilmatura dupontii",
+  "en": "Sparkling-tailed Hummingbird",
+  "hexagons": 168
+ },
+ {
+  "taxon": 6502,
+  "name": "Microchera albocoronata",
+  "en": "Snowcap",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6518,
+  "name": "Doricha eliza",
+  "en": "Mexican Sheartail",
+  "hexagons": 54
+ },
+ {
+  "taxon": 6519,
+  "name": "Doricha enicura",
+  "en": "Slender Sheartail",
+  "hexagons": 23
+ },
+ {
+  "taxon": 6553,
+  "name": "Aeronautes saxatalis",
+  "en": "White-throated Swift",
+  "hexagons": 2061
+ },
+ {
+  "taxon": 6557,
+  "name": "Chaetura vauxi",
+  "en": "Vaux's Swift",
+  "hexagons": 2182
+ },
+ {
+  "taxon": 6571,
+  "name": "Chaetura pelagica",
+  "en": "Chimney Swift",
+  "hexagons": 3986
+ },
+ {
+  "taxon": 6573,
+  "name": "Chaetura cinereiventris",
+  "en": "Gray-rumped Swift",
+  "hexagons": 8
+ },
+ {
+  "taxon": 6596,
+  "name": "Streptoprocne semicollaris",
+  "en": "White-naped Swift",
+  "hexagons": 417
+ },
+ {
+  "taxon": 6597,
+  "name": "Streptoprocne zonaris",
+  "en": "White-collared Swift",
+  "hexagons": 437
+ },
+ {
+  "taxon": 6607,
+  "name": "Streptoprocne rutila",
+  "en": "Chestnut-collared Swift",
+  "hexagons": 410
+ },
+ {
+  "taxon": 6667,
+  "name": "Cypseloides niger",
+  "en": "Black Swift",
+  "hexagons": 2283
+ },
+ {
+  "taxon": 6805,
+  "name": "Panyptila cayennensis",
+  "en": "Lesser Swallow-tailed Swift",
+  "hexagons": 249
+ },
+ {
+  "taxon": 6852,
+  "name": "Hirundapus caudacutus",
+  "en": "White-throated Needletail",
+  "hexagons": 15
+ },
+ {
+  "taxon": 6892,
+  "name": "Dendrocygna arborea",
+  "en": "West Indian Whistling-Duck",
+  "hexagons": 19
+ },
+ {
+  "taxon": 6893,
+  "name": "Dendrocygna autumnalis",
+  "en": "Black-bellied Whistling-Duck",
+  "hexagons": 2914
+ },
+ {
+  "taxon": 6898,
+  "name": "Dendrocygna viduata",
+  "en": "White-faced Whistling-Duck",
+  "hexagons": 36
+ },
+ {
+  "taxon": 6899,
+  "name": "Dendrocygna bicolor",
+  "en": "Fulvous Whistling-Duck",
+  "hexagons": 1668
+ },
+ {
+  "taxon": 6905,
+  "name": "Anseranas semipalmata",
+  "en": "Magpie Goose",
+  "hexagons": 1
+ },
+ {
+  "taxon": 6914,
+  "name": "Cygnus atratus",
+  "en": "Black Swan",
+  "hexagons": 3052
+ },
+ {
+  "taxon": 6915,
+  "name": "Cygnus buccinator",
+  "en": "Trumpeter Swan",
+  "hexagons": 7301
+ },
+ {
+  "taxon": 6916,
+  "name": "Cygnus cygnus",
+  "en": "Whooper Swan",
+  "hexagons": 353
+ },
+ {
+  "taxon": 6917,
+  "name": "Cygnus columbianus",
+  "en": "Tundra Swan",
+  "hexagons": 11456
+ },
+ {
+  "taxon": 6921,
+  "name": "Cygnus olor",
+  "en": "Mute Swan",
+  "hexagons": 2387
+ },
+ {
+  "taxon": 6924,
+  "name": "Anas rubripes",
+  "en": "American Black Duck",
+  "hexagons": 2861
+ },
+ {
+  "taxon": 6930,
+  "name": "Anas platyrhynchos",
+  "en": "Mallard",
+  "hexagons": 331
+ },
+ {
+  "taxon": 6933,
+  "name": "Anas acuta",
+  "en": "Northern Pintail",
+  "hexagons": 22
+ },
+ {
+  "taxon": 6937,
+  "name": "Anas crecca",
+  "en": "Green-winged Teal",
+  "hexagons": 12249
+ },
+ {
+  "taxon": 6948,
+  "name": "Anas fulvigula",
+  "en": "Mottled Duck",
+  "hexagons": 392
+ },
+ {
+  "taxon": 6951,
+  "name": "Anas bahamensis",
+  "en": "White-cheeked Pintail",
+  "hexagons": 79
+ },
+ {
+  "taxon": 6990,
+  "name": "Bucephala clangula",
+  "en": "Common Goldeneye",
+  "hexagons": 10597
+ },
+ {
+  "taxon": 6993,
+  "name": "Bucephala albeola",
+  "en": "Bufflehead",
+  "hexagons": 9930
+ },
+ {
+  "taxon": 6994,
+  "name": "Bucephala islandica",
+  "en": "Barrow's Goldeneye",
+  "hexagons": 5685
+ },
+ {
+  "taxon": 6996,
+  "name": "Mergus serrator",
+  "en": "Red-breasted Merganser",
+  "hexagons": 30
+ },
+ {
+  "taxon": 7002,
+  "name": "Mergus squamatus",
+  "en": "Scaly-sided Merganser",
+  "hexagons": 35
+ },
+ {
+  "taxon": 7004,
+  "name": "Mergus merganser",
+  "en": "Common Merganser",
+  "hexagons": 9691
+ },
+ {
+  "taxon": 7007,
+  "name": "Anser brachyrhynchus",
+  "en": "Pink-footed Goose",
+  "hexagons": 1801
+ },
+ {
+  "taxon": 7008,
+  "name": "Anser indicus",
+  "en": "Bar-headed Goose",
+  "hexagons": 41
+ },
+ {
+  "taxon": 7009,
+  "name": "Anser fabalis",
+  "en": "Taiga Bean Goose",
+  "hexagons": 56
+ },
+ {
+  "taxon": 7013,
+  "name": "Anser erythropus",
+  "en": "Lesser White-fronted Goose",
+  "hexagons": 223
+ },
+ {
+  "taxon": 7014,
+  "name": "Anser cygnoides",
+  "en": "Swan Goose",
+  "hexagons": 161
+ },
+ {
+  "taxon": 7018,
+  "name": "Anser anser",
+  "en": "Greylag Goose",
+  "hexagons": 70
+ },
+ {
+  "taxon": 7019,
+  "name": "Anser albifrons",
+  "en": "Greater White-fronted Goose",
+  "hexagons": 12513
+ },
+ {
+  "taxon": 7024,
+  "name": "Somateria mollissima",
+  "en": "Common Eider",
+  "hexagons": 192
+ },
+ {
+  "taxon": 7029,
+  "name": "Somateria fischeri",
+  "en": "Spectacled Eider",
+  "hexagons": 178
+ },
+ {
+  "taxon": 7030,
+  "name": "Somateria spectabilis",
+  "en": "King Eider",
+  "hexagons": 9387
+ },
+ {
+  "taxon": 7036,
+  "name": "Melanitta perspicillata",
+  "en": "Surf Scoter",
+  "hexagons": 11760
+ },
+ {
+  "taxon": 7044,
+  "name": "Aythya collaris",
+  "en": "Ring-necked Duck",
+  "hexagons": 10914
+ },
+ {
+  "taxon": 7045,
+  "name": "Aythya ferina",
+  "en": "Common Pochard",
+  "hexagons": 18
+ },
+ {
+  "taxon": 7046,
+  "name": "Aythya fuligula",
+  "en": "Tufted Duck",
+  "hexagons": 877
+ },
+ {
+  "taxon": 7047,
+  "name": "Aythya marila",
+  "en": "Greater Scaup",
+  "hexagons": 12618
+ },
+ {
+  "taxon": 7054,
+  "name": "Aythya affinis",
+  "en": "Lesser Scaup",
+  "hexagons": 11578
+ },
+ {
+  "taxon": 7055,
+  "name": "Aythya nyroca",
+  "en": "Ferruginous Duck",
+  "hexagons": 4
+ },
+ {
+  "taxon": 7056,
+  "name": "Aythya americana",
+  "en": "Redhead",
+  "hexagons": 8964
+ },
+ {
+  "taxon": 7057,
+  "name": "Aythya valisineria",
+  "en": "Canvasback",
+  "hexagons": 9649
+ },
+ {
+  "taxon": 7067,
+  "name": "Tadorna tadorna",
+  "en": "Common Shelduck",
+  "hexagons": 342
+ },
+ {
+  "taxon": 7068,
+  "name": "Tadorna ferruginea",
+  "en": "Ruddy Shelduck",
+  "hexagons": 20
+ },
+ {
+  "taxon": 7076,
+  "name": "Oxyura maccoa",
+  "en": "Maccoa Duck",
+  "hexagons": 3
+ },
+ {
+  "taxon": 7081,
+  "name": "Oxyura leucocephala",
+  "en": "White-headed Duck",
+  "hexagons": 6
+ },
+ {
+  "taxon": 7087,
+  "name": "Branta bernicla",
+  "en": "Brant",
+  "hexagons": 6986
+ },
+ {
+  "taxon": 7089,
+  "name": "Branta canadensis",
+  "en": "Canada Goose",
+  "hexagons": 7957
+ },
+ {
+  "taxon": 7101,
+  "name": "Branta leucopsis",
+  "en": "Barnacle Goose",
+  "hexagons": 1282
+ },
+ {
+  "taxon": 7102,
+  "name": "Branta ruficollis",
+  "en": "Red-breasted Goose",
+  "hexagons": 134
+ },
+ {
+  "taxon": 7106,
+  "name": "Aix galericulata",
+  "en": "Mandarin Duck",
+  "hexagons": 577
+ },
+ {
+  "taxon": 7107,
+  "name": "Aix sponsa",
+  "en": "Wood Duck",
+  "hexagons": 6932
+ },
+ {
+  "taxon": 7109,
+  "name": "Lophodytes cucullatus",
+  "en": "Hooded Merganser",
+  "hexagons": 6869
+ },
+ {
+  "taxon": 7111,
+  "name": "Histrionicus histrionicus",
+  "en": "Harlequin Duck",
+  "hexagons": 4094
+ },
+ {
+  "taxon": 7120,
+  "name": "Cairina moschata",
+  "en": "Muscovy Duck",
+  "hexagons": 326
+ },
+ {
+  "taxon": 7122,
+  "name": "Netta rufina",
+  "en": "Red-crested Pochard",
+  "hexagons": 37
+ },
+ {
+  "taxon": 7124,
+  "name": "Netta peposaca",
+  "en": "Rosy-billed Pochard",
+  "hexagons": 2
+ },
+ {
+  "taxon": 7127,
+  "name": "Nettapus auritus",
+  "en": "African Pygmy-Goose",
+  "hexagons": 49
+ },
+ {
+  "taxon": 7128,
+  "name": "Nettapus coromandelianus",
+  "en": "Cotton Pygmy-Goose",
+  "hexagons": 1
+ },
+ {
+  "taxon": 7139,
+  "name": "Marmaronetta angustirostris",
+  "en": "Marbled Duck",
+  "hexagons": 10
+ },
+ {
+  "taxon": 7160,
+  "name": "Sarkidiornis melanotos",
+  "en": "Knob-billed Duck",
+  "hexagons": 4
+ },
+ {
+  "taxon": 7164,
+  "name": "Polysticta stelleri",
+  "en": "Steller's Eider",
+  "hexagons": 672
+ },
+ {
+  "taxon": 7166,
+  "name": "Coscoroba coscoroba",
+  "en": "Coscoroba Swan",
+  "hexagons": 3
+ },
+ {
+  "taxon": 7170,
+  "name": "Clangula hyemalis",
+  "en": "Long-tailed Duck",
+  "hexagons": 24
+ },
+ {
+  "taxon": 7172,
+  "name": "Nomonyx dominicus",
+  "en": "Masked Duck",
+  "hexagons": 320
+ },
+ {
+  "taxon": 7188,
+  "name": "Callonetta leucophrys",
+  "en": "Ringed Teal",
+  "hexagons": 66
+ },
+ {
+  "taxon": 7192,
+  "name": "Mergellus albellus",
+  "en": "Smew",
+  "hexagons": 138
+ },
+ {
+  "taxon": 7227,
+  "name": "Tauraco erythrolophus",
+  "en": "Red-crested Turaco",
+  "hexagons": 33
+ },
+ {
+  "taxon": 7250,
+  "name": "Corythaeola cristata",
+  "en": "Great Blue Turaco",
+  "hexagons": 1
+ },
+ {
+  "taxon": 7266,
+  "name": "Psaltriparus minimus",
+  "en": "Bushtit",
+  "hexagons": 1984
+ },
+ {
+  "taxon": 7278,
+  "name": "Aegithalos caudatus",
+  "en": "Long-tailed Tit",
+  "hexagons": 7
+ },
+ {
+  "taxon": 7294,
+  "name": "Eremophila alpestris",
+  "en": "Horned Lark",
+  "hexagons": 12060
+ },
+ {
+  "taxon": 7347,
+  "name": "Alauda arvensis",
+  "en": "Eurasian Skylark",
+  "hexagons": 145
+ },
+ {
+  "taxon": 7428,
+  "name": "Bombycilla cedrorum",
+  "en": "Cedar Waxwing",
+  "hexagons": 8852
+ },
+ {
+  "taxon": 7429,
+  "name": "Bombycilla garrulus",
+  "en": "Bohemian Waxwing",
+  "hexagons": 6330
+ },
+ {
+  "taxon": 7450,
+  "name": "Certhia familiaris",
+  "en": "Eurasian Treecreeper",
+  "hexagons": 9
+ },
+ {
+  "taxon": 7458,
+  "name": "Certhia americana",
+  "en": "Brown Creeper",
+  "hexagons": 7671
+ },
+ {
+  "taxon": 7464,
+  "name": "Catherpes mexicanus",
+  "en": "Canyon Wren",
+  "hexagons": 2445
+ },
+ {
+  "taxon": 7469,
+  "name": "Campylorhynchus jocosus",
+  "en": "Boucard's Wren",
+  "hexagons": 59
+ },
+ {
+  "taxon": 7470,
+  "name": "Campylorhynchus brunneicapillus",
+  "en": "Cactus Wren",
+  "hexagons": 1074
+ },
+ {
+  "taxon": 7476,
+  "name": "Campylorhynchus rufinucha",
+  "en": "Veracruz Wren",
+  "hexagons": 134
+ },
+ {
+  "taxon": 7477,
+  "name": "Campylorhynchus gularis",
+  "en": "Spotted Wren",
+  "hexagons": 183
+ },
+ {
+  "taxon": 7478,
+  "name": "Campylorhynchus zonatus",
+  "en": "Band-backed Wren",
+  "hexagons": 194
+ },
+ {
+  "taxon": 7479,
+  "name": "Campylorhynchus megalopterus",
+  "en": "Gray-barred Wren",
+  "hexagons": 117
+ },
+ {
+  "taxon": 7481,
+  "name": "Campylorhynchus yucatanicus",
+  "en": "Yucatán Wren",
+  "hexagons": 30
+ },
+ {
+  "taxon": 7482,
+  "name": "Campylorhynchus chiapensis",
+  "en": "Giant Wren",
+  "hexagons": 75
+ },
+ {
+  "taxon": 7486,
+  "name": "Salpinctes obsoletus",
+  "en": "Rock Wren",
+  "hexagons": 3344
+ },
+ {
+  "taxon": 7491,
+  "name": "Polioptila nigriceps",
+  "en": "Black-capped Gnatcatcher",
+  "hexagons": 224
+ },
+ {
+  "taxon": 7493,
+  "name": "Polioptila caerulea",
+  "en": "Blue-gray Gnatcatcher",
+  "hexagons": 4965
+ },
+ {
+  "taxon": 7497,
+  "name": "Polioptila californica",
+  "en": "California Gnatcatcher",
+  "hexagons": 146
+ },
+ {
+  "taxon": 7498,
+  "name": "Polioptila melanura",
+  "en": "Black-tailed Gnatcatcher",
+  "hexagons": 665
+ },
+ {
+  "taxon": 7513,
+  "name": "Thryothorus ludovicianus",
+  "en": "Carolina Wren",
+  "hexagons": 2868
+ },
+ {
+  "taxon": 7543,
+  "name": "Troglodytes solstitialis",
+  "en": "Mountain Wren",
+  "hexagons": 2
+ },
+ {
+  "taxon": 7562,
+  "name": "Troglodytes aedon",
+  "en": "Northern House Wren",
+  "hexagons": 6745
+ },
+ {
+  "taxon": 7568,
+  "name": "Troglodytes ochraceus",
+  "en": "Ochraceous Wren",
+  "hexagons": 2
+ },
+ {
+  "taxon": 7570,
+  "name": "Troglodytes rufociliatus",
+  "en": "Rufous-browed Wren",
+  "hexagons": 21
+ },
+ {
+  "taxon": 7574,
+  "name": "Cyphorhinus phaeocephalus",
+  "en": "Song Wren",
+  "hexagons": 20
+ },
+ {
+  "taxon": 7576,
+  "name": "Thryomanes bewickii",
+  "en": "Bewick's Wren",
+  "hexagons": 2580
+ },
+ {
+  "taxon": 7596,
+  "name": "Cistothorus platensis",
+  "en": "Grass Wren",
+  "hexagons": 224
+ },
+ {
+  "taxon": 7601,
+  "name": "Cistothorus palustris",
+  "en": "Marsh Wren",
+  "hexagons": 7452
+ },
+ {
+  "taxon": 7603,
+  "name": "Auriparus flaviceps",
+  "en": "Verdin",
+  "hexagons": 1111
+ },
+ {
+  "taxon": 7613,
+  "name": "Henicorhina leucosticta",
+  "en": "White-breasted Wood-Wren",
+  "hexagons": 272
+ },
+ {
+  "taxon": 7616,
+  "name": "Uropsila leucogastra",
+  "en": "White-bellied Wren",
+  "hexagons": 284
+ },
+ {
+  "taxon": 7634,
+  "name": "Thryorchilus browni",
+  "en": "Timberline Wren",
+  "hexagons": 4
+ },
+ {
+  "taxon": 7638,
+  "name": "Microcerculus marginatus",
+  "en": "Scaly-breasted Wren",
+  "hexagons": 23
+ },
+ {
+  "taxon": 7643,
+  "name": "Cinclus mexicanus",
+  "en": "American Dipper",
+  "hexagons": 2857
+ },
+ {
+  "taxon": 7829,
+  "name": "Aphelocoma coerulescens",
+  "en": "Florida Scrub-Jay",
+  "hexagons": 60
+ },
+ {
+  "taxon": 7843,
+  "name": "Aphelocoma unicolor",
+  "en": "Unicolored Jay",
+  "hexagons": 67
+ },
+ {
+  "taxon": 7845,
+  "name": "Aphelocoma insularis",
+  "en": "Island Scrub-Jay",
+  "hexagons": 9
+ },
+ {
+  "taxon": 8001,
+  "name": "Corvus ossifragus",
+  "en": "Fish Crow",
+  "hexagons": 1321
+ },
+ {
+  "taxon": 8003,
+  "name": "Corvus cryptoleucus",
+  "en": "Chihuahuan Raven",
+  "hexagons": 952
+ },
+ {
+  "taxon": 8004,
+  "name": "Corvus albicollis",
+  "en": "White-necked Raven",
+  "hexagons": 2
+ },
+ {
+  "taxon": 8010,
+  "name": "Corvus corax",
+  "en": "Common Raven",
+  "hexagons": 11223
+ },
+ {
+  "taxon": 8020,
+  "name": "Corvus imparatus",
+  "en": "Tamaulipas Crow",
+  "hexagons": 137
+ },
+ {
+  "taxon": 8021,
+  "name": "Corvus brachyrhynchos",
+  "en": "American Crow",
+  "hexagons": 7382
+ },
+ {
+  "taxon": 8026,
+  "name": "Corvus macrorhynchos",
+  "en": "Large-billed Crow",
+  "hexagons": 28
+ },
+ {
+  "taxon": 8031,
+  "name": "Corvus splendens",
+  "en": "House Crow",
+  "hexagons": 2
+ },
+ {
+  "taxon": 8038,
+  "name": "Corvus albus",
+  "en": "Pied Crow",
+  "hexagons": 5
+ },
+ {
+  "taxon": 8052,
+  "name": "Corvus sinaloae",
+  "en": "Sinaloa Crow",
+  "hexagons": 73
+ },
+ {
+  "taxon": 8169,
+  "name": "Cyanolyca cucullata",
+  "en": "Azure-hooded Jay",
+  "hexagons": 126
+ },
+ {
+  "taxon": 8229,
+  "name": "Cyanocitta cristata",
+  "en": "Blue Jay",
+  "hexagons": 4997
+ },
+ {
+  "taxon": 8234,
+  "name": "Cyanocitta stelleri",
+  "en": "Steller's Jay",
+  "hexagons": 2937
+ },
+ {
+  "taxon": 8319,
+  "name": "Pica nuttalli",
+  "en": "Yellow-billed Magpie",
+  "hexagons": 83
+ },
+ {
+  "taxon": 8335,
+  "name": "Perisoreus canadensis",
+  "en": "Canada Jay",
+  "hexagons": 5917
+ },
+ {
+  "taxon": 8470,
+  "name": "Cyanocorax yucatanicus",
+  "en": "Yucatan Jay",
+  "hexagons": 128
+ },
+ {
+  "taxon": 8471,
+  "name": "Cyanocorax melanocyaneus",
+  "en": "Bushy-crested Jay",
+  "hexagons": 17
+ },
+ {
+  "taxon": 8473,
+  "name": "Cyanocorax sanblasianus",
+  "en": "San Blas Jay",
+  "hexagons": 192
+ },
+ {
+  "taxon": 8474,
+  "name": "Cyanocorax yncas",
+  "en": "Green Jay",
+  "hexagons": 541
+ },
+ {
+  "taxon": 8478,
+  "name": "Cyanocorax dickeyi",
+  "en": "Tufted Jay",
+  "hexagons": 48
+ },
+ {
+  "taxon": 8482,
+  "name": "Cyanocorax beecheii",
+  "en": "Purplish-backed Jay",
+  "hexagons": 131
+ },
+ {
+  "taxon": 8484,
+  "name": "Cyanocorax chrysops",
+  "en": "Plush-crested Jay",
+  "hexagons": 1
+ },
+ {
+  "taxon": 8520,
+  "name": "Nucifraga columbiana",
+  "en": "Clark's Nutcracker",
+  "hexagons": 1355
+ },
+ {
+  "taxon": 8618,
+  "name": "Gymnorhinus cyanocephalus",
+  "en": "Pinyon Jay",
+  "hexagons": 1388
+ },
+ {
+  "taxon": 8671,
+  "name": "Pachyramphus aglaiae",
+  "en": "Rose-throated Becard",
+  "hexagons": 721
+ },
+ {
+  "taxon": 8690,
+  "name": "Pachyramphus cinnamomeus",
+  "en": "Cinnamon Becard",
+  "hexagons": 70
+ },
+ {
+  "taxon": 8695,
+  "name": "Pachyramphus major",
+  "en": "Gray-collared Becard",
+  "hexagons": 630
+ },
+ {
+  "taxon": 8701,
+  "name": "Pachyramphus versicolor",
+  "en": "Barred Becard",
+  "hexagons": 8
+ },
+ {
+  "taxon": 8716,
+  "name": "Pachyramphus polychopterus",
+  "en": "White-winged Becard",
+  "hexagons": 54
+ },
+ {
+  "taxon": 8748,
+  "name": "Lipaugus unirufus",
+  "en": "Rufous Piha",
+  "hexagons": 98
+ },
+ {
+  "taxon": 8755,
+  "name": "Lipaugus vociferans",
+  "en": "Screaming Piha",
+  "hexagons": 4
+ },
+ {
+  "taxon": 8781,
+  "name": "Pipreola arcuata",
+  "en": "Barred Fruiteater",
+  "hexagons": 6
+ },
+ {
+  "taxon": 8823,
+  "name": "Tityra inquisitor",
+  "en": "Black-crowned Tityra",
+  "hexagons": 312
+ },
+ {
+  "taxon": 8834,
+  "name": "Tityra semifasciata",
+  "en": "Masked Tityra",
+  "hexagons": 552
+ },
+ {
+  "taxon": 8847,
+  "name": "Procnias tricarunculatus",
+  "en": "Three-wattled Bellbird",
+  "hexagons": 11
+ },
+ {
+  "taxon": 8877,
+  "name": "Rupicola peruvianus",
+  "en": "Andean Cock-of-the-rock",
+  "hexagons": 2
+ },
+ {
+  "taxon": 8909,
+  "name": "Cotinga cayana",
+  "en": "Spangled Cotinga",
+  "hexagons": 4
+ },
+ {
+  "taxon": 8914,
+  "name": "Cotinga amabilis",
+  "en": "Lovely Cotinga",
+  "hexagons": 125
+ },
+ {
+  "taxon": 8924,
+  "name": "Carpodectes nitidus",
+  "en": "Snowy Cotinga",
+  "hexagons": 4
+ },
+ {
+  "taxon": 9081,
+  "name": "Cardinalis sinuatus",
+  "en": "Pyrrhuloxia",
+  "hexagons": 1053
+ },
+ {
+  "taxon": 9083,
+  "name": "Cardinalis cardinalis",
+  "en": "Northern Cardinal",
+  "hexagons": 3801
+ },
+ {
+  "taxon": 9092,
+  "name": "Melospiza lincolnii",
+  "en": "Lincoln's Sparrow",
+  "hexagons": 11113
+ },
+ {
+  "taxon": 9096,
+  "name": "Melospiza georgiana",
+  "en": "Swamp Sparrow",
+  "hexagons": 7929
+ },
+ {
+  "taxon": 9100,
+  "name": "Melospiza melodia",
+  "en": "Song Sparrow",
+  "hexagons": 7584
+ },
+ {
+  "taxon": 9133,
+  "name": "Spizella wortheni",
+  "en": "Worthen's Sparrow",
+  "hexagons": 32
+ },
+ {
+  "taxon": 9135,
+  "name": "Spizella passerina",
+  "en": "Chipping Sparrow",
+  "hexagons": 8992
+ },
+ {
+  "taxon": 9139,
+  "name": "Spizella atrogularis",
+  "en": "Black-chinned Sparrow",
+  "hexagons": 1248
+ },
+ {
+  "taxon": 9144,
+  "name": "Spizella breweri",
+  "en": "Brewer's Sparrow",
+  "hexagons": 2862
+ },
+ {
+  "taxon": 9148,
+  "name": "Spizella pallida",
+  "en": "Clay-colored Sparrow",
+  "hexagons": 7824
+ },
+ {
+  "taxon": 9152,
+  "name": "Spizella pusilla",
+  "en": "Field Sparrow",
+  "hexagons": 2997
+ },
+ {
+  "taxon": 9156,
+  "name": "Passerella iliaca",
+  "en": "Fox Sparrow",
+  "hexagons": 10661
+ },
+ {
+  "taxon": 9176,
+  "name": "Zonotrichia leucophrys",
+  "en": "White-crowned Sparrow",
+  "hexagons": 12390
+ },
+ {
+  "taxon": 9182,
+  "name": "Zonotrichia querula",
+  "en": "Harris's Sparrow",
+  "hexagons": 9942
+ },
+ {
+  "taxon": 9183,
+  "name": "Zonotrichia capensis",
+  "en": "Rufous-collared Sparrow",
+  "hexagons": 29
+ },
+ {
+  "taxon": 9184,
+  "name": "Zonotrichia albicollis",
+  "en": "White-throated Sparrow",
+  "hexagons": 9784
+ },
+ {
+  "taxon": 9185,
+  "name": "Zonotrichia atricapilla",
+  "en": "Golden-crowned Sparrow",
+  "hexagons": 2694
+ },
+ {
+  "taxon": 9188,
+  "name": "Emberiza rustica",
+  "en": "Rustic Bunting",
+  "hexagons": 114
+ },
+ {
+  "taxon": 9191,
+  "name": "Emberiza pallasi",
+  "en": "Pallas's Bunting",
+  "hexagons": 53
+ },
+ {
+  "taxon": 9197,
+  "name": "Emberiza pusilla",
+  "en": "Little Bunting",
+  "hexagons": 199
+ },
+ {
+  "taxon": 9199,
+  "name": "Emberiza variabilis",
+  "en": "Grey Bunting",
+  "hexagons": 32
+ },
+ {
+  "taxon": 9201,
+  "name": "Emberiza schoeniclus",
+  "en": "Reed Bunting",
+  "hexagons": 98
+ },
+ {
+  "taxon": 9212,
+  "name": "Emberiza aureola",
+  "en": "Yellow-breasted Bunting",
+  "hexagons": 157,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 9246,
+  "name": "Serinus canaria",
+  "en": "Island Canary",
+  "hexagons": 4599
+ },
+ {
+  "taxon": 9278,
+  "name": "Iridosornis rufivertex",
+  "en": "Golden-crowned Tanager",
+  "hexagons": 1
+ },
+ {
+  "taxon": 9287,
+  "name": "Euphonia hirundinacea",
+  "en": "Yellow-throated Euphonia",
+  "hexagons": 276
+ },
+ {
+  "taxon": 9289,
+  "name": "Euphonia gouldi",
+  "en": "Olive-backed Euphonia",
+  "hexagons": 61
+ },
+ {
+  "taxon": 9291,
+  "name": "Euphonia affinis",
+  "en": "Scrub Euphonia",
+  "hexagons": 360
+ },
+ {
+  "taxon": 9293,
+  "name": "Euphonia minuta",
+  "en": "White-vented Euphonia",
+  "hexagons": 33
+ },
+ {
+  "taxon": 9312,
+  "name": "Peucedramus taeniatus",
+  "en": "Olive Warbler",
+  "hexagons": 480
+ },
+ {
+  "taxon": 9317,
+  "name": "Icterus wagleri",
+  "en": "Black-vented Oriole",
+  "hexagons": 500
+ },
+ {
+  "taxon": 9318,
+  "name": "Icterus parisorum",
+  "en": "Scott's Oriole",
+  "hexagons": 1503
+ },
+ {
+  "taxon": 9319,
+  "name": "Icterus cucullatus",
+  "en": "Hooded Oriole",
+  "hexagons": 1614
+ },
+ {
+  "taxon": 9325,
+  "name": "Icterus spurius",
+  "en": "Orchard Oriole",
+  "hexagons": 4830
+ },
+ {
+  "taxon": 9328,
+  "name": "Icterus graduacauda",
+  "en": "Audubon's Oriole",
+  "hexagons": 467
+ },
+ {
+  "taxon": 9332,
+  "name": "Icterus auratus",
+  "en": "Orange Oriole",
+  "hexagons": 112
+ },
+ {
+  "taxon": 9333,
+  "name": "Icterus pectoralis",
+  "en": "Spot-breasted Oriole",
+  "hexagons": 147
+ },
+ {
+  "taxon": 9336,
+  "name": "Icterus pustulatus",
+  "en": "Streak-backed Oriole",
+  "hexagons": 657
+ },
+ {
+  "taxon": 9339,
+  "name": "Icterus gularis",
+  "en": "Altamira Oriole",
+  "hexagons": 377
+ },
+ {
+  "taxon": 9342,
+  "name": "Icterus abeillei",
+  "en": "Black-backed Oriole",
+  "hexagons": 200
+ },
+ {
+  "taxon": 9345,
+  "name": "Icterus icterus",
+  "en": "Venezuelan Troupial",
+  "hexagons": 7
+ },
+ {
+  "taxon": 9346,
+  "name": "Icterus galbula",
+  "en": "Baltimore Oriole",
+  "hexagons": 4762
+ },
+ {
+  "taxon": 9350,
+  "name": "Icterus mesomelas",
+  "en": "Yellow-tailed Oriole",
+  "hexagons": 217
+ },
+ {
+  "taxon": 9351,
+  "name": "Icterus chrysater",
+  "en": "Yellow-backed Oriole",
+  "hexagons": 133
+ },
+ {
+  "taxon": 9354,
+  "name": "Icterus maculialatus",
+  "en": "Bar-winged Oriole",
+  "hexagons": 29
+ },
+ {
+  "taxon": 9357,
+  "name": "Icterus bullockii",
+  "en": "Bullock's Oriole",
+  "hexagons": 3516
+ },
+ {
+  "taxon": 9398,
+  "name": "Carduelis carduelis",
+  "en": "European Goldfinch",
+  "hexagons": 121
+ },
+ {
+  "taxon": 9419,
+  "name": "Pipilo chlorurus",
+  "en": "Green-tailed Towhee",
+  "hexagons": 2456
+ },
+ {
+  "taxon": 9420,
+  "name": "Pipilo maculatus",
+  "en": "Spotted Towhee",
+  "hexagons": 3700
+ },
+ {
+  "taxon": 9424,
+  "name": "Pipilo erythrophthalmus",
+  "en": "Eastern Towhee",
+  "hexagons": 3518
+ },
+ {
+  "taxon": 9445,
+  "name": "Pipilo ocai",
+  "en": "Collared Towhee",
+  "hexagons": 188
+ },
+ {
+  "taxon": 9449,
+  "name": "Myioborus torquatus",
+  "en": "Collared Redstart",
+  "hexagons": 2
+ },
+ {
+  "taxon": 9457,
+  "name": "Myioborus miniatus",
+  "en": "Slate-throated Redstart",
+  "hexagons": 502
+ },
+ {
+  "taxon": 9458,
+  "name": "Myioborus pictus",
+  "en": "Painted Redstart",
+  "hexagons": 1065
+ },
+ {
+  "taxon": 9462,
+  "name": "Pyrrhula pyrrhula",
+  "en": "Eurasian Bullfinch",
+  "hexagons": 37
+ },
+ {
+  "taxon": 9492,
+  "name": "Sporophila minuta",
+  "en": "Ruddy-breasted Seedeater",
+  "hexagons": 208
+ },
+ {
+  "taxon": 9519,
+  "name": "Cyanocompsa parellina",
+  "en": "Blue Bunting",
+  "hexagons": 460
+ },
+ {
+  "taxon": 9523,
+  "name": "Melozone kieneri",
+  "en": "Rusty-crowned Ground-Sparrow",
+  "hexagons": 195
+ },
+ {
+  "taxon": 9524,
+  "name": "Melozone leucotis",
+  "en": "White-eared Ground-Sparrow",
+  "hexagons": 18
+ },
+ {
+  "taxon": 9528,
+  "name": "Sturnella magna",
+  "en": "Eastern Meadowlark",
+  "hexagons": 3489
+ },
+ {
+  "taxon": 9535,
+  "name": "Sturnella neglecta",
+  "en": "Western Meadowlark",
+  "hexagons": 4280
+ },
+ {
+  "taxon": 9556,
+  "name": "Tangara gyrola",
+  "en": "Bay-headed Tanager",
+  "hexagons": 4
+ },
+ {
+  "taxon": 9559,
+  "name": "Tangara velia",
+  "en": "Opal-rumped Tanager",
+  "hexagons": 4
+ },
+ {
+  "taxon": 9572,
+  "name": "Tangara lavinia",
+  "en": "Rufous-winged Tanager",
+  "hexagons": 49
+ },
+ {
+  "taxon": 9593,
+  "name": "Tangara chilensis",
+  "en": "Paradise Tanager",
+  "hexagons": 1
+ },
+ {
+  "taxon": 9601,
+  "name": "Quiscalus major",
+  "en": "Boat-tailed Grackle",
+  "hexagons": 418
+ },
+ {
+  "taxon": 9602,
+  "name": "Quiscalus quiscula",
+  "en": "Common Grackle",
+  "hexagons": 5564
+ },
+ {
+  "taxon": 9607,
+  "name": "Quiscalus mexicanus",
+  "en": "Great-tailed Grackle",
+  "hexagons": 3239
+ },
+ {
+  "taxon": 9609,
+  "name": "Quiscalus niger",
+  "en": "Greater Antillean Grackle",
+  "hexagons": 17
+ },
+ {
+  "taxon": 9611,
+  "name": "Leucosticte atrata",
+  "en": "Black Rosy-Finch",
+  "hexagons": 650
+ },
+ {
+  "taxon": 9612,
+  "name": "Leucosticte australis",
+  "en": "Brown-capped Rosy-Finch",
+  "hexagons": 208
+ },
+ {
+  "taxon": 9614,
+  "name": "Leucosticte arctoa",
+  "en": "Asian Rosy-Finch",
+  "hexagons": 45
+ },
+ {
+  "taxon": 9617,
+  "name": "Leucosticte tephrocotis",
+  "en": "Gray-crowned Rosy-Finch",
+  "hexagons": 2951
+ },
+ {
+  "taxon": 9625,
+  "name": "Granatellus venustus",
+  "en": "Red-breasted Chat",
+  "hexagons": 265
+ },
+ {
+  "taxon": 9626,
+  "name": "Granatellus sallaei",
+  "en": "Gray-throated Chat",
+  "hexagons": 110
+ },
+ {
+  "taxon": 9639,
+  "name": "Carpodacus erythrinus",
+  "en": "Common Rosefinch",
+  "hexagons": 202
+ },
+ {
+  "taxon": 9715,
+  "name": "Geothlypis poliocephala",
+  "en": "Gray-crowned Yellowthroat",
+  "hexagons": 478
+ },
+ {
+  "taxon": 9718,
+  "name": "Geothlypis speciosa",
+  "en": "Black-polled Yellowthroat",
+  "hexagons": 22
+ },
+ {
+  "taxon": 9719,
+  "name": "Geothlypis flavovelata",
+  "en": "Altamira Yellowthroat",
+  "hexagons": 57
+ },
+ {
+  "taxon": 9721,
+  "name": "Geothlypis trichas",
+  "en": "Common Yellowthroat",
+  "hexagons": 8968
+ },
+ {
+  "taxon": 9734,
+  "name": "Geothlypis nelsoni",
+  "en": "Hooded Yellowthroat",
+  "hexagons": 199
+ },
+ {
+  "taxon": 9735,
+  "name": "Geothlypis beldingi",
+  "en": "Belding's Yellowthroat",
+  "hexagons": 45
+ },
+ {
+  "taxon": 9743,
+  "name": "Agelaius tricolor",
+  "en": "Tricolored Blackbird",
+  "hexagons": 550
+ },
+ {
+  "taxon": 9744,
+  "name": "Agelaius phoeniceus",
+  "en": "Red-winged Blackbird",
+  "hexagons": 7980
+ },
+ {
+  "taxon": 9771,
+  "name": "Pinicola enucleator",
+  "en": "Pine Grosbeak",
+  "hexagons": 7181
+ },
+ {
+  "taxon": 9801,
+  "name": "Coccothraustes coccothraustes",
+  "en": "Hawfinch",
+  "hexagons": 437
+ },
+ {
+  "taxon": 9807,
+  "name": "Vermivora chrysoptera",
+  "en": "Golden-winged Warbler",
+  "hexagons": 4179
+ },
+ {
+  "taxon": 9832,
+  "name": "Diglossa plumbea",
+  "en": "Slaty Flowerpiercer",
+  "hexagons": 1
+ },
+ {
+  "taxon": 9833,
+  "name": "Diglossa baritula",
+  "en": "Cinnamon-bellied Flowerpiercer",
+  "hexagons": 202
+ },
+ {
+  "taxon": 9854,
+  "name": "Saltator atriceps",
+  "en": "Black-headed Saltator",
+  "hexagons": 254
+ },
+ {
+  "taxon": 9855,
+  "name": "Saltator maximus",
+  "en": "Buff-throated Saltator",
+  "hexagons": 167
+ },
+ {
+  "taxon": 9864,
+  "name": "Sicalis flaveola",
+  "en": "Saffron Finch",
+  "hexagons": 2
+ },
+ {
+  "taxon": 9869,
+  "name": "Sicalis luteola",
+  "en": "Grassland Yellow-Finch",
+  "hexagons": 59
+ },
+ {
+  "taxon": 9915,
+  "name": "Piranga rubra",
+  "en": "Summer Tanager",
+  "hexagons": 5428
+ },
+ {
+  "taxon": 9918,
+  "name": "Piranga roseogularis",
+  "en": "Rose-throated Tanager",
+  "hexagons": 97
+ },
+ {
+  "taxon": 9919,
+  "name": "Piranga ludoviciana",
+  "en": "Western Tanager",
+  "hexagons": 5460
+ },
+ {
+  "taxon": 9920,
+  "name": "Piranga leucoptera",
+  "en": "White-winged Tanager",
+  "hexagons": 171
+ },
+ {
+  "taxon": 9921,
+  "name": "Piranga olivacea",
+  "en": "Scarlet Tanager",
+  "hexagons": 3145
+ },
+ {
+  "taxon": 9922,
+  "name": "Piranga bidentata",
+  "en": "Flame-colored Tanager",
+  "hexagons": 786
+ },
+ {
+  "taxon": 9923,
+  "name": "Piranga erythrocephala",
+  "en": "Red-headed Tanager",
+  "hexagons": 309
+ },
+ {
+  "taxon": 9924,
+  "name": "Piranga flava",
+  "en": "Hepatic Tanager",
+  "hexagons": 1250
+ },
+ {
+  "taxon": 9935,
+  "name": "Habia rubica",
+  "en": "Red-crowned Ant-Tanager",
+  "hexagons": 437
+ },
+ {
+  "taxon": 9943,
+  "name": "Amphispiza bilineata",
+  "en": "Black-throated Sparrow",
+  "hexagons": 1929
+ },
+ {
+  "taxon": 9958,
+  "name": "Aimophila ruficeps",
+  "en": "Rufous-crowned Sparrow",
+  "hexagons": 1487
+ },
+ {
+  "taxon": 9972,
+  "name": "Aimophila notosticta",
+  "en": "Oaxaca Sparrow",
+  "hexagons": 18
+ },
+ {
+  "taxon": 9978,
+  "name": "Aimophila rufescens",
+  "en": "Rusty Sparrow",
+  "hexagons": 434
+ },
+ {
+  "taxon": 9981,
+  "name": "Passerculus sandwichensis",
+  "en": "Savannah Sparrow",
+  "hexagons": 12175
+ },
+ {
+  "taxon": 10001,
+  "name": "Dives dives",
+  "en": "Melodious Blackbird",
+  "hexagons": 287
+ },
+ {
+  "taxon": 10023,
+  "name": "Basileuterus culicivorus",
+  "en": "Golden-crowned Warbler",
+  "hexagons": 389
+ },
+ {
+  "taxon": 10025,
+  "name": "Basileuterus belli",
+  "en": "Golden-browed Warbler",
+  "hexagons": 346
+ },
+ {
+  "taxon": 10027,
+  "name": "Basileuterus melanogenys",
+  "en": "Black-cheeked Warbler",
+  "hexagons": 4
+ },
+ {
+  "taxon": 10045,
+  "name": "Basileuterus rufifrons",
+  "en": "Rufous-capped Warbler",
+  "hexagons": 570
+ },
+ {
+  "taxon": 10054,
+  "name": "Ramphocelus sanguinolentus",
+  "en": "Crimson-collared Tanager",
+  "hexagons": 148
+ },
+ {
+  "taxon": 10066,
+  "name": "Arremon aurantiirostris",
+  "en": "Orange-billed Sparrow",
+  "hexagons": 42
+ },
+ {
+  "taxon": 10069,
+  "name": "Fringilla montifringilla",
+  "en": "Brambling",
+  "hexagons": 896
+ },
+ {
+  "taxon": 10070,
+  "name": "Fringilla coelebs",
+  "en": "Common Chaffinch",
+  "hexagons": 2
+ },
+ {
+  "taxon": 10074,
+  "name": "Tachyphonus delatrii",
+  "en": "Tawny-crested Tanager",
+  "hexagons": 2
+ },
+ {
+  "taxon": 10094,
+  "name": "Junco hyemalis",
+  "en": "Dark-eyed Junco",
+  "hexagons": 9193
+ },
+ {
+  "taxon": 10115,
+  "name": "Junco vulcani",
+  "en": "Volcano Junco",
+  "hexagons": 1
+ },
+ {
+  "taxon": 10118,
+  "name": "Cardellina rubrifrons",
+  "en": "Red-faced Warbler",
+  "hexagons": 482
+ },
+ {
+  "taxon": 10125,
+  "name": "Psarocolius wagleri",
+  "en": "Chestnut-headed Oropendola",
+  "hexagons": 164
+ },
+ {
+  "taxon": 10139,
+  "name": "Ammodramus savannarum",
+  "en": "Grasshopper Sparrow",
+  "hexagons": 6217
+ },
+ {
+  "taxon": 10168,
+  "name": "Pooecetes gramineus",
+  "en": "Vesper Sparrow",
+  "hexagons": 7286
+ },
+ {
+  "taxon": 10173,
+  "name": "Arremonops rufivirgatus",
+  "en": "Olive Sparrow",
+  "hexagons": 428
+ },
+ {
+  "taxon": 10175,
+  "name": "Arremonops conirostris",
+  "en": "Black-striped Sparrow",
+  "hexagons": 3
+ },
+ {
+  "taxon": 10176,
+  "name": "Arremonops chloronotus",
+  "en": "Green-backed Sparrow",
+  "hexagons": 173
+ },
+ {
+  "taxon": 10188,
+  "name": "Anisognathus igniventris",
+  "en": "Scarlet-bellied Mountain-Tanager",
+  "hexagons": 3
+ },
+ {
+  "taxon": 10199,
+  "name": "Coereba flaveola",
+  "en": "Bananaquit",
+  "hexagons": 205
+ },
+ {
+  "taxon": 10212,
+  "name": "Chlorospingus pileatus",
+  "en": "Sooty-capped Chlorospingus",
+  "hexagons": 4
+ },
+ {
+  "taxon": 10224,
+  "name": "Passerina ciris",
+  "en": "Painted Bunting",
+  "hexagons": 2430
+ },
+ {
+  "taxon": 10227,
+  "name": "Passerina cyanea",
+  "en": "Indigo Bunting",
+  "hexagons": 5030
+ },
+ {
+  "taxon": 10228,
+  "name": "Passerina versicolor",
+  "en": "Varied Bunting",
+  "hexagons": 1025
+ },
+ {
+  "taxon": 10232,
+  "name": "Passerina leclancherii",
+  "en": "Orange-breasted Bunting",
+  "hexagons": 213
+ },
+ {
+  "taxon": 10233,
+  "name": "Passerina rositae",
+  "en": "Rose-bellied Bunting",
+  "hexagons": 97
+ },
+ {
+  "taxon": 10234,
+  "name": "Passerina amoena",
+  "en": "Lazuli Bunting",
+  "hexagons": 3633
+ },
+ {
+  "taxon": 10243,
+  "name": "Icteria virens",
+  "en": "Yellow-breasted Chat",
+  "hexagons": 5602
+ },
+ {
+  "taxon": 10247,
+  "name": "Setophaga ruticilla",
+  "en": "American Redstart",
+  "hexagons": 8081
+ },
+ {
+  "taxon": 10254,
+  "name": "Paroaria coronata",
+  "en": "Red-crested Cardinal",
+  "hexagons": 21
+ },
+ {
+  "taxon": 10257,
+  "name": "Paroaria capitata",
+  "en": "Yellow-billed Cardinal",
+  "hexagons": 4
+ },
+ {
+  "taxon": 10261,
+  "name": "Cyanerpes caeruleus",
+  "en": "Purple Honeycreeper",
+  "hexagons": 2
+ },
+ {
+  "taxon": 10262,
+  "name": "Cyanerpes cyaneus",
+  "en": "Red-legged Honeycreeper",
+  "hexagons": 478
+ },
+ {
+  "taxon": 10264,
+  "name": "Cyanerpes lucidus",
+  "en": "Shining Honeycreeper",
+  "hexagons": 9
+ },
+ {
+  "taxon": 10266,
+  "name": "Melopyrrha nigra",
+  "en": "Cuban Bullfinch",
+  "hexagons": 1
+ },
+ {
+  "taxon": 10271,
+  "name": "Pheucticus ludovicianus",
+  "en": "Rose-breasted Grosbeak",
+  "hexagons": 6518
+ },
+ {
+  "taxon": 10272,
+  "name": "Pheucticus tibialis",
+  "en": "Black-thighed Grosbeak",
+  "hexagons": 4
+ },
+ {
+  "taxon": 10274,
+  "name": "Pheucticus melanocephalus",
+  "en": "Black-headed Grosbeak",
+  "hexagons": 3616
+ },
+ {
+  "taxon": 10277,
+  "name": "Pheucticus chrysopeplus",
+  "en": "Yellow Grosbeak",
+  "hexagons": 430
+ },
+ {
+  "taxon": 10286,
+  "name": "Mniotilta varia",
+  "en": "Black-and-white Warbler",
+  "hexagons": 6442
+ },
+ {
+  "taxon": 10288,
+  "name": "Volatinia jacarina",
+  "en": "Blue-black Grassquit",
+  "hexagons": 642
+ },
+ {
+  "taxon": 10294,
+  "name": "Thraupis abbas",
+  "en": "Yellow-winged Tanager",
+  "hexagons": 282
+ },
+ {
+  "taxon": 10295,
+  "name": "Thraupis episcopus",
+  "en": "Blue-gray Tanager",
+  "hexagons": 375
+ },
+ {
+  "taxon": 10322,
+  "name": "Euphagus carolinus",
+  "en": "Rusty Blackbird",
+  "hexagons": 11076
+ },
+ {
+  "taxon": 10325,
+  "name": "Euphagus cyanocephalus",
+  "en": "Brewer's Blackbird",
+  "hexagons": 5319
+ },
+ {
+  "taxon": 10331,
+  "name": "Atlapetes pileatus",
+  "en": "Rufous-capped Brushfinch",
+  "hexagons": 336
+ },
+ {
+  "taxon": 10345,
+  "name": "Atlapetes albinucha",
+  "en": "White-naped Brushfinch",
+  "hexagons": 79
+ },
+ {
+  "taxon": 10359,
+  "name": "Cacicus cela",
+  "en": "Yellow-rumped Cacique",
+  "hexagons": 5
+ },
+ {
+  "taxon": 10369,
+  "name": "Molothrus aeneus",
+  "en": "Bronzed Cowbird",
+  "hexagons": 1672
+ },
+ {
+  "taxon": 10371,
+  "name": "Molothrus bonariensis",
+  "en": "Shiny Cowbird",
+  "hexagons": 94
+ },
+ {
+  "taxon": 10373,
+  "name": "Molothrus ater",
+  "en": "Brown-headed Cowbird",
+  "hexagons": 8002
+ },
+ {
+  "taxon": 10381,
+  "name": "Buthraupis montana",
+  "en": "Hooded Mountain-Tanager",
+  "hexagons": 9
+ },
+ {
+  "taxon": 10411,
+  "name": "Loxia curvirostra",
+  "en": "Red Crossbill",
+  "hexagons": 7910
+ },
+ {
+  "taxon": 10423,
+  "name": "Loxia leucoptera",
+  "en": "White-winged Crossbill",
+  "hexagons": 8560
+ },
+ {
+  "taxon": 10426,
+  "name": "Amblycercus holosericeus",
+  "en": "Yellow-billed Cacique",
+  "hexagons": 274
+ },
+ {
+  "taxon": 10431,
+  "name": "Oporornis agilis",
+  "en": "Connecticut Warbler",
+  "hexagons": 3290
+ },
+ {
+  "taxon": 10440,
+  "name": "Pezopetes capitalis",
+  "en": "Large-footed Finch",
+  "hexagons": 2
+ },
+ {
+  "taxon": 10442,
+  "name": "Limnothlypis swainsonii",
+  "en": "Swainson's Warbler",
+  "hexagons": 1662
+ },
+ {
+  "taxon": 10446,
+  "name": "Euthlypis lachrymosa",
+  "en": "Fan-tailed Warbler",
+  "hexagons": 648,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 10459,
+  "name": "Chlorophonia occipitalis",
+  "en": "Blue-crowned Chlorophonia",
+  "hexagons": 84
+ },
+ {
+  "taxon": 10470,
+  "name": "Xanthocephalus xanthocephalus",
+  "en": "Yellow-headed Blackbird",
+  "hexagons": 6645
+ },
+ {
+  "taxon": 10479,
+  "name": "Chondestes grammacus",
+  "en": "Lark Sparrow",
+  "hexagons": 5724
+ },
+ {
+  "taxon": 10483,
+  "name": "Rhodinocichla rosea",
+  "en": "Rosy Thrush-Tanager",
+  "hexagons": 57
+ },
+ {
+  "taxon": 10485,
+  "name": "Chlorophanes spiza",
+  "en": "Green Honeycreeper",
+  "hexagons": 144
+ },
+ {
+  "taxon": 10487,
+  "name": "Dolichonyx oryzivorus",
+  "en": "Bobolink",
+  "hexagons": 6471
+ },
+ {
+  "taxon": 10493,
+  "name": "Caryothraustes poliogaster",
+  "en": "Black-faced Grosbeak",
+  "hexagons": 137
+ },
+ {
+  "taxon": 10520,
+  "name": "Cnemoscopus rubrirostris",
+  "en": "Pink-billed Cnemoscopus",
+  "hexagons": 8
+ },
+ {
+  "taxon": 10539,
+  "name": "Catamenia homochroa",
+  "en": "Paramo Seedeater",
+  "hexagons": 12
+ },
+ {
+  "taxon": 10558,
+  "name": "Chlorothraupis carmioli",
+  "en": "Carmiol's Tanager",
+  "hexagons": 23
+ },
+ {
+  "taxon": 10568,
+  "name": "Lanio aurantius",
+  "en": "Black-throated Shrike-Tanager",
+  "hexagons": 48
+ },
+ {
+  "taxon": 10585,
+  "name": "Calamospiza melanocorys",
+  "en": "Lark Bunting",
+  "hexagons": 2598
+ },
+ {
+  "taxon": 10611,
+  "name": "Mitrospingus cassinii",
+  "en": "Dusky-faced Tanager",
+  "hexagons": 303
+ },
+ {
+  "taxon": 10643,
+  "name": "Xenospiza baileyi",
+  "en": "Sierra Madre Sparrow",
+  "hexagons": 18
+ },
+ {
+  "taxon": 10665,
+  "name": "Zeledonia coronata",
+  "en": "Wrenthrush",
+  "hexagons": 6
+ },
+ {
+  "taxon": 10676,
+  "name": "Spiza americana",
+  "en": "Dickcissel",
+  "hexagons": 5750
+ },
+ {
+  "taxon": 10698,
+  "name": "Eucometis penicillata",
+  "en": "Gray-headed Tanager",
+  "hexagons": 183
+ },
+ {
+  "taxon": 10702,
+  "name": "Oriturus superciliosus",
+  "en": "Striped Sparrow",
+  "hexagons": 244
+ },
+ {
+  "taxon": 10729,
+  "name": "Protonotaria citrea",
+  "en": "Prothonotary Warbler",
+  "hexagons": 3803
+ },
+ {
+  "taxon": 10731,
+  "name": "Spindalis zena",
+  "en": "Western Spindalis",
+  "hexagons": 29
+ },
+ {
+  "taxon": 10780,
+  "name": "Thripadectes rufobrunneus",
+  "en": "Streak-breasted Treehunter",
+  "hexagons": 2
+ },
+ {
+  "taxon": 10834,
+  "name": "Xiphocolaptes promeropirhynchus",
+  "en": "Strong-billed Woodcreeper",
+  "hexagons": 106
+ },
+ {
+  "taxon": 10871,
+  "name": "Dendrocincla homochroa",
+  "en": "Ruddy Woodcreeper",
+  "hexagons": 255
+ },
+ {
+  "taxon": 10876,
+  "name": "Dendrocincla anabatina",
+  "en": "Tawny-winged Woodcreeper",
+  "hexagons": 131
+ },
+ {
+  "taxon": 10879,
+  "name": "Dendrocincla tyrannina",
+  "en": "Tyrannine Woodcreeper",
+  "hexagons": 7
+ },
+ {
+  "taxon": 10944,
+  "name": "Synallaxis erythrothorax",
+  "en": "Rufous-breasted Spinetail",
+  "hexagons": 186
+ },
+ {
+  "taxon": 10969,
+  "name": "Synallaxis brachyura",
+  "en": "Slaty Spinetail",
+  "hexagons": 78
+ },
+ {
+  "taxon": 11026,
+  "name": "Xiphorhynchus erythropygius",
+  "en": "Spotted Woodcreeper",
+  "hexagons": 58
+ },
+ {
+  "taxon": 11051,
+  "name": "Xiphorhynchus flavigaster",
+  "en": "Ivory-billed Woodcreeper",
+  "hexagons": 436
+ },
+ {
+  "taxon": 11063,
+  "name": "Xiphorhynchus susurrans",
+  "en": "Cocoa Woodcreeper",
+  "hexagons": 13
+ },
+ {
+  "taxon": 11126,
+  "name": "Dendrocolaptes sanctithomae",
+  "en": "Northern Barred-Woodcreeper",
+  "hexagons": 250
+ },
+ {
+  "taxon": 11131,
+  "name": "Dendrocolaptes picumnus",
+  "en": "Black-banded Woodcreeper",
+  "hexagons": 31
+ },
+ {
+  "taxon": 11178,
+  "name": "Premnoplex brunnescens",
+  "en": "Spotted Barbtail",
+  "hexagons": 28
+ },
+ {
+  "taxon": 11218,
+  "name": "Cranioleuca erythrops",
+  "en": "Red-faced Spinetail",
+  "hexagons": 1
+ },
+ {
+  "taxon": 11410,
+  "name": "Glyphorynchus spirurus",
+  "en": "Wedge-billed Woodcreeper",
+  "hexagons": 149
+ },
+ {
+  "taxon": 11426,
+  "name": "Xenops rutilans",
+  "en": "Streaked Xenops",
+  "hexagons": 1
+ },
+ {
+  "taxon": 11458,
+  "name": "Syndactyla subalaris",
+  "en": "Lineated Foliage-gleaner",
+  "hexagons": 2
+ },
+ {
+  "taxon": 11511,
+  "name": "Sittasomus griseicapillus",
+  "en": "Olivaceous Woodcreeper",
+  "hexagons": 369
+ },
+ {
+  "taxon": 11553,
+  "name": "Lepidocolaptes souleyetii",
+  "en": "Streak-headed Woodcreeper",
+  "hexagons": 191
+ },
+ {
+  "taxon": 11562,
+  "name": "Lepidocolaptes affinis",
+  "en": "Spot-crowned Woodcreeper",
+  "hexagons": 120
+ },
+ {
+  "taxon": 11586,
+  "name": "Lepidocolaptes leucogaster",
+  "en": "White-striped Woodcreeper",
+  "hexagons": 357
+ },
+ {
+  "taxon": 11634,
+  "name": "Sclerurus mexicanus",
+  "en": "Middle American Leaftosser",
+  "hexagons": 59
+ },
+ {
+  "taxon": 11649,
+  "name": "Sclerurus guatemalensis",
+  "en": "Scaly-throated Leaftosser",
+  "hexagons": 42
+ },
+ {
+  "taxon": 11682,
+  "name": "Leptasthenura andicola",
+  "en": "Andean Tit-Spinetail",
+  "hexagons": 7
+ },
+ {
+  "taxon": 11724,
+  "name": "Anabacerthia variegaticeps",
+  "en": "Scaly-throated Foliage-gleaner",
+  "hexagons": 198
+ },
+ {
+  "taxon": 11739,
+  "name": "Hellmayrea gularis",
+  "en": "White-browed Spinetail",
+  "hexagons": 2
+ },
+ {
+  "taxon": 11855,
+  "name": "Petrochelidon fulva",
+  "en": "Cave Swallow",
+  "hexagons": 1571
+ },
+ {
+  "taxon": 11858,
+  "name": "Petrochelidon pyrrhonota",
+  "en": "Cliff Swallow",
+  "hexagons": 12246
+ },
+ {
+  "taxon": 11867,
+  "name": "Progne subis",
+  "en": "Purple Martin",
+  "hexagons": 5965
+ },
+ {
+  "taxon": 11872,
+  "name": "Progne chalybea",
+  "en": "Gray-breasted Martin",
+  "hexagons": 393
+ },
+ {
+  "taxon": 11876,
+  "name": "Delichon dasypus",
+  "en": "Asian House Martin",
+  "hexagons": 13
+ },
+ {
+  "taxon": 11901,
+  "name": "Hirundo rustica",
+  "en": "Barn Swallow",
+  "hexagons": 141
+ },
+ {
+  "taxon": 11930,
+  "name": "Tachycineta albilinea",
+  "en": "Mangrove Swallow",
+  "hexagons": 432
+ },
+ {
+  "taxon": 11931,
+  "name": "Tachycineta thalassina",
+  "en": "Violet-green Swallow",
+  "hexagons": 4599
+ },
+ {
+  "taxon": 11935,
+  "name": "Tachycineta bicolor",
+  "en": "Tree Swallow",
+  "hexagons": 11411
+ },
+ {
+  "taxon": 11941,
+  "name": "Riparia riparia",
+  "en": "Bank Swallow",
+  "hexagons": 12779
+ },
+ {
+  "taxon": 11970,
+  "name": "Stelgidopteryx serripennis",
+  "en": "Northern Rough-winged Swallow",
+  "hexagons": 6690
+ },
+ {
+  "taxon": 12024,
+  "name": "Lanius ludovicianus",
+  "en": "Loggerhead Shrike",
+  "hexagons": 5156
+ },
+ {
+  "taxon": 12707,
+  "name": "Turdus pilaris",
+  "en": "Fieldfare",
+  "hexagons": 2
+ },
+ {
+  "taxon": 12711,
+  "name": "Turdus assimilis",
+  "en": "White-throated Thrush",
+  "hexagons": 645
+ },
+ {
+  "taxon": 12712,
+  "name": "Turdus plebejus",
+  "en": "Mountain Thrush",
+  "hexagons": 21
+ },
+ {
+  "taxon": 12714,
+  "name": "Turdus rufopalliatus",
+  "en": "Rufous-backed Robin",
+  "hexagons": 697
+ },
+ {
+  "taxon": 12716,
+  "name": "Turdus merula",
+  "en": "Eurasian Blackbird",
+  "hexagons": 22
+ },
+ {
+  "taxon": 12718,
+  "name": "Turdus plumbeus",
+  "en": "Western Red-legged Thrush",
+  "hexagons": 2
+ },
+ {
+  "taxon": 12720,
+  "name": "Turdus grayi",
+  "en": "Clay-colored Thrush",
+  "hexagons": 581
+ },
+ {
+  "taxon": 12727,
+  "name": "Turdus migratorius",
+  "en": "American Robin",
+  "hexagons": 9337
+ },
+ {
+  "taxon": 12741,
+  "name": "Turdus chrysolaus",
+  "en": "Brown-headed Thrush",
+  "hexagons": 56
+ },
+ {
+  "taxon": 12748,
+  "name": "Turdus philomelos",
+  "en": "Song Thrush",
+  "hexagons": 10
+ },
+ {
+  "taxon": 12749,
+  "name": "Turdus iliacus",
+  "en": "Redwing",
+  "hexagons": 176
+ },
+ {
+  "taxon": 12757,
+  "name": "Turdus infuscatus",
+  "en": "Black Thrush",
+  "hexagons": 62
+ },
+ {
+  "taxon": 12764,
+  "name": "Turdus rufitorques",
+  "en": "Rufous-collared Robin",
+  "hexagons": 22
+ },
+ {
+  "taxon": 12776,
+  "name": "Turdus obscurus",
+  "en": "Eyebrowed Thrush",
+  "hexagons": 441
+ },
+ {
+  "taxon": 12822,
+  "name": "Oenanthe oenanthe",
+  "en": "Northern Wheatear",
+  "hexagons": 906
+ },
+ {
+  "taxon": 12876,
+  "name": "Catharus frantzii",
+  "en": "Ruddy-capped Nightingale-Thrush",
+  "hexagons": 175
+ },
+ {
+  "taxon": 12877,
+  "name": "Catharus occidentalis",
+  "en": "Russet Nightingale-Thrush",
+  "hexagons": 306
+ },
+ {
+  "taxon": 12878,
+  "name": "Catharus ustulatus",
+  "en": "Swainson's Thrush",
+  "hexagons": 11246
+ },
+ {
+  "taxon": 12883,
+  "name": "Catharus minimus",
+  "en": "Gray-cheeked Thrush",
+  "hexagons": 9705
+ },
+ {
+  "taxon": 12888,
+  "name": "Catharus gracilirostris",
+  "en": "Black-billed Nightingale-Thrush",
+  "hexagons": 9
+ },
+ {
+  "taxon": 12889,
+  "name": "Catharus mexicanus",
+  "en": "Black-headed Nightingale-Thrush",
+  "hexagons": 124
+ },
+ {
+  "taxon": 12890,
+  "name": "Catharus guttatus",
+  "en": "Hermit Thrush",
+  "hexagons": 10126
+ },
+ {
+  "taxon": 12899,
+  "name": "Catharus bicknelli",
+  "en": "Bicknell's Thrush",
+  "hexagons": 594
+ },
+ {
+  "taxon": 12900,
+  "name": "Catharus aurantiirostris",
+  "en": "Orange-billed Nightingale-Thrush",
+  "hexagons": 324
+ },
+ {
+  "taxon": 12901,
+  "name": "Catharus fuscescens",
+  "en": "Veery",
+  "hexagons": 4393
+ },
+ {
+  "taxon": 12936,
+  "name": "Sialia currucoides",
+  "en": "Mountain Bluebird",
+  "hexagons": 4615
+ },
+ {
+  "taxon": 12937,
+  "name": "Sialia mexicana",
+  "en": "Western Bluebird",
+  "hexagons": 2045
+ },
+ {
+  "taxon": 12942,
+  "name": "Sialia sialis",
+  "en": "Eastern Bluebird",
+  "hexagons": 4277
+ },
+ {
+  "taxon": 12948,
+  "name": "Myadestes unicolor",
+  "en": "Slate-colored Solitaire",
+  "hexagons": 52
+ },
+ {
+  "taxon": 12949,
+  "name": "Myadestes occidentalis",
+  "en": "Brown-backed Solitaire",
+  "hexagons": 464
+ },
+ {
+  "taxon": 12951,
+  "name": "Myadestes townsendi",
+  "en": "Townsend's Solitaire",
+  "hexagons": 5510
+ },
+ {
+  "taxon": 12987,
+  "name": "Muscicapa sibirica",
+  "en": "Dark-sided Flycatcher",
+  "hexagons": 123
+ },
+ {
+  "taxon": 12988,
+  "name": "Muscicapa griseisticta",
+  "en": "Gray-streaked Flycatcher",
+  "hexagons": 376
+ },
+ {
+  "taxon": 13071,
+  "name": "Luscinia svecica",
+  "en": "Bluethroat",
+  "hexagons": 69
+ },
+ {
+  "taxon": 13128,
+  "name": "Ficedula narcissina",
+  "en": "Narcissus Flycatcher",
+  "hexagons": 13
+ },
+ {
+  "taxon": 13270,
+  "name": "Hylocichla mustelina",
+  "en": "Wood Thrush",
+  "hexagons": 2579
+ },
+ {
+  "taxon": 13630,
+  "name": "Baeolophus wollweberi",
+  "en": "Bridled Titmouse",
+  "hexagons": 592
+ },
+ {
+  "taxon": 13631,
+  "name": "Baeolophus atricristatus",
+  "en": "Black-crested Titmouse",
+  "hexagons": 466
+ },
+ {
+  "taxon": 13632,
+  "name": "Baeolophus bicolor",
+  "en": "Tufted Titmouse",
+  "hexagons": 2019
+ },
+ {
+  "taxon": 13633,
+  "name": "Baeolophus inornatus",
+  "en": "Oak Titmouse",
+  "hexagons": 180
+ },
+ {
+  "taxon": 13634,
+  "name": "Baeolophus ridgwayi",
+  "en": "Juniper Titmouse",
+  "hexagons": 819
+ },
+ {
+  "taxon": 13688,
+  "name": "Motacilla cinerea",
+  "en": "Grey Wagtail",
+  "hexagons": 14
+ },
+ {
+  "taxon": 13695,
+  "name": "Motacilla alba",
+  "en": "White Wagtail",
+  "hexagons": 145
+ },
+ {
+  "taxon": 13710,
+  "name": "Anthus spragueii",
+  "en": "Sprague's Pipit",
+  "hexagons": 2334
+ },
+ {
+  "taxon": 13721,
+  "name": "Anthus cervinus",
+  "en": "Red-throated Pipit",
+  "hexagons": 505
+ },
+ {
+  "taxon": 13723,
+  "name": "Anthus bogotensis",
+  "en": "Páramo Pipit",
+  "hexagons": 5
+ },
+ {
+  "taxon": 13724,
+  "name": "Anthus hodgsoni",
+  "en": "Olive-backed Pipit",
+  "hexagons": 26
+ },
+ {
+  "taxon": 13727,
+  "name": "Anthus gustavi",
+  "en": "Pechora Pipit",
+  "hexagons": 848
+ },
+ {
+  "taxon": 13729,
+  "name": "Anthus pratensis",
+  "en": "Meadow Pipit",
+  "hexagons": 304
+ },
+ {
+  "taxon": 13732,
+  "name": "Anthus rubescens",
+  "en": "American Pipit",
+  "hexagons": 12688
+ },
+ {
+  "taxon": 13766,
+  "name": "Estrilda troglodytes",
+  "en": "Black-rumped Waxbill",
+  "hexagons": 14
+ },
+ {
+  "taxon": 13770,
+  "name": "Estrilda astrild",
+  "en": "Common Waxbill",
+  "hexagons": 8
+ },
+ {
+  "taxon": 13780,
+  "name": "Estrilda melpoda",
+  "en": "Orange-cheeked Waxbill",
+  "hexagons": 28
+ },
+ {
+  "taxon": 13793,
+  "name": "Ploceus melanocephalus",
+  "en": "Black-headed Weaver",
+  "hexagons": 4
+ },
+ {
+  "taxon": 13851,
+  "name": "Passer montanus",
+  "en": "Eurasian Tree Sparrow",
+  "hexagons": 208
+ },
+ {
+  "taxon": 13858,
+  "name": "Passer domesticus",
+  "en": "House Sparrow",
+  "hexagons": 301
+ },
+ {
+  "taxon": 13887,
+  "name": "Lonchura striata",
+  "en": "White-rumped Munia",
+  "hexagons": 28
+ },
+ {
+  "taxon": 13893,
+  "name": "Lonchura punctulata",
+  "en": "Scaly-breasted Munia",
+  "hexagons": 326
+ },
+ {
+  "taxon": 13966,
+  "name": "Euplectes franciscanus",
+  "en": "Northern Red Bishop",
+  "hexagons": 61
+ },
+ {
+  "taxon": 13974,
+  "name": "Euplectes afer",
+  "en": "Yellow-crowned Bishop",
+  "hexagons": 32
+ },
+ {
+  "taxon": 13988,
+  "name": "Prunella modularis",
+  "en": "Dunnock",
+  "hexagons": 12
+ },
+ {
+  "taxon": 13996,
+  "name": "Prunella collaris",
+  "en": "Alpine Accentor",
+  "hexagons": 1
+ },
+ {
+  "taxon": 14011,
+  "name": "Vidua macroura",
+  "en": "Pin-tailed Whydah",
+  "hexagons": 45
+ },
+ {
+  "taxon": 14110,
+  "name": "Taeniopygia guttata",
+  "en": "Zebra Finch",
+  "hexagons": 5445,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 14256,
+  "name": "Manacus candei",
+  "en": "White-collared Manakin",
+  "hexagons": 77
+ },
+ {
+  "taxon": 14298,
+  "name": "Chiroxiphia linearis",
+  "en": "Long-tailed Manakin",
+  "hexagons": 45
+ },
+ {
+  "taxon": 14591,
+  "name": "Pycnonotus jocosus",
+  "en": "Red-whiskered Bulbul",
+  "hexagons": 40
+ },
+ {
+  "taxon": 14593,
+  "name": "Pycnonotus cafer",
+  "en": "Red-vented Bulbul",
+  "hexagons": 4
+ },
+ {
+  "taxon": 14801,
+  "name": "Sitta carolinensis",
+  "en": "White-breasted Nuthatch",
+  "hexagons": 5352
+ },
+ {
+  "taxon": 14816,
+  "name": "Sitta pygmaea",
+  "en": "Pygmy Nuthatch",
+  "hexagons": 2093
+ },
+ {
+  "taxon": 14823,
+  "name": "Sitta canadensis",
+  "en": "Red-breasted Nuthatch",
+  "hexagons": 9216
+ },
+ {
+  "taxon": 14824,
+  "name": "Sitta europaea",
+  "en": "Eurasian Nuthatch",
+  "hexagons": 19
+ },
+ {
+  "taxon": 14825,
+  "name": "Sitta pusilla",
+  "en": "Brown-headed Nuthatch",
+  "hexagons": 861
+ },
+ {
+  "taxon": 14850,
+  "name": "Sturnus vulgaris",
+  "en": "European Starling",
+  "hexagons": 10523
+ },
+ {
+  "taxon": 14880,
+  "name": "Mimus gundlachii",
+  "en": "Bahama Mockingbird",
+  "hexagons": 22
+ },
+ {
+  "taxon": 14884,
+  "name": "Mimus gilvus",
+  "en": "Tropical Mockingbird",
+  "hexagons": 238
+ },
+ {
+  "taxon": 14886,
+  "name": "Mimus polyglottos",
+  "en": "Northern Mockingbird",
+  "hexagons": 4642
+ },
+ {
+  "taxon": 14890,
+  "name": "Toxostoma crissale",
+  "en": "Crissal Thrasher",
+  "hexagons": 796
+ },
+ {
+  "taxon": 14891,
+  "name": "Toxostoma bendirei",
+  "en": "Bendire's Thrasher",
+  "hexagons": 536
+ },
+ {
+  "taxon": 14892,
+  "name": "Toxostoma lecontei",
+  "en": "LeConte's Thrasher",
+  "hexagons": 218
+ },
+ {
+  "taxon": 14895,
+  "name": "Toxostoma longirostre",
+  "en": "Long-billed Thrasher",
+  "hexagons": 281
+ },
+ {
+  "taxon": 14898,
+  "name": "Toxostoma rufum",
+  "en": "Brown Thrasher",
+  "hexagons": 4105
+ },
+ {
+  "taxon": 14906,
+  "name": "Toxostoma redivivum",
+  "en": "California Thrasher",
+  "hexagons": 172
+ },
+ {
+  "taxon": 14909,
+  "name": "Toxostoma cinereum",
+  "en": "Gray Thrasher",
+  "hexagons": 131
+ },
+ {
+  "taxon": 14912,
+  "name": "Toxostoma curvirostre",
+  "en": "Curve-billed Thrasher",
+  "hexagons": 1327
+ },
+ {
+  "taxon": 14917,
+  "name": "Toxostoma ocellatum",
+  "en": "Ocellated Thrasher",
+  "hexagons": 97
+ },
+ {
+  "taxon": 14995,
+  "name": "Dumetella carolinensis",
+  "en": "Gray Catbird",
+  "hexagons": 7132
+ },
+ {
+  "taxon": 15018,
+  "name": "Melanoptila glabrirostris",
+  "en": "Black Catbird",
+  "hexagons": 116
+ },
+ {
+  "taxon": 15030,
+  "name": "Cinnyricinclus leucogaster",
+  "en": "Violet-backed Starling",
+  "hexagons": 12
+ },
+ {
+  "taxon": 15034,
+  "name": "Melanotis hypoleucus",
+  "en": "Blue-and-white Mockingbird",
+  "hexagons": 45
+ },
+ {
+  "taxon": 15035,
+  "name": "Melanotis caerulescens",
+  "en": "Blue Mockingbird",
+  "hexagons": 493
+ },
+ {
+  "taxon": 15045,
+  "name": "Oreoscoptes montanus",
+  "en": "Sage Thrasher",
+  "hexagons": 2489
+ },
+ {
+  "taxon": 15182,
+  "name": "Garrulax leucolophus",
+  "en": "White-crested Laughingthrush",
+  "hexagons": 3
+ },
+ {
+  "taxon": 15256,
+  "name": "Chamaea fasciata",
+  "en": "Wrentit",
+  "hexagons": 201
+ },
+ {
+  "taxon": 15764,
+  "name": "Thamnophilus doliatus",
+  "en": "Barred Antshrike",
+  "hexagons": 281
+ },
+ {
+  "taxon": 15770,
+  "name": "Thamnophilus atrinucha",
+  "en": "Black-crowned Antshrike",
+  "hexagons": 11
+ },
+ {
+  "taxon": 15827,
+  "name": "Myrmotherula schisticolor",
+  "en": "Slaty Antwren",
+  "hexagons": 44
+ },
+ {
+  "taxon": 15917,
+  "name": "Dysithamnus mentalis",
+  "en": "Plain Antvireo",
+  "hexagons": 81
+ },
+ {
+  "taxon": 15922,
+  "name": "Microrhopias quixensis",
+  "en": "Dot-winged Antwren",
+  "hexagons": 224
+ },
+ {
+  "taxon": 15957,
+  "name": "Taraba major",
+  "en": "Great Antshrike",
+  "hexagons": 8
+ },
+ {
+  "taxon": 15990,
+  "name": "Myiarchus tuberculifer",
+  "en": "Dusky-capped Flycatcher",
+  "hexagons": 1376
+ },
+ {
+  "taxon": 16010,
+  "name": "Myiarchus cinerascens",
+  "en": "Ash-throated Flycatcher",
+  "hexagons": 2898
+ },
+ {
+  "taxon": 16016,
+  "name": "Myiarchus tyrannulus",
+  "en": "Brown-crested Flycatcher",
+  "hexagons": 1383
+ },
+ {
+  "taxon": 16025,
+  "name": "Myiarchus sagrae",
+  "en": "La Sagra's Flycatcher",
+  "hexagons": 39
+ },
+ {
+  "taxon": 16028,
+  "name": "Myiarchus crinitus",
+  "en": "Great Crested Flycatcher",
+  "hexagons": 3717
+ },
+ {
+  "taxon": 16035,
+  "name": "Myiarchus nuttingi",
+  "en": "Nutting's Flycatcher",
+  "hexagons": 591
+ },
+ {
+  "taxon": 16045,
+  "name": "Myiarchus yucatanensis",
+  "en": "Yucatan Flycatcher",
+  "hexagons": 109
+ },
+ {
+  "taxon": 16063,
+  "name": "Myiodynastes maculatus",
+  "en": "Streaked Flycatcher",
+  "hexagons": 100
+ },
+ {
+  "taxon": 16071,
+  "name": "Myiodynastes luteiventris",
+  "en": "Sulphur-bellied Flycatcher",
+  "hexagons": 859
+ },
+ {
+  "taxon": 16072,
+  "name": "Myiodynastes hemichrysus",
+  "en": "Golden-bellied Flycatcher",
+  "hexagons": 2
+ },
+ {
+  "taxon": 16079,
+  "name": "Contopus sordidulus",
+  "en": "Western Wood-Pewee",
+  "hexagons": 4576
+ },
+ {
+  "taxon": 16085,
+  "name": "Contopus caribaeus",
+  "en": "Cuban Pewee",
+  "hexagons": 9
+ },
+ {
+  "taxon": 16100,
+  "name": "Contopus virens",
+  "en": "Eastern Wood-Pewee",
+  "hexagons": 4126
+ },
+ {
+  "taxon": 16106,
+  "name": "Contopus pertinax",
+  "en": "Greater Pewee",
+  "hexagons": 715
+ },
+ {
+  "taxon": 16110,
+  "name": "Contopus cooperi",
+  "en": "Olive-sided Flycatcher",
+  "hexagons": 9429
+ },
+ {
+  "taxon": 16112,
+  "name": "Contopus lugubris",
+  "en": "Dark Pewee",
+  "hexagons": 4
+ },
+ {
+  "taxon": 16150,
+  "name": "Muscisaxicola alpinus",
+  "en": "Plain-capped Ground-Tyrant",
+  "hexagons": 9
+ },
+ {
+  "taxon": 16167,
+  "name": "Ochthoeca rufipectoralis",
+  "en": "Rufous-breasted Chat-Tyrant",
+  "hexagons": 2
+ },
+ {
+  "taxon": 16188,
+  "name": "Ochthoeca fumicolor",
+  "en": "Brown-backed Chat-Tyrant",
+  "hexagons": 7
+ },
+ {
+  "taxon": 16217,
+  "name": "Platyrinchus cancrominus",
+  "en": "Stub-tailed Spadebill",
+  "hexagons": 107
+ },
+ {
+  "taxon": 16255,
+  "name": "Zimmerius vilissimus",
+  "en": "Guatemalan Tyrannulet",
+  "hexagons": 17
+ },
+ {
+  "taxon": 16326,
+  "name": "Mitrephanes phaeocercus",
+  "en": "Tufted Flycatcher",
+  "hexagons": 473
+ },
+ {
+  "taxon": 16365,
+  "name": "Rhynchocyclus brevirostris",
+  "en": "Eye-ringed Flatbill",
+  "hexagons": 270
+ },
+ {
+  "taxon": 16371,
+  "name": "Leptopogon amaurocephalus",
+  "en": "Sepia-capped Flycatcher",
+  "hexagons": 209
+ },
+ {
+  "taxon": 16447,
+  "name": "Pyrocephalus rubinus",
+  "en": "Vermilion Flycatcher",
+  "hexagons": 2009
+ },
+ {
+  "taxon": 16462,
+  "name": "Onychorhynchus coronatus",
+  "en": "Tropical Royal Flycatcher",
+  "hexagons": 213
+ },
+ {
+  "taxon": 16513,
+  "name": "Mionectes oleagineus",
+  "en": "Ochre-bellied Flycatcher",
+  "hexagons": 196
+ },
+ {
+  "taxon": 16567,
+  "name": "Tolmomyias sulphurescens",
+  "en": "Yellow-olive Flatbill",
+  "hexagons": 317
+ },
+ {
+  "taxon": 16586,
+  "name": "Rhytipterna holerythra",
+  "en": "Rufous Mourner",
+  "hexagons": 103
+ },
+ {
+  "taxon": 16598,
+  "name": "Empidonax difficilis",
+  "en": "Western Flycatcher",
+  "hexagons": 2927
+ },
+ {
+  "taxon": 16602,
+  "name": "Empidonax minimus",
+  "en": "Least Flycatcher",
+  "hexagons": 10052
+ },
+ {
+  "taxon": 16603,
+  "name": "Empidonax flaviventris",
+  "en": "Yellow-bellied Flycatcher",
+  "hexagons": 8055
+ },
+ {
+  "taxon": 16604,
+  "name": "Empidonax fulvifrons",
+  "en": "Buff-breasted Flycatcher",
+  "hexagons": 551
+ },
+ {
+  "taxon": 16611,
+  "name": "Empidonax traillii",
+  "en": "Willow Flycatcher",
+  "hexagons": 7128
+ },
+ {
+  "taxon": 16616,
+  "name": "Empidonax albigularis",
+  "en": "White-throated Flycatcher",
+  "hexagons": 567
+ },
+ {
+  "taxon": 16620,
+  "name": "Empidonax alnorum",
+  "en": "Alder Flycatcher",
+  "hexagons": 9575
+ },
+ {
+  "taxon": 16621,
+  "name": "Empidonax oberholseri",
+  "en": "Dusky Flycatcher",
+  "hexagons": 3250
+ },
+ {
+  "taxon": 16622,
+  "name": "Empidonax wrightii",
+  "en": "Gray Flycatcher",
+  "hexagons": 2386
+ },
+ {
+  "taxon": 16624,
+  "name": "Empidonax hammondii",
+  "en": "Hammond's Flycatcher",
+  "hexagons": 3705
+ },
+ {
+  "taxon": 16628,
+  "name": "Empidonax flavescens",
+  "en": "Yellowish Flycatcher",
+  "hexagons": 46
+ },
+ {
+  "taxon": 16632,
+  "name": "Empidonax affinis",
+  "en": "Pine Flycatcher",
+  "hexagons": 488
+ },
+ {
+  "taxon": 16638,
+  "name": "Empidonax virescens",
+  "en": "Acadian Flycatcher",
+  "hexagons": 2316
+ },
+ {
+  "taxon": 16702,
+  "name": "Elaenia martinica",
+  "en": "Caribbean Elaenia",
+  "hexagons": 28
+ },
+ {
+  "taxon": 16714,
+  "name": "Elaenia flavogaster",
+  "en": "Yellow-bellied Elaenia",
+  "hexagons": 236
+ },
+ {
+  "taxon": 16721,
+  "name": "Elaenia frantzii",
+  "en": "Mountain Elaenia",
+  "hexagons": 117
+ },
+ {
+  "taxon": 16737,
+  "name": "Megarynchus pitangua",
+  "en": "Boat-billed Flycatcher",
+  "hexagons": 460
+ },
+ {
+  "taxon": 16748,
+  "name": "Attila spadiceus",
+  "en": "Bright-rumped Attila",
+  "hexagons": 543
+ },
+ {
+  "taxon": 16770,
+  "name": "Tyrannus couchii",
+  "en": "Couch's Kingbird",
+  "hexagons": 598
+ },
+ {
+  "taxon": 16771,
+  "name": "Tyrannus caudifasciatus",
+  "en": "Loggerhead Kingbird",
+  "hexagons": 8
+ },
+ {
+  "taxon": 16779,
+  "name": "Tyrannus vociferans",
+  "en": "Cassin's Kingbird",
+  "hexagons": 1949
+ },
+ {
+  "taxon": 16782,
+  "name": "Tyrannus tyrannus",
+  "en": "Eastern Kingbird",
+  "hexagons": 6052
+ },
+ {
+  "taxon": 16783,
+  "name": "Tyrannus forficatus",
+  "en": "Scissor-tailed Flycatcher",
+  "hexagons": 2466
+ },
+ {
+  "taxon": 16784,
+  "name": "Tyrannus crassirostris",
+  "en": "Thick-billed Kingbird",
+  "hexagons": 571
+ },
+ {
+  "taxon": 16787,
+  "name": "Tyrannus melancholicus",
+  "en": "Tropical Kingbird",
+  "hexagons": 1203
+ },
+ {
+  "taxon": 16791,
+  "name": "Tyrannus verticalis",
+  "en": "Western Kingbird",
+  "hexagons": 5240
+ },
+ {
+  "taxon": 16793,
+  "name": "Tyrannus savana",
+  "en": "Fork-tailed Flycatcher",
+  "hexagons": 366
+ },
+ {
+  "taxon": 16798,
+  "name": "Tyrannus dominicensis",
+  "en": "Gray Kingbird",
+  "hexagons": 294
+ },
+ {
+  "taxon": 16838,
+  "name": "Myiozetetes granadensis",
+  "en": "Gray-capped Flycatcher",
+  "hexagons": 9
+ },
+ {
+  "taxon": 16842,
+  "name": "Myiozetetes similis",
+  "en": "Social Flycatcher",
+  "hexagons": 652
+ },
+ {
+  "taxon": 16892,
+  "name": "Myiopagis viridicata",
+  "en": "Greenish Elaenia",
+  "hexagons": 593
+ },
+ {
+  "taxon": 16909,
+  "name": "Colonia colonus",
+  "en": "Long-tailed Tyrant",
+  "hexagons": 42
+ },
+ {
+  "taxon": 16956,
+  "name": "Pitangus sulphuratus",
+  "en": "Great Kiskadee",
+  "hexagons": 866
+ },
+ {
+  "taxon": 16968,
+  "name": "Camptostoma imberbe",
+  "en": "Northern Beardless-Tyrannulet",
+  "hexagons": 966
+ },
+ {
+  "taxon": 17008,
+  "name": "Sayornis phoebe",
+  "en": "Eastern Phoebe",
+  "hexagons": 5052
+ },
+ {
+  "taxon": 17009,
+  "name": "Sayornis saya",
+  "en": "Say's Phoebe",
+  "hexagons": 5449
+ },
+ {
+  "taxon": 17013,
+  "name": "Sayornis nigricans",
+  "en": "Black Phoebe",
+  "hexagons": 2127
+ },
+ {
+  "taxon": 17041,
+  "name": "Poecilotriccus sylvia",
+  "en": "Slate-headed Tody-Flycatcher",
+  "hexagons": 154
+ },
+ {
+  "taxon": 17067,
+  "name": "Sublegatus arenarum",
+  "en": "Northern Scrub-Flycatcher",
+  "hexagons": 4
+ },
+ {
+  "taxon": 17127,
+  "name": "Conopias albovittatus",
+  "en": "White-ringed Flycatcher",
+  "hexagons": 172
+ },
+ {
+  "taxon": 17142,
+  "name": "Ornithion semiflavum",
+  "en": "Yellow-bellied Tyrannulet",
+  "hexagons": 108
+ },
+ {
+  "taxon": 17148,
+  "name": "Todirostrum cinereum",
+  "en": "Common Tody-Flycatcher",
+  "hexagons": 248
+ },
+ {
+  "taxon": 17243,
+  "name": "Terenotriccus erythrurus",
+  "en": "Ruddy-tailed Flycatcher",
+  "hexagons": 88
+ },
+ {
+  "taxon": 17266,
+  "name": "Tyrannulus elatus",
+  "en": "Yellow-crowned Tyrannulet",
+  "hexagons": 1
+ },
+ {
+  "taxon": 17268,
+  "name": "Capsiempis flaveola",
+  "en": "Yellow Tyrannulet",
+  "hexagons": 61
+ },
+ {
+  "taxon": 17295,
+  "name": "Oncostoma cinereigulare",
+  "en": "Northern Bentbill",
+  "hexagons": 162
+ },
+ {
+  "taxon": 17312,
+  "name": "Legatus leucophaius",
+  "en": "Piratic Flycatcher",
+  "hexagons": 288
+ },
+ {
+  "taxon": 17356,
+  "name": "Vireo bellii",
+  "en": "Bell's Vireo",
+  "hexagons": 3214
+ },
+ {
+  "taxon": 17362,
+  "name": "Vireo plumbeus",
+  "en": "Plumbeous Vireo",
+  "hexagons": 2047
+ },
+ {
+  "taxon": 17363,
+  "name": "Vireo vicinior",
+  "en": "Gray Vireo",
+  "hexagons": 1239
+ },
+ {
+  "taxon": 17364,
+  "name": "Vireo philadelphicus",
+  "en": "Philadelphia Vireo",
+  "hexagons": 6722
+ },
+ {
+  "taxon": 17365,
+  "name": "Vireo flavifrons",
+  "en": "Yellow-throated Vireo",
+  "hexagons": 3741
+ },
+ {
+  "taxon": 17367,
+  "name": "Vireo flavoviridis",
+  "en": "Yellow-green Vireo",
+  "hexagons": 1244
+ },
+ {
+  "taxon": 17372,
+  "name": "Vireo hypochryseus",
+  "en": "Golden Vireo",
+  "hexagons": 252
+ },
+ {
+  "taxon": 17374,
+  "name": "Vireo pallens",
+  "en": "Mangrove Vireo",
+  "hexagons": 161
+ },
+ {
+  "taxon": 17375,
+  "name": "Vireo huttoni",
+  "en": "Hutton's Vireo",
+  "hexagons": 1221
+ },
+ {
+  "taxon": 17381,
+  "name": "Vireo bairdi",
+  "en": "Cozumel Vireo",
+  "hexagons": 4
+ },
+ {
+  "taxon": 17382,
+  "name": "Vireo cassinii",
+  "en": "Cassin's Vireo",
+  "hexagons": 3204
+ },
+ {
+  "taxon": 17383,
+  "name": "Vireo magister",
+  "en": "Yucatan Vireo",
+  "hexagons": 93
+ },
+ {
+  "taxon": 17385,
+  "name": "Vireo carmioli",
+  "en": "Yellow-winged Vireo",
+  "hexagons": 7
+ },
+ {
+  "taxon": 17386,
+  "name": "Vireo leucophrys",
+  "en": "Brown-capped Vireo",
+  "hexagons": 150
+ },
+ {
+  "taxon": 17393,
+  "name": "Vireo brevipennis",
+  "en": "Slaty Vireo",
+  "hexagons": 95
+ },
+ {
+  "taxon": 17394,
+  "name": "Vireo gilvus",
+  "en": "Eastern Warbling Vireo",
+  "hexagons": 3647
+ },
+ {
+  "taxon": 17399,
+  "name": "Vireo altiloquus",
+  "en": "Black-whiskered Vireo",
+  "hexagons": 212
+ },
+ {
+  "taxon": 17402,
+  "name": "Vireo solitarius",
+  "en": "Blue-headed Vireo",
+  "hexagons": 5668
+ },
+ {
+  "taxon": 17408,
+  "name": "Vireo griseus",
+  "en": "White-eyed Vireo",
+  "hexagons": 3053
+ },
+ {
+  "taxon": 17415,
+  "name": "Vireolanius melitophrys",
+  "en": "Chestnut-sided Shrike-Vireo",
+  "hexagons": 207
+ },
+ {
+  "taxon": 17417,
+  "name": "Vireolanius pulchellus",
+  "en": "Green Shrike-Vireo",
+  "hexagons": 110
+ },
+ {
+  "taxon": 17421,
+  "name": "Cyclarhis gujanensis",
+  "en": "Rufous-browed Peppershrike",
+  "hexagons": 343
+ },
+ {
+  "taxon": 17638,
+  "name": "Picoides dorsalis",
+  "en": "American Three-toed Woodpecker",
+  "hexagons": 4912
+ },
+ {
+  "taxon": 17694,
+  "name": "Picoides arcticus",
+  "en": "Black-backed Woodpecker",
+  "hexagons": 4872
+ },
+ {
+  "taxon": 17855,
+  "name": "Dryocopus pileatus",
+  "en": "Pileated Woodpecker",
+  "hexagons": 5175
+ },
+ {
+  "taxon": 17858,
+  "name": "Dryocopus lineatus",
+  "en": "Lineated Woodpecker",
+  "hexagons": 463
+ },
+ {
+  "taxon": 17871,
+  "name": "Dendrocopos major",
+  "en": "Great Spotted Woodpecker",
+  "hexagons": 22
+ },
+ {
+  "taxon": 18015,
+  "name": "Veniliornis dignus",
+  "en": "Yellow-vented Woodpecker",
+  "hexagons": 2
+ },
+ {
+  "taxon": 18067,
+  "name": "Celeus castaneus",
+  "en": "Chestnut-colored Woodpecker",
+  "hexagons": 89
+ },
+ {
+  "taxon": 18160,
+  "name": "Melanerpes lewis",
+  "en": "Lewis's Woodpecker",
+  "hexagons": 2446
+ },
+ {
+  "taxon": 18161,
+  "name": "Melanerpes uropygialis",
+  "en": "Gila Woodpecker",
+  "hexagons": 425
+ },
+ {
+  "taxon": 18167,
+  "name": "Melanerpes aurifrons",
+  "en": "Golden-fronted Woodpecker",
+  "hexagons": 875
+ },
+ {
+  "taxon": 18179,
+  "name": "Melanerpes hoffmannii",
+  "en": "Hoffmann's Woodpecker",
+  "hexagons": 15
+ },
+ {
+  "taxon": 18181,
+  "name": "Melanerpes pucherani",
+  "en": "Black-cheeked Woodpecker",
+  "hexagons": 84
+ },
+ {
+  "taxon": 18185,
+  "name": "Melanerpes pygmaeus",
+  "en": "Yucatán Woodpecker",
+  "hexagons": 121
+ },
+ {
+  "taxon": 18192,
+  "name": "Melanerpes hypopolius",
+  "en": "Gray-breasted Woodpecker",
+  "hexagons": 54
+ },
+ {
+  "taxon": 18204,
+  "name": "Melanerpes erythrocephalus",
+  "en": "Red-headed Woodpecker",
+  "hexagons": 3566
+ },
+ {
+  "taxon": 18205,
+  "name": "Melanerpes carolinus",
+  "en": "Red-bellied Woodpecker",
+  "hexagons": 2903
+ },
+ {
+  "taxon": 18206,
+  "name": "Melanerpes chrysogenys",
+  "en": "Golden-cheeked Woodpecker",
+  "hexagons": 165
+ },
+ {
+  "taxon": 18209,
+  "name": "Melanerpes formicivorus",
+  "en": "Acorn Woodpecker",
+  "hexagons": 1453
+ },
+ {
+  "taxon": 18236,
+  "name": "Colaptes auratus",
+  "en": "Northern Flicker",
+  "hexagons": 8920
+ },
+ {
+  "taxon": 18256,
+  "name": "Colaptes chrysoides",
+  "en": "Gilded Flicker",
+  "hexagons": 296
+ },
+ {
+  "taxon": 18291,
+  "name": "Campephilus guatemalensis",
+  "en": "Pale-billed Woodpecker",
+  "hexagons": 453
+ },
+ {
+  "taxon": 18460,
+  "name": "Sphyrapicus thyroideus",
+  "en": "Williamson's Sapsucker",
+  "hexagons": 1785
+ },
+ {
+  "taxon": 18463,
+  "name": "Sphyrapicus varius",
+  "en": "Yellow-bellied Sapsucker",
+  "hexagons": 6258
+ },
+ {
+  "taxon": 18464,
+  "name": "Sphyrapicus ruber",
+  "en": "Red-breasted Sapsucker",
+  "hexagons": 2011
+ },
+ {
+  "taxon": 18467,
+  "name": "Sphyrapicus nuchalis",
+  "en": "Red-naped Sapsucker",
+  "hexagons": 3716
+ },
+ {
+  "taxon": 18515,
+  "name": "Selenidera spectabilis",
+  "en": "Yellow-eared Toucanet",
+  "hexagons": 104
+ },
+ {
+  "taxon": 18584,
+  "name": "Pteroglossus torquatus",
+  "en": "Collared Aracari",
+  "hexagons": 236
+ },
+ {
+  "taxon": 18793,
+  "name": "Ramphastos toco",
+  "en": "Toco Toucan",
+  "hexagons": 2
+ },
+ {
+  "taxon": 18796,
+  "name": "Ramphastos sulfuratus",
+  "en": "Keel-billed Toucan",
+  "hexagons": 277
+ },
+ {
+  "taxon": 18879,
+  "name": "Neophema splendida",
+  "en": "Scarlet-chested Parrot",
+  "hexagons": 32
+ },
+ {
+  "taxon": 18903,
+  "name": "Psittacula derbiana",
+  "en": "Derbyan Parakeet",
+  "hexagons": 3,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 18904,
+  "name": "Psittacula eupatria",
+  "en": "Alexandrine Parakeet",
+  "hexagons": 3
+ },
+ {
+  "taxon": 18911,
+  "name": "Psittacula krameri",
+  "en": "Rose-ringed Parakeet",
+  "hexagons": 345
+ },
+ {
+  "taxon": 18938,
+  "name": "Anodorhynchus hyacinthinus",
+  "en": "Hyacinth Macaw",
+  "hexagons": 7
+ },
+ {
+  "taxon": 18976,
+  "name": "Amazona viridigenalis",
+  "en": "Red-crowned Amazon",
+  "hexagons": 442
+ },
+ {
+  "taxon": 18977,
+  "name": "Amazona xantholora",
+  "en": "Yellow-lored Amazon",
+  "hexagons": 91
+ },
+ {
+  "taxon": 18978,
+  "name": "Amazona aestiva",
+  "en": "Turquoise-fronted Amazon",
+  "hexagons": 7
+ },
+ {
+  "taxon": 18982,
+  "name": "Amazona amazonica",
+  "en": "Orange-winged Amazon",
+  "hexagons": 28
+ },
+ {
+  "taxon": 18984,
+  "name": "Amazona auropalliata",
+  "en": "Yellow-naped Amazon",
+  "hexagons": 149
+ },
+ {
+  "taxon": 18988,
+  "name": "Amazona leucocephala",
+  "en": "Cuban Amazon",
+  "hexagons": 1
+ },
+ {
+  "taxon": 18990,
+  "name": "Amazona autumnalis",
+  "en": "Red-lored Amazon",
+  "hexagons": 538
+ },
+ {
+  "taxon": 18993,
+  "name": "Amazona finschi",
+  "en": "Lilac-crowned Amazon",
+  "hexagons": 628
+ },
+ {
+  "taxon": 18995,
+  "name": "Amazona albifrons",
+  "en": "White-fronted Amazon",
+  "hexagons": 556
+ },
+ {
+  "taxon": 18998,
+  "name": "Amazona oratrix",
+  "en": "Yellow-headed Amazon",
+  "hexagons": 578
+ },
+ {
+  "taxon": 19003,
+  "name": "Amazona ochrocephala",
+  "en": "Yellow-crowned Amazon",
+  "hexagons": 33
+ },
+ {
+  "taxon": 19005,
+  "name": "Amazona farinosa",
+  "en": "Mealy Amazon",
+  "hexagons": 441
+ },
+ {
+  "taxon": 19016,
+  "name": "Ara chloropterus",
+  "en": "Red-and-green Macaw",
+  "hexagons": 62
+ },
+ {
+  "taxon": 19018,
+  "name": "Ara ararauna",
+  "en": "Blue-and-yellow Macaw",
+  "hexagons": 193
+ },
+ {
+  "taxon": 19020,
+  "name": "Ara militaris",
+  "en": "Military Macaw",
+  "hexagons": 777
+ },
+ {
+  "taxon": 19022,
+  "name": "Ara macao",
+  "en": "Scarlet Macaw",
+  "hexagons": 334
+ },
+ {
+  "taxon": 19032,
+  "name": "Bolborhynchus lineola",
+  "en": "Barred Parakeet",
+  "hexagons": 29
+ },
+ {
+  "taxon": 19052,
+  "name": "Poicephalus senegalus",
+  "en": "Senegal Parrot",
+  "hexagons": 5
+ },
+ {
+  "taxon": 19067,
+  "name": "Forpus cyanopygius",
+  "en": "Mexican Parrotlet",
+  "hexagons": 173
+ },
+ {
+  "taxon": 19075,
+  "name": "Agapornis fischeri",
+  "en": "Fischer's Lovebird",
+  "hexagons": 4008
+ },
+ {
+  "taxon": 19076,
+  "name": "Agapornis personatus",
+  "en": "Yellow-collared Lovebird",
+  "hexagons": 1545
+ },
+ {
+  "taxon": 19079,
+  "name": "Agapornis roseicollis",
+  "en": "Rosy-faced Lovebird",
+  "hexagons": 12035
+ },
+ {
+  "taxon": 19100,
+  "name": "Pionus senilis",
+  "en": "White-crowned Parrot",
+  "hexagons": 182
+ },
+ {
+  "taxon": 19152,
+  "name": "Pyrrhura molinae",
+  "en": "Green-cheeked Parakeet",
+  "hexagons": 4163
+ },
+ {
+  "taxon": 19184,
+  "name": "Aratinga jandaya",
+  "en": "Jandaya Parakeet",
+  "hexagons": 2
+ },
+ {
+  "taxon": 19210,
+  "name": "Brotogeris versicolurus",
+  "en": "White-winged Parakeet",
+  "hexagons": 44
+ },
+ {
+  "taxon": 19211,
+  "name": "Brotogeris jugularis",
+  "en": "Orange-chinned Parakeet",
+  "hexagons": 79
+ },
+ {
+  "taxon": 19215,
+  "name": "Brotogeris chiriri",
+  "en": "Yellow-chevroned Parakeet",
+  "hexagons": 58
+ },
+ {
+  "taxon": 19254,
+  "name": "Pionites leucogaster",
+  "en": "White-bellied Parrot",
+  "hexagons": 4
+ },
+ {
+  "taxon": 19269,
+  "name": "Psittacus erithacus",
+  "en": "Gray Parrot",
+  "hexagons": 38
+ },
+ {
+  "taxon": 19317,
+  "name": "Rhynchopsitta terrisi",
+  "en": "Maroon-fronted Parrot",
+  "hexagons": 68
+ },
+ {
+  "taxon": 19318,
+  "name": "Rhynchopsitta pachyrhyncha",
+  "en": "Thick-billed Parrot",
+  "hexagons": 68
+ },
+ {
+  "taxon": 19339,
+  "name": "Melopsittacus undulatus",
+  "en": "Budgerigar",
+  "hexagons": 8300
+ },
+ {
+  "taxon": 19347,
+  "name": "Cyanoliseus patagonus",
+  "en": "Burrowing Parakeet",
+  "hexagons": 23
+ },
+ {
+  "taxon": 19349,
+  "name": "Myiopsitta monachus",
+  "en": "Monk Parakeet",
+  "hexagons": 1173
+ },
+ {
+  "taxon": 19410,
+  "name": "Caprimulgus europaeus",
+  "en": "Eurasian Nightjar",
+  "hexagons": 1
+ },
+ {
+  "taxon": 19577,
+  "name": "Chordeiles minor",
+  "en": "Common Nighthawk",
+  "hexagons": 10693
+ },
+ {
+  "taxon": 19587,
+  "name": "Chordeiles acutipennis",
+  "en": "Lesser Nighthawk",
+  "hexagons": 2020
+ },
+ {
+  "taxon": 19602,
+  "name": "Chordeiles gundlachii",
+  "en": "Antillean Nighthawk",
+  "hexagons": 46
+ },
+ {
+  "taxon": 19609,
+  "name": "Phalaenoptilus nuttallii",
+  "en": "Common Poorwill",
+  "hexagons": 2871
+ },
+ {
+  "taxon": 19627,
+  "name": "Nyctidromus albicollis",
+  "en": "Common Pauraque",
+  "hexagons": 583
+ },
+ {
+  "taxon": 19645,
+  "name": "Lurocalis semitorquatus",
+  "en": "Short-tailed Nighthawk",
+  "hexagons": 72
+ },
+ {
+  "taxon": 19670,
+  "name": "Nyctibius jamaicensis",
+  "en": "Northern Potoo",
+  "hexagons": 331
+ },
+ {
+  "taxon": 19680,
+  "name": "Nyctibius grandis",
+  "en": "Great Potoo",
+  "hexagons": 22
+ },
+ {
+  "taxon": 19721,
+  "name": "Podargus strigoides",
+  "en": "Tawny Frogmouth",
+  "hexagons": 2
+ },
+ {
+  "taxon": 19732,
+  "name": "Megascops clarkii",
+  "en": "Bare-shanked Screech-Owl",
+  "hexagons": 2
+ },
+ {
+  "taxon": 19739,
+  "name": "Megascops seductus",
+  "en": "Balsas Screech-Owl",
+  "hexagons": 97
+ },
+ {
+  "taxon": 19740,
+  "name": "Megascops cooperi",
+  "en": "Pacific Screech-Owl",
+  "hexagons": 133
+ },
+ {
+  "taxon": 19743,
+  "name": "Megascops kennicottii",
+  "en": "Western Screech-Owl",
+  "hexagons": 2770
+ },
+ {
+  "taxon": 19757,
+  "name": "Megascops guatemalae",
+  "en": "Middle American Screech-Owl",
+  "hexagons": 452
+ },
+ {
+  "taxon": 19765,
+  "name": "Megascops asio",
+  "en": "Eastern Screech-Owl",
+  "hexagons": 3018
+ },
+ {
+  "taxon": 19778,
+  "name": "Megascops albogularis",
+  "en": "White-throated Screech-Owl",
+  "hexagons": 5
+ },
+ {
+  "taxon": 19798,
+  "name": "Megascops trichopsis",
+  "en": "Whiskered Screech-Owl",
+  "hexagons": 481
+ },
+ {
+  "taxon": 19812,
+  "name": "Glaucidium gnoma",
+  "en": "Northern Pygmy-Owl",
+  "hexagons": 2429
+ },
+ {
+  "taxon": 19820,
+  "name": "Glaucidium jardinii",
+  "en": "Andean Pygmy-Owl",
+  "hexagons": 8
+ },
+ {
+  "taxon": 19822,
+  "name": "Glaucidium brasilianum",
+  "en": "Ferruginous Pygmy-Owl",
+  "hexagons": 700
+ },
+ {
+  "taxon": 19838,
+  "name": "Glaucidium sanchezi",
+  "en": "Tamaulipas Pygmy-Owl",
+  "hexagons": 19
+ },
+ {
+  "taxon": 19856,
+  "name": "Glaucidium griseiceps",
+  "en": "Central American Pygmy-Owl",
+  "hexagons": 28
+ },
+ {
+  "taxon": 19866,
+  "name": "Glaucidium palmarum",
+  "en": "Colima Pygmy-Owl",
+  "hexagons": 154
+ },
+ {
+  "taxon": 19890,
+  "name": "Strix nebulosa",
+  "en": "Great Gray Owl",
+  "hexagons": 4517
+ },
+ {
+  "taxon": 19893,
+  "name": "Strix varia",
+  "en": "Barred Owl",
+  "hexagons": 4434
+ },
+ {
+  "taxon": 19941,
+  "name": "Strix fulvescens",
+  "en": "Fulvous Owl",
+  "hexagons": 66
+ },
+ {
+  "taxon": 19959,
+  "name": "Strix occidentalis",
+  "en": "Spotted Owl",
+  "hexagons": 770,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 19975,
+  "name": "Athene cunicularia",
+  "en": "Burrowing Owl",
+  "hexagons": 3135
+ },
+ {
+  "taxon": 20020,
+  "name": "Pulsatrix perspicillata",
+  "en": "Spectacled Owl",
+  "hexagons": 209
+ },
+ {
+  "taxon": 20044,
+  "name": "Bubo virginianus",
+  "en": "Great Horned Owl",
+  "hexagons": 9818
+ },
+ {
+  "taxon": 20059,
+  "name": "Bubo bubo",
+  "en": "Eurasian Eagle-Owl",
+  "hexagons": 247
+ },
+ {
+  "taxon": 20307,
+  "name": "Asio otus",
+  "en": "Long-eared Owl",
+  "hexagons": 5817
+ },
+ {
+  "taxon": 20315,
+  "name": "Asio flammeus",
+  "en": "Short-eared Owl",
+  "hexagons": 20
+ },
+ {
+  "taxon": 20331,
+  "name": "Asio stygius",
+  "en": "Stygian Owl",
+  "hexagons": 272
+ },
+ {
+  "taxon": 20356,
+  "name": "Aegolius acadicus",
+  "en": "Northern Saw-whet Owl",
+  "hexagons": 6426
+ },
+ {
+  "taxon": 20359,
+  "name": "Aegolius funereus",
+  "en": "Boreal Owl",
+  "hexagons": 5759
+ },
+ {
+  "taxon": 20372,
+  "name": "Surnia ulula",
+  "en": "Northern Hawk Owl",
+  "hexagons": 6085
+ },
+ {
+  "taxon": 20379,
+  "name": "Micrathene whitneyi",
+  "en": "Elf Owl",
+  "hexagons": 670
+ },
+ {
+  "taxon": 20392,
+  "name": "Strix nigrolineata",
+  "en": "Black-and-white Owl",
+  "hexagons": 226
+ },
+ {
+  "taxon": 20397,
+  "name": "Lophostrix cristata",
+  "en": "Crested Owl",
+  "hexagons": 32
+ },
+ {
+  "taxon": 20504,
+  "name": "Dromaius novaehollandiae",
+  "en": "Emu",
+  "hexagons": 44
+ },
+ {
+  "taxon": 20526,
+  "name": "Struthio camelus",
+  "en": "Common Ostrich",
+  "hexagons": 45
+ },
+ {
+  "taxon": 20535,
+  "name": "Crypturellus soui",
+  "en": "Little Tinamou",
+  "hexagons": 225
+ },
+ {
+  "taxon": 20553,
+  "name": "Crypturellus cinnamomeus",
+  "en": "Thicket Tinamou",
+  "hexagons": 296
+ },
+ {
+  "taxon": 20567,
+  "name": "Crypturellus boucardi",
+  "en": "Slaty-breasted Tinamou",
+  "hexagons": 73
+ },
+ {
+  "taxon": 20672,
+  "name": "Tinamus major",
+  "en": "Great Tinamou",
+  "hexagons": 167
+ },
+ {
+  "taxon": 20733,
+  "name": "Trogon massena",
+  "en": "Slaty-tailed Trogon",
+  "hexagons": 162
+ },
+ {
+  "taxon": 20737,
+  "name": "Trogon melanocephalus",
+  "en": "Black-headed Trogon",
+  "hexagons": 228
+ },
+ {
+  "taxon": 20754,
+  "name": "Trogon collaris",
+  "en": "Collared Trogon",
+  "hexagons": 372
+ },
+ {
+  "taxon": 20777,
+  "name": "Trogon mexicanus",
+  "en": "Mountain Trogon",
+  "hexagons": 426
+ },
+ {
+  "taxon": 20781,
+  "name": "Trogon elegans",
+  "en": "Elegant Trogon",
+  "hexagons": 42
+ },
+ {
+  "taxon": 20787,
+  "name": "Trogon citreolus",
+  "en": "Citreoline Trogon",
+  "hexagons": 191
+ },
+ {
+  "taxon": 20856,
+  "name": "Pharomachrus mocinno",
+  "en": "Resplendent Quetzal",
+  "hexagons": 45
+ },
+ {
+  "taxon": 20861,
+  "name": "Euptilotis neoxenus",
+  "en": "Eared Quetzal",
+  "hexagons": 120
+ },
+ {
+  "taxon": 20934,
+  "name": "Phoeniculus purpureus",
+  "en": "Green Woodhoopoe",
+  "hexagons": 11
+ },
+ {
+  "taxon": 47675,
+  "name": "Ara ambiguus",
+  "en": "Great Green Macaw",
+  "hexagons": 31,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 54549,
+  "name": "Pygoscelis antarcticus",
+  "en": "Chinstrap Penguin",
+  "hexagons": 26
+ },
+ {
+  "taxon": 54979,
+  "name": "Molothrus oryzivorus",
+  "en": "Giant Cowbird",
+  "hexagons": 204
+ },
+ {
+  "taxon": 54980,
+  "name": "Sporophila corvina",
+  "en": "Variable Seedeater",
+  "hexagons": 48
+ },
+ {
+  "taxon": 56768,
+  "name": "Sula granti",
+  "en": "Nazca Booby",
+  "hexagons": 214
+ },
+ {
+  "taxon": 59202,
+  "name": "Larus michahellis",
+  "en": "Yellow-legged Gull",
+  "hexagons": 2
+ },
+ {
+  "taxon": 59220,
+  "name": "Branta hutchinsii",
+  "en": "Cackling Goose",
+  "hexagons": 11745
+ },
+ {
+  "taxon": 62148,
+  "name": "Chlidonias hybrida",
+  "en": "Whiskered Tern",
+  "hexagons": 2
+ },
+ {
+  "taxon": 62529,
+  "name": "Platalea ajaja",
+  "en": "Roseate Spoonbill",
+  "hexagons": 1599
+ },
+ {
+  "taxon": 62550,
+  "name": "Seiurus aurocapilla",
+  "en": "Ovenbird",
+  "hexagons": 5996
+ },
+ {
+  "taxon": 68047,
+  "name": "Psarocolius montezuma",
+  "en": "Montezuma Oropendola",
+  "hexagons": 229
+ },
+ {
+  "taxon": 68519,
+  "name": "Ficedula albicilla",
+  "en": "Taiga Flycatcher",
+  "hexagons": 226
+ },
+ {
+  "taxon": 72458,
+  "name": "Actitis macularius",
+  "en": "Spotted Sandpiper",
+  "hexagons": 11177
+ },
+ {
+  "taxon": 72486,
+  "name": "Alopochen aegyptiaca",
+  "en": "Egyptian Goose",
+  "hexagons": 417
+ },
+ {
+  "taxon": 72520,
+  "name": "Ara severus",
+  "en": "Chestnut-fronted Macaw",
+  "hexagons": 32
+ },
+ {
+  "taxon": 72527,
+  "name": "Arremon brunneinucha",
+  "en": "Chestnut-capped Brushfinch",
+  "hexagons": 177
+ },
+ {
+  "taxon": 72529,
+  "name": "Arremon crassirostris",
+  "en": "Sooty-faced Finch",
+  "hexagons": 6
+ },
+ {
+  "taxon": 72533,
+  "name": "Arremon virenticeps",
+  "en": "Green-striped Brushfinch",
+  "hexagons": 79
+ },
+ {
+  "taxon": 72595,
+  "name": "Calothorax pulcher",
+  "en": "Beautiful Hummingbird",
+  "hexagons": 14
+ },
+ {
+  "taxon": 72660,
+  "name": "Chionis albus",
+  "en": "Snowy Sheathbill",
+  "hexagons": 17
+ },
+ {
+  "taxon": 72672,
+  "name": "Chrysothlypis chrysomelas",
+  "en": "Black-and-yellow Tanager",
+  "hexagons": 4
+ },
+ {
+  "taxon": 72674,
+  "name": "Strix virgata",
+  "en": "Mottled Owl",
+  "hexagons": 705
+ },
+ {
+  "taxon": 72753,
+  "name": "Colaptes auricularis",
+  "en": "Gray-crowned Woodpecker",
+  "hexagons": 187
+ },
+ {
+  "taxon": 72755,
+  "name": "Colaptes rubiginosus",
+  "en": "Golden-olive Woodpecker",
+  "hexagons": 277
+ },
+ {
+  "taxon": 72789,
+  "name": "Cygnus melancoryphus",
+  "en": "Black-necked Swan",
+  "hexagons": 3
+ },
+ {
+  "taxon": 72797,
+  "name": "Dendragapus fuliginosus",
+  "en": "Sooty Grouse",
+  "hexagons": 892
+ },
+ {
+  "taxon": 72901,
+  "name": "Guaruba guarouba",
+  "en": "Golden Parakeet",
+  "hexagons": 25
+ },
+ {
+  "taxon": 72912,
+  "name": "Helmitheros vermivorum",
+  "en": "Worm-eating Warbler",
+  "hexagons": 2397
+ },
+ {
+  "taxon": 72953,
+  "name": "Icterus prosthemelas",
+  "en": "Black-cowled Oriole",
+  "hexagons": 190
+ },
+ {
+  "taxon": 72989,
+  "name": "Lonchura atricapilla",
+  "en": "Chestnut Munia",
+  "hexagons": 2
+ },
+ {
+  "taxon": 72992,
+  "name": "Padda oryzivora",
+  "en": "Java Sparrow",
+  "hexagons": 49,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 73041,
+  "name": "Melozone aberti",
+  "en": "Abert's Towhee",
+  "hexagons": 138
+ },
+ {
+  "taxon": 73042,
+  "name": "Melozone albicollis",
+  "en": "White-throated Towhee",
+  "hexagons": 38
+ },
+ {
+  "taxon": 73044,
+  "name": "Melozone crissalis",
+  "en": "California Towhee",
+  "hexagons": 316
+ },
+ {
+  "taxon": 73048,
+  "name": "Mimus graysoni",
+  "en": "Socorro Mockingbird",
+  "hexagons": 2
+ },
+ {
+  "taxon": 73072,
+  "name": "Myiobius sulphureipygius",
+  "en": "Sulphur-rumped Flycatcher",
+  "hexagons": 132
+ },
+ {
+  "taxon": 73106,
+  "name": "Notharchus hyperrhynchus",
+  "en": "White-necked Puffbird",
+  "hexagons": 222
+ },
+ {
+  "taxon": 73148,
+  "name": "Parkesia motacilla",
+  "en": "Louisiana Waterthrush",
+  "hexagons": 3548
+ },
+ {
+  "taxon": 73149,
+  "name": "Parkesia noveboracensis",
+  "en": "Northern Waterthrush",
+  "hexagons": 11892
+ },
+ {
+  "taxon": 73155,
+  "name": "Passerina caerulea",
+  "en": "Blue Grosbeak",
+  "hexagons": 4477
+ },
+ {
+  "taxon": 73172,
+  "name": "Peucaea aestivalis",
+  "en": "Bachman's Sparrow",
+  "hexagons": 415
+ },
+ {
+  "taxon": 73173,
+  "name": "Peucaea botterii",
+  "en": "Botteri's Sparrow",
+  "hexagons": 734
+ },
+ {
+  "taxon": 73174,
+  "name": "Peucaea carpalis",
+  "en": "Rufous-winged Sparrow",
+  "hexagons": 122
+ },
+ {
+  "taxon": 73175,
+  "name": "Peucaea cassinii",
+  "en": "Cassin's Sparrow",
+  "hexagons": 1085
+ },
+ {
+  "taxon": 73176,
+  "name": "Peucaea humeralis",
+  "en": "Black-chested Sparrow",
+  "hexagons": 82
+ },
+ {
+  "taxon": 73177,
+  "name": "Peucaea mystacalis",
+  "en": "Bridled Sparrow",
+  "hexagons": 35
+ },
+ {
+  "taxon": 73178,
+  "name": "Peucaea ruficauda",
+  "en": "Stripe-headed Sparrow",
+  "hexagons": 272
+ },
+ {
+  "taxon": 73179,
+  "name": "Peucaea sumichrasti",
+  "en": "Cinnamon-tailed Sparrow",
+  "hexagons": 30
+ },
+ {
+  "taxon": 73186,
+  "name": "Phaenicophaeus curvirostris",
+  "en": "Chestnut-breasted Malkoha",
+  "hexagons": 3
+ },
+ {
+  "taxon": 73194,
+  "name": "Phaeochroa cuvierii",
+  "en": "Scaly-breasted Hummingbird",
+  "hexagons": 56
+ },
+ {
+  "taxon": 73203,
+  "name": "Phalaropus fulicarius",
+  "en": "Red Phalarope",
+  "hexagons": 4
+ },
+ {
+  "taxon": 73222,
+  "name": "Phoenicopterus roseus",
+  "en": "Greater Flamingo",
+  "hexagons": 27
+ },
+ {
+  "taxon": 73273,
+  "name": "Primolius couloni",
+  "en": "Blue-headed Macaw",
+  "hexagons": 2
+ },
+ {
+  "taxon": 73303,
+  "name": "Pseudobulweria rostrata",
+  "en": "Tahiti Petrel",
+  "hexagons": 12,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 73323,
+  "name": "Pyrilia haematotis",
+  "en": "Brown-hooded Parrot",
+  "hexagons": 58
+ },
+ {
+  "taxon": 73433,
+  "name": "Spizaetus melanoleucus",
+  "en": "Black-and-white Hawk-Eagle",
+  "hexagons": 201
+ },
+ {
+  "taxon": 73504,
+  "name": "Tiaris olivaceus",
+  "en": "Yellow-faced Grassquit",
+  "hexagons": 314
+ },
+ {
+  "taxon": 73523,
+  "name": "Trogon caligatus",
+  "en": "Gartered Violaceous Trogon",
+  "hexagons": 251
+ },
+ {
+  "taxon": 73553,
+  "name": "Vermivora cyanoptera",
+  "en": "Blue-winged Warbler",
+  "hexagons": 2428
+ },
+ {
+  "taxon": 73557,
+  "name": "Vireo atricapilla",
+  "en": "Black-capped Vireo",
+  "hexagons": 738
+ },
+ {
+  "taxon": 99305,
+  "name": "Diomedea antipodensis",
+  "en": "Antipodean Albatross",
+  "hexagons": 22
+ },
+ {
+  "taxon": 116795,
+  "name": "Acrocephalus bistrigiceps",
+  "en": "Black-browed Reed Warbler",
+  "hexagons": 14
+ },
+ {
+  "taxon": 116840,
+  "name": "Calcarius lapponicus",
+  "en": "Lapland Longspur",
+  "hexagons": 11775
+ },
+ {
+  "taxon": 116841,
+  "name": "Calcarius pictus",
+  "en": "Smith's Longspur",
+  "hexagons": 6183
+ },
+ {
+  "taxon": 116899,
+  "name": "Grallaria guatimalensis",
+  "en": "Scaled Antpitta",
+  "hexagons": 124
+ },
+ {
+  "taxon": 116904,
+  "name": "Grallaria quitensis",
+  "en": "Tawny Antpitta",
+  "hexagons": 7
+ },
+ {
+  "taxon": 116911,
+  "name": "Grallaricula flavirostris",
+  "en": "Ochre-breasted Antpitta",
+  "hexagons": 18
+ },
+ {
+  "taxon": 116939,
+  "name": "Locustella lanceolata",
+  "en": "Lanceolated Warbler",
+  "hexagons": 124
+ },
+ {
+  "taxon": 116993,
+  "name": "Nymphicus hollandicus",
+  "en": "Cockatiel",
+  "hexagons": 5888
+ },
+ {
+  "taxon": 116999,
+  "name": "Pandion haliaetus",
+  "en": "Osprey",
+  "hexagons": 12005
+ },
+ {
+  "taxon": 117002,
+  "name": "Phainopepla nitens",
+  "en": "Phainopepla",
+  "hexagons": 1229
+ },
+ {
+  "taxon": 117008,
+  "name": "Phylloscopus borealis",
+  "en": "Arctic Warbler",
+  "hexagons": 1213
+ },
+ {
+  "taxon": 117009,
+  "name": "Phylloscopus borealoides",
+  "en": "Sakhalin Leaf Warbler",
+  "hexagons": 31
+ },
+ {
+  "taxon": 117017,
+  "name": "Phylloscopus coronatus",
+  "en": "Eastern Crowned Warbler",
+  "hexagons": 2
+ },
+ {
+  "taxon": 117022,
+  "name": "Phylloscopus fuscatus",
+  "en": "Dusky Warbler",
+  "hexagons": 79
+ },
+ {
+  "taxon": 117028,
+  "name": "Phylloscopus inornatus",
+  "en": "Yellow-browed Warbler",
+  "hexagons": 28
+ },
+ {
+  "taxon": 117041,
+  "name": "Phylloscopus proregulus",
+  "en": "Pallas's Leaf Warbler",
+  "hexagons": 5
+ },
+ {
+  "taxon": 117047,
+  "name": "Phylloscopus schwarzi",
+  "en": "Radde's Warbler",
+  "hexagons": 1
+ },
+ {
+  "taxon": 117055,
+  "name": "Phylloscopus trochilus",
+  "en": "Willow Warbler",
+  "hexagons": 219
+ },
+ {
+  "taxon": 117059,
+  "name": "Plectrophenax nivalis",
+  "en": "Snow Bunting",
+  "hexagons": 9396
+ },
+ {
+  "taxon": 117100,
+  "name": "Regulus satrapa",
+  "en": "Golden-crowned Kinglet",
+  "hexagons": 7843
+ },
+ {
+  "taxon": 117152,
+  "name": "Cacatua goffiniana",
+  "en": "Tanimbar Corella",
+  "hexagons": 24,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 117153,
+  "name": "Calcarius ornatus",
+  "en": "Chestnut-collared Longspur",
+  "hexagons": 1606
+ },
+ {
+  "taxon": 117176,
+  "name": "Plectrophenax hyperboreus",
+  "en": "McKay's Bunting",
+  "hexagons": 339,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 117191,
+  "name": "Cacatua alba",
+  "en": "White Cockatoo",
+  "hexagons": 28,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 117192,
+  "name": "Cacatua moluccensis",
+  "en": "Salmon-crested Cockatoo",
+  "hexagons": 80,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 117214,
+  "name": "Sagittarius serpentarius",
+  "en": "Secretarybird",
+  "hexagons": 2
+ },
+ {
+  "taxon": 117223,
+  "name": "Rhynchophanes mccownii",
+  "en": "Thick-billed Longspur",
+  "hexagons": 2196
+ },
+ {
+  "taxon": 143853,
+  "name": "Pica hudsonia",
+  "en": "Black-billed Magpie",
+  "hexagons": 4226
+ },
+ {
+  "taxon": 144206,
+  "name": "Aphelocoma ultramarina",
+  "en": "Transvolcanic Jay",
+  "hexagons": 190
+ },
+ {
+  "taxon": 144207,
+  "name": "Aphelocoma wollweberi",
+  "en": "Mexican Jay",
+  "hexagons": 522
+ },
+ {
+  "taxon": 144220,
+  "name": "Melanitta americana",
+  "en": "Black Scoter",
+  "hexagons": 10491
+ },
+ {
+  "taxon": 144221,
+  "name": "Melanitta nigra",
+  "en": "Common Scoter",
+  "hexagons": 67
+ },
+ {
+  "taxon": 144222,
+  "name": "Melanitta deglandi",
+  "en": "White-winged Scoter",
+  "hexagons": 11828
+ },
+ {
+  "taxon": 144233,
+  "name": "Melanitta stejnegeri",
+  "en": "Stejneger's Scoter",
+  "hexagons": 224
+ },
+ {
+  "taxon": 144244,
+  "name": "Psittacus timneh",
+  "en": "Timneh Parrot",
+  "hexagons": 16
+ },
+ {
+  "taxon": 144264,
+  "name": "Argusianus argus",
+  "en": "Great Argus",
+  "hexagons": 1,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 144296,
+  "name": "Stercorarius maccormicki",
+  "en": "South Polar Skua",
+  "hexagons": 11590
+ },
+ {
+  "taxon": 144297,
+  "name": "Stercorarius skua",
+  "en": "Great Skua",
+  "hexagons": 157
+ },
+ {
+  "taxon": 144423,
+  "name": "Anser serrirostris",
+  "en": "Tundra Bean Goose",
+  "hexagons": 270
+ },
+ {
+  "taxon": 144433,
+  "name": "Thalassarche melanophris",
+  "en": "Black-browed Albatross",
+  "hexagons": 20
+ },
+ {
+  "taxon": 144440,
+  "name": "Puffinus subalaris",
+  "en": "Galapagos Shearwater",
+  "hexagons": 58
+ },
+ {
+  "taxon": 144455,
+  "name": "Ardea alba",
+  "en": "Great Egret",
+  "hexagons": 7318
+ },
+ {
+  "taxon": 144479,
+  "name": "Gallinula galeata",
+  "en": "Common Gallinule",
+  "hexagons": 4055
+ },
+ {
+  "taxon": 144489,
+  "name": "Tringa brevipes",
+  "en": "Grey-tailed Tattler",
+  "hexagons": 248
+ },
+ {
+  "taxon": 144490,
+  "name": "Tringa incana",
+  "en": "Wandering Tattler",
+  "hexagons": 1903
+ },
+ {
+  "taxon": 144491,
+  "name": "Tringa semipalmata",
+  "en": "Willet",
+  "hexagons": 6043
+ },
+ {
+  "taxon": 144496,
+  "name": "Gallinago delicata",
+  "en": "Wilson's Snipe",
+  "hexagons": 11285
+ },
+ {
+  "taxon": 144497,
+  "name": "Phalaropus tricolor",
+  "en": "Wilson's Phalarope",
+  "hexagons": 7243
+ },
+ {
+  "taxon": 144502,
+  "name": "Chroicocephalus philadelphia",
+  "en": "Bonaparte's Gull",
+  "hexagons": 11016
+ },
+ {
+  "taxon": 144510,
+  "name": "Chroicocephalus ridibundus",
+  "en": "Black-headed Gull",
+  "hexagons": 640
+ },
+ {
+  "taxon": 144512,
+  "name": "Hydrocoloeus minutus",
+  "en": "Little Gull",
+  "hexagons": 3210
+ },
+ {
+  "taxon": 144513,
+  "name": "Leucophaeus modestus",
+  "en": "Gray Gull",
+  "hexagons": 4
+ },
+ {
+  "taxon": 144514,
+  "name": "Leucophaeus atricilla",
+  "en": "Laughing Gull",
+  "hexagons": 3252
+ },
+ {
+  "taxon": 144515,
+  "name": "Leucophaeus pipixcan",
+  "en": "Franklin's Gull",
+  "hexagons": 8716
+ },
+ {
+  "taxon": 144517,
+  "name": "Ichthyaetus melanocephalus",
+  "en": "Mediterranean Gull",
+  "hexagons": 1
+ },
+ {
+  "taxon": 144525,
+  "name": "Onychoprion fuscatus",
+  "en": "Sooty Tern",
+  "hexagons": 573
+ },
+ {
+  "taxon": 144527,
+  "name": "Onychoprion anaethetus",
+  "en": "Bridled Tern",
+  "hexagons": 206
+ },
+ {
+  "taxon": 144528,
+  "name": "Onychoprion aleuticus",
+  "en": "Aleutian Tern",
+  "hexagons": 732
+ },
+ {
+  "taxon": 144529,
+  "name": "Sternula albifrons",
+  "en": "Little Tern",
+  "hexagons": 12
+ },
+ {
+  "taxon": 144530,
+  "name": "Sternula antillarum",
+  "en": "Least Tern",
+  "hexagons": 2874
+ },
+ {
+  "taxon": 144536,
+  "name": "Gelochelidon nilotica",
+  "en": "Gull-billed Tern",
+  "hexagons": 1057
+ },
+ {
+  "taxon": 144537,
+  "name": "Hydroprogne caspia",
+  "en": "Caspian Tern",
+  "hexagons": 182
+ },
+ {
+  "taxon": 144539,
+  "name": "Thalasseus maximus",
+  "en": "Royal Tern",
+  "hexagons": 828
+ },
+ {
+  "taxon": 144541,
+  "name": "Thalasseus sandvicensis",
+  "en": "Sandwich Tern",
+  "hexagons": 486
+ },
+ {
+  "taxon": 144542,
+  "name": "Thalasseus elegans",
+  "en": "Elegant Tern",
+  "hexagons": 351
+ },
+ {
+  "taxon": 144594,
+  "name": "Bubo scandiacus",
+  "en": "Snowy Owl",
+  "hexagons": 8162
+ },
+ {
+  "taxon": 144659,
+  "name": "Coracias naevius",
+  "en": "Purple Roller",
+  "hexagons": 1
+ },
+ {
+  "taxon": 144809,
+  "name": "Poecile palustris",
+  "en": "Marsh Tit",
+  "hexagons": 7
+ },
+ {
+  "taxon": 144812,
+  "name": "Poecile montanus",
+  "en": "Willow Tit",
+  "hexagons": 16
+ },
+ {
+  "taxon": 144814,
+  "name": "Poecile carolinensis",
+  "en": "Carolina Chickadee",
+  "hexagons": 1426
+ },
+ {
+  "taxon": 144815,
+  "name": "Poecile atricapillus",
+  "en": "Black-capped Chickadee",
+  "hexagons": 6302
+ },
+ {
+  "taxon": 144816,
+  "name": "Poecile gambeli",
+  "en": "Mountain Chickadee",
+  "hexagons": 2221
+ },
+ {
+  "taxon": 144817,
+  "name": "Poecile sclateri",
+  "en": "Mexican Chickadee",
+  "hexagons": 441
+ },
+ {
+  "taxon": 144820,
+  "name": "Poecile rufescens",
+  "en": "Chestnut-backed Chickadee",
+  "hexagons": 1222
+ },
+ {
+  "taxon": 144821,
+  "name": "Poecile hudsonicus",
+  "en": "Boreal Chickadee",
+  "hexagons": 4421
+ },
+ {
+  "taxon": 144823,
+  "name": "Periparus ater",
+  "en": "Coal Tit",
+  "hexagons": 28
+ },
+ {
+  "taxon": 144864,
+  "name": "Pheugopedius maculipectus",
+  "en": "Spot-breasted Wren",
+  "hexagons": 275
+ },
+ {
+  "taxon": 144866,
+  "name": "Pheugopedius felix",
+  "en": "Happy Wren",
+  "hexagons": 241
+ },
+ {
+  "taxon": 144868,
+  "name": "Thryophilus sinaloa",
+  "en": "Sinaloa Wren",
+  "hexagons": 202
+ },
+ {
+  "taxon": 144869,
+  "name": "Thryophilus pleurostictus",
+  "en": "Banded Wren",
+  "hexagons": 275
+ },
+ {
+  "taxon": 144870,
+  "name": "Thryophilus rufalbus",
+  "en": "Rufous-and-white Wren",
+  "hexagons": 47
+ },
+ {
+  "taxon": 144882,
+  "name": "Troglodytes pacificus",
+  "en": "Pacific Wren",
+  "hexagons": 3494
+ },
+ {
+  "taxon": 144883,
+  "name": "Troglodytes hiemalis",
+  "en": "Winter Wren",
+  "hexagons": 4477
+ },
+ {
+  "taxon": 145055,
+  "name": "Larvivora sibilans",
+  "en": "Rufous-tailed Robin",
+  "hexagons": 114
+ },
+ {
+  "taxon": 145057,
+  "name": "Larvivora akahige",
+  "en": "Japanese Robin",
+  "hexagons": 114
+ },
+ {
+  "taxon": 145064,
+  "name": "Calliope calliope",
+  "en": "Siberian Rubythroat",
+  "hexagons": 281
+ },
+ {
+  "taxon": 145087,
+  "name": "Turdus eunomus",
+  "en": "Dusky Thrush",
+  "hexagons": 295
+ },
+ {
+  "taxon": 145088,
+  "name": "Ixoreus naevius",
+  "en": "Varied Thrush",
+  "hexagons": 7002
+ },
+ {
+  "taxon": 145089,
+  "name": "Ridgwayia pinicola",
+  "en": "Aztec Thrush",
+  "hexagons": 504
+ },
+ {
+  "taxon": 145109,
+  "name": "Lamprotornis iris",
+  "en": "Emerald Starling",
+  "hexagons": 524,
+  "why": "no recording with a licence that allows a clip"
+ },
+ {
+  "taxon": 145207,
+  "name": "Motacilla tschutschensis",
+  "en": "Eastern Yellow Wagtail",
+  "hexagons": 1074
+ },
+ {
+  "taxon": 145215,
+  "name": "Oreothlypis superciliosa",
+  "en": "Crescent-chested Warbler",
+  "hexagons": 423
+ },
+ {
+  "taxon": 145216,
+  "name": "Oreothlypis gutturalis",
+  "en": "Flame-throated Warbler",
+  "hexagons": 18
+ },
+ {
+  "taxon": 145223,
+  "name": "Geothlypis tolmiei",
+  "en": "MacGillivray's Warbler",
+  "hexagons": 3248
+ },
+ {
+  "taxon": 145224,
+  "name": "Geothlypis philadelphia",
+  "en": "Mourning Warbler",
+  "hexagons": 5910
+ },
+ {
+  "taxon": 145225,
+  "name": "Geothlypis formosa",
+  "en": "Kentucky Warbler",
+  "hexagons": 2469
+ },
+ {
+  "taxon": 145229,
+  "name": "Setophaga citrina",
+  "en": "Hooded Warbler",
+  "hexagons": 4931
+ },
+ {
+  "taxon": 145230,
+  "name": "Setophaga kirtlandii",
+  "en": "Kirtland's Warbler",
+  "hexagons": 632
+ },
+ {
+  "taxon": 145231,
+  "name": "Setophaga tigrina",
+  "en": "Cape May Warbler",
+  "hexagons": 5744
+ },
+ {
+  "taxon": 145232,
+  "name": "Setophaga cerulea",
+  "en": "Cerulean Warbler",
+  "hexagons": 2182
+ },
+ {
+  "taxon": 145233,
+  "name": "Setophaga americana",
+  "en": "Northern Parula",
+  "hexagons": 6375
+ },
+ {
+  "taxon": 145234,
+  "name": "Setophaga pitiayumi",
+  "en": "Tropical Parula",
+  "hexagons": 700
+ },
+ {
+  "taxon": 145235,
+  "name": "Setophaga magnolia",
+  "en": "Magnolia Warbler",
+  "hexagons": 6465
+ },
+ {
+  "taxon": 145236,
+  "name": "Setophaga castanea",
+  "en": "Bay-breasted Warbler",
+  "hexagons": 5940
+ },
+ {
+  "taxon": 145237,
+  "name": "Setophaga fusca",
+  "en": "Blackburnian Warbler",
+  "hexagons": 5526
+ },
+ {
+  "taxon": 145238,
+  "name": "Setophaga petechia",
+  "en": "Mangrove Yellow Warbler",
+  "hexagons": 486
+ },
+ {
+  "taxon": 145239,
+  "name": "Setophaga pensylvanica",
+  "en": "Chestnut-sided Warbler",
+  "hexagons": 6860
+ },
+ {
+  "taxon": 145240,
+  "name": "Setophaga striata",
+  "en": "Blackpoll Warbler",
+  "hexagons": 10164
+ },
+ {
+  "taxon": 145242,
+  "name": "Setophaga palmarum",
+  "en": "Palm Warbler",
+  "hexagons": 7176
+ },
+ {
+  "taxon": 145244,
+  "name": "Setophaga pinus",
+  "en": "Pine Warbler",
+  "hexagons": 3239
+ },
+ {
+  "taxon": 145245,
+  "name": "Setophaga coronata",
+  "en": "Yellow-rumped Warbler",
+  "hexagons": 10249
+ },
+ {
+  "taxon": 145246,
+  "name": "Setophaga dominica",
+  "en": "Yellow-throated Warbler",
+  "hexagons": 3549
+ },
+ {
+  "taxon": 145248,
+  "name": "Setophaga vitellina",
+  "en": "Vitelline Warbler",
+  "hexagons": 3
+ },
+ {
+  "taxon": 145249,
+  "name": "Setophaga discolor",
+  "en": "Prairie Warbler",
+  "hexagons": 2446
+ },
+ {
+  "taxon": 145253,
+  "name": "Setophaga graciae",
+  "en": "Grace's Warbler",
+  "hexagons": 1037
+ },
+ {
+  "taxon": 145254,
+  "name": "Setophaga nigrescens",
+  "en": "Black-throated Gray Warbler",
+  "hexagons": 2324
+ },
+ {
+  "taxon": 145255,
+  "name": "Setophaga townsendi",
+  "en": "Townsend's Warbler",
+  "hexagons": 4315
+ },
+ {
+  "taxon": 145256,
+  "name": "Setophaga occidentalis",
+  "en": "Hermit Warbler",
+  "hexagons": 1520
+ },
+ {
+  "taxon": 145257,
+  "name": "Setophaga chrysoparia",
+  "en": "Golden-cheeked Warbler",
+  "hexagons": 306
+ },
+ {
+  "taxon": 145258,
+  "name": "Setophaga virens",
+  "en": "Black-throated Green Warbler",
+  "hexagons": 5144
+ },
+ {
+  "taxon": 145275,
+  "name": "Cardellina canadensis",
+  "en": "Canada Warbler",
+  "hexagons": 7420
+ },
+ {
+  "taxon": 145276,
+  "name": "Cardellina pusilla",
+  "en": "Wilson's Warbler",
+  "hexagons": 12192
+ },
+ {
+  "taxon": 145277,
+  "name": "Cardellina rubra",
+  "en": "Red Warbler",
+  "hexagons": 319
+ },
+ {
+  "taxon": 145278,
+  "name": "Cardellina versicolor",
+  "en": "Pink-headed Warbler",
+  "hexagons": 10
+ },
+ {
+  "taxon": 145289,
+  "name": "Melozone fusca",
+  "en": "Canyon Towhee",
+  "hexagons": 998
+ },
+ {
+  "taxon": 145300,
+  "name": "Acanthis flammea",
+  "en": "Redpoll",
+  "hexagons": 9233
+ },
+ {
+  "taxon": 145303,
+  "name": "Spinus spinus",
+  "en": "Eurasian Siskin",
+  "hexagons": 39
+ },
+ {
+  "taxon": 145304,
+  "name": "Spinus pinus",
+  "en": "Pine Siskin",
+  "hexagons": 9628
+ },
+ {
+  "taxon": 145306,
+  "name": "Spinus notatus",
+  "en": "Black-headed Siskin",
+  "hexagons": 445
+ },
+ {
+  "taxon": 145308,
+  "name": "Spinus psaltria",
+  "en": "Lesser Goldfinch",
+  "hexagons": 2767
+ },
+ {
+  "taxon": 145309,
+  "name": "Spinus lawrencei",
+  "en": "Lawrence's Goldfinch",
+  "hexagons": 531
+ },
+ {
+  "taxon": 145310,
+  "name": "Spinus tristis",
+  "en": "American Goldfinch",
+  "hexagons": 6285
+ },
+ {
+  "taxon": 145313,
+  "name": "Spinus xanthogastrus",
+  "en": "Yellow-bellied Siskin",
+  "hexagons": 3
+ },
+ {
+  "taxon": 145349,
+  "name": "Spermestes fringilloides",
+  "en": "Magpie Mannikin",
+  "hexagons": 1
+ },
+ {
+  "taxon": 145350,
+  "name": "Euodice malabarica",
+  "en": "Indian Silverbill",
+  "hexagons": 2
+ },
+ {
+  "taxon": 145351,
+  "name": "Euodice cantans",
+  "en": "African Silverbill",
+  "hexagons": 2
+ },
+ {
+  "taxon": 145360,
+  "name": "Chloris chloris",
+  "en": "European Greenfinch",
+  "hexagons": 2
+ },
+ {
+  "taxon": 145361,
+  "name": "Chloris sinica",
+  "en": "Oriental Greenfinch",
+  "hexagons": 61
+ },
+ {
+  "taxon": 145363,
+  "name": "Troglodytes troglodytes",
+  "en": "Eurasian Wren",
+  "hexagons": 42
+ },
+ {
+  "taxon": 199830,
+  "name": "Pseudastur albicollis",
+  "en": "White Hawk",
+  "hexagons": 180
+ },
+ {
+  "taxon": 199831,
+  "name": "Antrostomus arizonae",
+  "en": "Mexican Whip-poor-will",
+  "hexagons": 666
+ },
+ {
+  "taxon": 199832,
+  "name": "Antrostomus badius",
+  "en": "Yucatan Nightjar",
+  "hexagons": 124
+ },
+ {
+  "taxon": 199833,
+  "name": "Antrostomus carolinensis",
+  "en": "Chuck-will's-widow",
+  "hexagons": 1593
+ },
+ {
+  "taxon": 199835,
+  "name": "Antrostomus ridgwayi",
+  "en": "Buff-collared Nightjar",
+  "hexagons": 408
+ },
+ {
+  "taxon": 199837,
+  "name": "Antrostomus vociferus",
+  "en": "Eastern Whip-poor-will",
+  "hexagons": 3009
+ },
+ {
+  "taxon": 199839,
+  "name": "Haemorhous cassinii",
+  "en": "Cassin's Finch",
+  "hexagons": 2175
+ },
+ {
+  "taxon": 199840,
+  "name": "Haemorhous mexicanus",
+  "en": "House Finch",
+  "hexagons": 5704
+ },
+ {
+  "taxon": 199841,
+  "name": "Haemorhous purpureus",
+  "en": "Purple Finch",
+  "hexagons": 6075
+ },
+ {
+  "taxon": 199912,
+  "name": "Buteogallus solitarius",
+  "en": "Solitary Eagle",
+  "hexagons": 6
+ },
+ {
+  "taxon": 199913,
+  "name": "Buteo plagiatus",
+  "en": "Gray Hawk",
+  "hexagons": 1054
+ },
+ {
+  "taxon": 199914,
+  "name": "Selasphorus calliope",
+  "en": "Calliope Hummingbird",
+  "hexagons": 3179
+ },
+ {
+  "taxon": 199915,
+  "name": "Synthliboramphus scrippsi",
+  "en": "Scripps's Murrelet",
+  "hexagons": 127
+ },
+ {
+  "taxon": 199916,
+  "name": "Setophaga caerulescens",
+  "en": "Black-throated Blue Warbler",
+  "hexagons": 3541
+ },
+ {
+  "taxon": 201031,
+  "name": "Leptoptilos crumenifer",
+  "en": "Marabou Stork",
+  "hexagons": 3
+ },
+ {
+  "taxon": 201041,
+  "name": "Rupornis magnirostris",
+  "en": "Roadside Hawk",
+  "hexagons": 397
+ },
+ {
+  "taxon": 201043,
+  "name": "Geranoaetus albicaudatus",
+  "en": "White-tailed Hawk",
+  "hexagons": 964
+ },
+ {
+  "taxon": 201097,
+  "name": "Schiffornis veraepacis",
+  "en": "Northern Schiffornis",
+  "hexagons": 193
+ },
+ {
+  "taxon": 201194,
+  "name": "Geokichla sibirica",
+  "en": "Siberian Thrush",
+  "hexagons": 2
+ },
+ {
+  "taxon": 201282,
+  "name": "Gallinula chloropus",
+  "en": "Eurasian Moorhen",
+  "hexagons": 1
+ },
+ {
+  "taxon": 201284,
+  "name": "Synthliboramphus hypoleucus",
+  "en": "Guadalupe Murrelet",
+  "hexagons": 43,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 201450,
+  "name": "Puffinus lherminieri",
+  "en": "Sargasso Shearwater",
+  "hexagons": 114
+ },
+ {
+  "taxon": 202471,
+  "name": "Aratinga solstitialis",
+  "en": "Sun Parakeet",
+  "hexagons": 1379,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 202491,
+  "name": "Apus pacificus",
+  "en": "Pacific Swift",
+  "hexagons": 187
+ },
+ {
+  "taxon": 204454,
+  "name": "Acridotheres tristis",
+  "en": "Common Myna",
+  "hexagons": 82
+ },
+ {
+  "taxon": 204455,
+  "name": "Acrocephalus scirpaceus",
+  "en": "Common Reed Warbler",
+  "hexagons": 6
+ },
+ {
+  "taxon": 204490,
+  "name": "Copsychus malabaricus",
+  "en": "White-rumped Shama",
+  "hexagons": 21,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 204496,
+  "name": "Corvus corone",
+  "en": "Carrion Crow",
+  "hexagons": 40
+ },
+ {
+  "taxon": 204517,
+  "name": "Gracula religiosa",
+  "en": "Common Hill Myna",
+  "hexagons": 4,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 204533,
+  "name": "Larus argentatus",
+  "en": "European Herring Gull",
+  "hexagons": 97
+ },
+ {
+  "taxon": 204552,
+  "name": "Nucifraga caryocatactes",
+  "en": "Northern Nutcracker",
+  "hexagons": 36
+ },
+ {
+  "taxon": 210941,
+  "name": "Tarsiger cyanurus",
+  "en": "Red-flanked Bluetail",
+  "hexagons": 26
+ },
+ {
+  "taxon": 318836,
+  "name": "Gallinago gallinago",
+  "en": "Common Snipe",
+  "hexagons": 175
+ },
+ {
+  "taxon": 320711,
+  "name": "Calonectris borealis",
+  "en": "Cory's Shearwater",
+  "hexagons": 155
+ },
+ {
+  "taxon": 324718,
+  "name": "Larus vegae",
+  "en": "Vega Gull",
+  "hexagons": 912
+ },
+ {
+  "taxon": 338752,
+  "name": "Artemisiospiza nevadensis",
+  "en": "Sagebrush Sparrow",
+  "hexagons": 1111
+ },
+ {
+  "taxon": 339592,
+  "name": "Calidris virgata",
+  "en": "Surfbird",
+  "hexagons": 1866
+ },
+ {
+  "taxon": 339593,
+  "name": "Calidris pugnax",
+  "en": "Ruff",
+  "hexagons": 1662
+ },
+ {
+  "taxon": 339594,
+  "name": "Calidris falcinellus",
+  "en": "Broad-billed Sandpiper",
+  "hexagons": 57
+ },
+ {
+  "taxon": 339596,
+  "name": "Calidris subruficollis",
+  "en": "Buff-breasted Sandpiper",
+  "hexagons": 10401
+ },
+ {
+  "taxon": 339605,
+  "name": "Psiloscops flammeolus",
+  "en": "Flammulated Owl",
+  "hexagons": 1815
+ },
+ {
+  "taxon": 339673,
+  "name": "Ceratopipra mentalis",
+  "en": "Red-capped Manakin",
+  "hexagons": 176
+ },
+ {
+  "taxon": 339893,
+  "name": "Chlorospingus flavopectus",
+  "en": "Common Chlorospingus",
+  "hexagons": 213
+ },
+ {
+  "taxon": 339921,
+  "name": "Stercorarius antarcticus",
+  "en": "Brown Skua",
+  "hexagons": 413
+ },
+ {
+  "taxon": 339923,
+  "name": "Thalurania colombica",
+  "en": "Crowned Woodnymph",
+  "hexagons": 33
+ },
+ {
+  "taxon": 344926,
+  "name": "Artemisiospiza belli",
+  "en": "Bell's Sparrow",
+  "hexagons": 466
+ },
+ {
+  "taxon": 367360,
+  "name": "Phaethornis mexicanus",
+  "en": "Mexican Hermit",
+  "hexagons": 89
+ },
+ {
+  "taxon": 367471,
+  "name": "Tetrao urogalloides",
+  "en": "Black-billed Capercaillie",
+  "hexagons": 1
+ },
+ {
+  "taxon": 367475,
+  "name": "Rallus obsoletus",
+  "en": "Ridgway's Rail",
+  "hexagons": 223
+ },
+ {
+  "taxon": 367476,
+  "name": "Rallus tenuirostris",
+  "en": "Aztec Rail",
+  "hexagons": 261
+ },
+ {
+  "taxon": 367477,
+  "name": "Rallus crepitans",
+  "en": "Clapper Rail",
+  "hexagons": 502
+ },
+ {
+  "taxon": 367482,
+  "name": "Leptotila cassinii",
+  "en": "Gray-chested Dove",
+  "hexagons": 85
+ },
+ {
+  "taxon": 367485,
+  "name": "Zentrygon costaricensis",
+  "en": "Buff-fronted Quail-Dove",
+  "hexagons": 9
+ },
+ {
+  "taxon": 367487,
+  "name": "Zentrygon albifacies",
+  "en": "White-faced Quail-Dove",
+  "hexagons": 85
+ },
+ {
+  "taxon": 367556,
+  "name": "Eupsittula nana",
+  "en": "Olive-throated Parakeet",
+  "hexagons": 246
+ },
+ {
+  "taxon": 367558,
+  "name": "Eupsittula canicularis",
+  "en": "Orange-fronted Parakeet",
+  "hexagons": 505
+ },
+ {
+  "taxon": 367562,
+  "name": "Aratinga nenday",
+  "en": "Nanday Parakeet",
+  "hexagons": 215
+ },
+ {
+  "taxon": 367564,
+  "name": "Thectocercus acuticaudatus",
+  "en": "Blue-crowned Parakeet",
+  "hexagons": 116
+ },
+ {
+  "taxon": 367568,
+  "name": "Psittacara strenuus",
+  "en": "Pacific Parakeet",
+  "hexagons": 51
+ },
+ {
+  "taxon": 367569,
+  "name": "Psittacara finschi",
+  "en": "Crimson-fronted Parakeet",
+  "hexagons": 36
+ },
+ {
+  "taxon": 367571,
+  "name": "Psittacara mitratus",
+  "en": "Mitred Parakeet",
+  "hexagons": 647
+ },
+ {
+  "taxon": 367572,
+  "name": "Psittacara erythrogenys",
+  "en": "Red-masked Parakeet",
+  "hexagons": 74
+ },
+ {
+  "taxon": 367573,
+  "name": "Psittacara leucophthalmus",
+  "en": "White-eyed Parakeet",
+  "hexagons": 40
+ },
+ {
+  "taxon": 367613,
+  "name": "Gymnopithys bicolor",
+  "en": "Bicolored Antbird",
+  "hexagons": 1
+ },
+ {
+  "taxon": 367648,
+  "name": "Cyanolyca nanus",
+  "en": "Dwarf Jay",
+  "hexagons": 11
+ },
+ {
+  "taxon": 367656,
+  "name": "Phylloscopus examinandus",
+  "en": "Kamchatka Leaf Warbler",
+  "hexagons": 571
+ },
+ {
+  "taxon": 367678,
+  "name": "Ptiliogonys cinereus",
+  "en": "Gray Silky-flycatcher",
+  "hexagons": 363
+ },
+ {
+  "taxon": 367680,
+  "name": "Ptiliogonys caudatus",
+  "en": "Long-tailed Silky-flycatcher",
+  "hexagons": 7
+ },
+ {
+  "taxon": 367681,
+  "name": "Sporophila funerea",
+  "en": "Thick-billed Seed-Finch",
+  "hexagons": 109
+ },
+ {
+  "taxon": 367683,
+  "name": "Sporophila nuttingi",
+  "en": "Nicaraguan Seed-Finch",
+  "hexagons": 13
+ },
+ {
+  "taxon": 367693,
+  "name": "Cassiculus melanicterus",
+  "en": "Yellow-winged Cacique",
+  "hexagons": 307
+ },
+ {
+  "taxon": 367700,
+  "name": "Spermestes cucullata",
+  "en": "Bronze Mannikin",
+  "hexagons": 9
+ },
+ {
+  "taxon": 367714,
+  "name": "Rallus longirostris",
+  "en": "Mangrove Rail",
+  "hexagons": 4
+ },
+ {
+  "taxon": 367715,
+  "name": "Rallus elegans",
+  "en": "King Rail",
+  "hexagons": 1651
+ },
+ {
+  "taxon": 411086,
+  "name": "Ardea ibis",
+  "en": "Western Cattle-Egret",
+  "hexagons": 4909,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 437602,
+  "name": "Ammospiza leconteii",
+  "en": "LeConte's Sparrow",
+  "hexagons": 7000
+ },
+ {
+  "taxon": 474210,
+  "name": "Spizelloides arborea",
+  "en": "American Tree Sparrow",
+  "hexagons": 8747
+ },
+ {
+  "taxon": 474332,
+  "name": "Porphyrio poliocephalus",
+  "en": "Gray-headed Swamphen",
+  "hexagons": 79
+ },
+ {
+  "taxon": 475115,
+  "name": "Ardenna creatopus",
+  "en": "Pink-footed Shearwater",
+  "hexagons": 171
+ },
+ {
+  "taxon": 475116,
+  "name": "Ardenna tenuirostris",
+  "en": "Short-tailed Shearwater",
+  "hexagons": 1243
+ },
+ {
+  "taxon": 475119,
+  "name": "Ardenna carneipes",
+  "en": "Flesh-footed Shearwater",
+  "hexagons": 129
+ },
+ {
+  "taxon": 475120,
+  "name": "Ardenna gravis",
+  "en": "Great Shearwater",
+  "hexagons": 499
+ },
+ {
+  "taxon": 475121,
+  "name": "Ardenna bulleri",
+  "en": "Buller's Shearwater",
+  "hexagons": 61
+ },
+ {
+  "taxon": 475125,
+  "name": "Ardenna pacifica",
+  "en": "Wedge-tailed Shearwater",
+  "hexagons": 112
+ },
+ {
+  "taxon": 485176,
+  "name": "Mareca americana",
+  "en": "American Wigeon",
+  "hexagons": 11514
+ },
+ {
+  "taxon": 485628,
+  "name": "Pterodroma arminjoniana",
+  "en": "Trindade Petrel",
+  "hexagons": 12
+ },
+ {
+  "taxon": 486630,
+  "name": "Buteo japonicus",
+  "en": "Eastern Buzzard",
+  "hexagons": 28
+ },
+ {
+  "taxon": 496008,
+  "name": "Rhabdotorrhinus corrugatus",
+  "en": "Wrinkled Hornbill",
+  "hexagons": 3
+ },
+ {
+  "taxon": 502899,
+  "name": "Ardenna grisea",
+  "en": "Sooty Shearwater",
+  "hexagons": 65
+ },
+ {
+  "taxon": 505884,
+  "name": "Synoicus chinensis",
+  "en": "Blue-breasted Quail",
+  "hexagons": 935
+ },
+ {
+  "taxon": 506117,
+  "name": "Aphelocoma woodhouseii",
+  "en": "Woodhouse's Scrub-Jay",
+  "hexagons": 1308
+ },
+ {
+  "taxon": 506118,
+  "name": "Aphelocoma californica",
+  "en": "California Scrub-Jay",
+  "hexagons": 652
+ },
+ {
+  "taxon": 508048,
+  "name": "Antigone canadensis",
+  "en": "Sandhill Crane",
+  "hexagons": 12328
+ },
+ {
+  "taxon": 508057,
+  "name": "Antigone vipio",
+  "en": "White-naped Crane",
+  "hexagons": 1
+ },
+ {
+  "taxon": 508097,
+  "name": "Chalcophaps indica",
+  "en": "Asian Emerald Dove",
+  "hexagons": 3
+ },
+ {
+  "taxon": 508366,
+  "name": "Colibri thalassinus",
+  "en": "Mexican Violetear",
+  "hexagons": 386
+ },
+ {
+  "taxon": 508367,
+  "name": "Colibri cyanotus",
+  "en": "Lesser Violetear",
+  "hexagons": 8
+ },
+ {
+  "taxon": 508909,
+  "name": "Mustelirallus erythrops",
+  "en": "Paint-billed Crake",
+  "hexagons": 27,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 508920,
+  "name": "Zapornia pusilla",
+  "en": "Baillon's Crake",
+  "hexagons": 10
+ },
+ {
+  "taxon": 509025,
+  "name": "Momotus lessonii",
+  "en": "Lesson's Motmot",
+  "hexagons": 224
+ },
+ {
+  "taxon": 509027,
+  "name": "Momotus coeruliceps",
+  "en": "Blue-capped Motmot",
+  "hexagons": 103
+ },
+ {
+  "taxon": 509656,
+  "name": "Calonectris diomedea",
+  "en": "Scopoli's Shearwater",
+  "hexagons": 103
+ },
+ {
+  "taxon": 512431,
+  "name": "Muscicapa dauurica",
+  "en": "Asian Brown Flycatcher",
+  "hexagons": 5
+ },
+ {
+  "taxon": 513888,
+  "name": "Aramides albiventris",
+  "en": "Russet-naped Wood-Rail",
+  "hexagons": 240
+ },
+ {
+  "taxon": 514125,
+  "name": "Oressochen jubatus",
+  "en": "Orinoco Goose",
+  "hexagons": 14,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 515239,
+  "name": "Tunchiornis ochraceiceps",
+  "en": "Ochre-crowned Greenlet",
+  "hexagons": 210
+ },
+ {
+  "taxon": 515240,
+  "name": "Pachysylvia decurtata",
+  "en": "Lesser Greenlet",
+  "hexagons": 230
+ },
+ {
+  "taxon": 518292,
+  "name": "Cantorchilus modestus",
+  "en": "Cabanis's Wren",
+  "hexagons": 35
+ },
+ {
+  "taxon": 547200,
+  "name": "Agropsar philippensis",
+  "en": "Chestnut-cheeked Starling",
+  "hexagons": 13
+ },
+ {
+  "taxon": 558425,
+  "name": "Anser canagicus",
+  "en": "Emperor Goose",
+  "hexagons": 1040
+ },
+ {
+  "taxon": 558426,
+  "name": "Anser caerulescens",
+  "en": "Snow Goose",
+  "hexagons": 12548
+ },
+ {
+  "taxon": 558427,
+  "name": "Anser rossii",
+  "en": "Ross's Goose",
+  "hexagons": 10105
+ },
+ {
+  "taxon": 558428,
+  "name": "Sibirionetta formosa",
+  "en": "Baikal Teal",
+  "hexagons": 53
+ },
+ {
+  "taxon": 558429,
+  "name": "Spatula querquedula",
+  "en": "Garganey",
+  "hexagons": 243
+ },
+ {
+  "taxon": 558433,
+  "name": "Spatula discors",
+  "en": "Blue-winged Teal",
+  "hexagons": 9369
+ },
+ {
+  "taxon": 558434,
+  "name": "Spatula cyanoptera",
+  "en": "Cinnamon Teal",
+  "hexagons": 4001
+ },
+ {
+  "taxon": 558435,
+  "name": "Spatula platalea",
+  "en": "Red Shoveler",
+  "hexagons": 1
+ },
+ {
+  "taxon": 558438,
+  "name": "Spatula clypeata",
+  "en": "Northern Shoveler",
+  "hexagons": 206
+ },
+ {
+  "taxon": 558439,
+  "name": "Mareca strepera",
+  "en": "Gadwall",
+  "hexagons": 8992
+ },
+ {
+  "taxon": 558440,
+  "name": "Mareca falcata",
+  "en": "Falcated Duck",
+  "hexagons": 29
+ },
+ {
+  "taxon": 558441,
+  "name": "Mareca penelope",
+  "en": "Eurasian Wigeon",
+  "hexagons": 1844
+ },
+ {
+  "taxon": 558442,
+  "name": "Mareca sibilatrix",
+  "en": "Chiloe Wigeon",
+  "hexagons": 3
+ },
+ {
+  "taxon": 558446,
+  "name": "Circus hudsonius",
+  "en": "Northern Harrier",
+  "hexagons": 11641
+ },
+ {
+  "taxon": 558468,
+  "name": "Asio clamator",
+  "en": "Striped Owl",
+  "hexagons": 268
+ },
+ {
+  "taxon": 558478,
+  "name": "Eugenes spectabilis",
+  "en": "Talamanca Hummingbird",
+  "hexagons": 1
+ },
+ {
+  "taxon": 558490,
+  "name": "Cercomacroides tyrannina",
+  "en": "Dusky Antbird",
+  "hexagons": 140
+ },
+ {
+  "taxon": 558512,
+  "name": "Lanius borealis",
+  "en": "Northern Shrike",
+  "hexagons": 8553
+ },
+ {
+  "taxon": 558570,
+  "name": "Ixothraupis guttata",
+  "en": "Speckled Tanager",
+  "hexagons": 15
+ },
+ {
+  "taxon": 558589,
+  "name": "Junco bairdi",
+  "en": "Baird's Junco",
+  "hexagons": 1
+ },
+ {
+  "taxon": 558591,
+  "name": "Cyanoloxia cyanoides",
+  "en": "Blue-black Grosbeak",
+  "hexagons": 131
+ },
+ {
+  "taxon": 558596,
+  "name": "Carpodacus sibiricus",
+  "en": "Long-tailed Rosefinch",
+  "hexagons": 5
+ },
+ {
+  "taxon": 558601,
+  "name": "Crithagra mozambica",
+  "en": "Yellow-fronted Canary",
+  "hexagons": 32
+ },
+ {
+  "taxon": 558637,
+  "name": "Loxia sinesciuris",
+  "en": "Cassia Crossbill",
+  "hexagons": 45
+ },
+ {
+  "taxon": 559084,
+  "name": "Eugenes fulgens",
+  "en": "Rivoli's Hummingbird",
+  "hexagons": 662
+ },
+ {
+  "taxon": 559376,
+  "name": "Melozone biarcuata",
+  "en": "White-faced Ground-Sparrow",
+  "hexagons": 34
+ },
+ {
+  "taxon": 559387,
+  "name": "Aulacorhynchus prasinus",
+  "en": "Northern Emerald-Toucanet",
+  "hexagons": 240
+ },
+ {
+  "taxon": 564898,
+  "name": "Junco phaeonotus",
+  "en": "Yellow-eyed Junco",
+  "hexagons": 572
+ },
+ {
+  "taxon": 578460,
+  "name": "Elaenia chiriquensis",
+  "en": "Lesser Elaenia",
+  "hexagons": 23
+ },
+ {
+  "taxon": 597354,
+  "name": "Henicorhina leucophrys",
+  "en": "Gray-breasted Wood-Wren",
+  "hexagons": 103
+ },
+ {
+  "taxon": 603035,
+  "name": "Campylorhynchus capistratus",
+  "en": "Rufous-backed Wren",
+  "hexagons": 71
+ },
+ {
+  "taxon": 603211,
+  "name": "Phaethornis longirostris",
+  "en": "Long-billed Hermit",
+  "hexagons": 182
+ },
+ {
+  "taxon": 700998,
+  "name": "Colinus leucopogon",
+  "en": "Spot-bellied Bobwhite",
+  "hexagons": 43
+ },
+ {
+  "taxon": 792977,
+  "name": "Dryobates minor",
+  "en": "Lesser Spotted Woodpecker",
+  "hexagons": 151
+ },
+ {
+  "taxon": 792986,
+  "name": "Dryobates scalaris",
+  "en": "Ladder-backed Woodpecker",
+  "hexagons": 1776
+ },
+ {
+  "taxon": 792987,
+  "name": "Dryobates nuttallii",
+  "en": "Nuttall's Woodpecker",
+  "hexagons": 200
+ },
+ {
+  "taxon": 792988,
+  "name": "Dryobates pubescens",
+  "en": "Downy Woodpecker",
+  "hexagons": 7318
+ },
+ {
+  "taxon": 793284,
+  "name": "Centronyx bairdii",
+  "en": "Baird's Sparrow",
+  "hexagons": 971
+ },
+ {
+  "taxon": 793285,
+  "name": "Centronyx henslowii",
+  "en": "Henslow's Sparrow",
+  "hexagons": 1889
+ },
+ {
+  "taxon": 793286,
+  "name": "Ammospiza nelsoni",
+  "en": "Nelson's Sparrow",
+  "hexagons": 3571
+ },
+ {
+  "taxon": 793289,
+  "name": "Ammospiza caudacuta",
+  "en": "Saltmarsh Sparrow",
+  "hexagons": 149
+ },
+ {
+  "taxon": 793292,
+  "name": "Ammospiza maritima",
+  "en": "Seaside Sparrow",
+  "hexagons": 384
+ },
+ {
+  "taxon": 793469,
+  "name": "Regulus regulus",
+  "en": "Goldcrest",
+  "hexagons": 5
+ },
+ {
+  "taxon": 793475,
+  "name": "Ramphocelus passerinii",
+  "en": "Scarlet-rumped Tanager",
+  "hexagons": 53
+ },
+ {
+  "taxon": 827372,
+  "name": "Anas diazi",
+  "en": "Mexican Duck",
+  "hexagons": 1133
+ },
+ {
+  "taxon": 827413,
+  "name": "Sporophila morelleti",
+  "en": "Morelet's Seedeater",
+  "hexagons": 347
+ },
+ {
+  "taxon": 850858,
+  "name": "Melanitta fusca",
+  "en": "Velvet Scoter",
+  "hexagons": 19
+ },
+ {
+  "taxon": 850859,
+  "name": "Oxyura jamaicensis",
+  "en": "Ruddy Duck",
+  "hexagons": 7502
+ },
+ {
+  "taxon": 891696,
+  "name": "Pica pica",
+  "en": "Eurasian Magpie",
+  "hexagons": 61
+ },
+ {
+  "taxon": 891704,
+  "name": "Vireo olivaceus",
+  "en": "Red-eyed Vireo",
+  "hexagons": 6542
+ },
+ {
+  "taxon": 893705,
+  "name": "Sporophila torqueola",
+  "en": "Cinnamon-rumped Seedeater",
+  "hexagons": 314
+ },
+ {
+  "taxon": 979617,
+  "name": "Atlapetes tibialis",
+  "en": "Yellow-thighed Brushfinch",
+  "hexagons": 8
+ },
+ {
+  "taxon": 979640,
+  "name": "Calidris pygmaea",
+  "en": "Spoon-billed Sandpiper",
+  "hexagons": 194
+ },
+ {
+  "taxon": 979752,
+  "name": "Leiothlypis virginiae",
+  "en": "Virginia's Warbler",
+  "hexagons": 1360
+ },
+ {
+  "taxon": 979753,
+  "name": "Leiothlypis ruficapilla",
+  "en": "Nashville Warbler",
+  "hexagons": 8067
+ },
+ {
+  "taxon": 979754,
+  "name": "Leiothlypis crissalis",
+  "en": "Colima Warbler",
+  "hexagons": 570
+ },
+ {
+  "taxon": 979755,
+  "name": "Leiothlypis luciae",
+  "en": "Lucy's Warbler",
+  "hexagons": 1205
+ },
+ {
+  "taxon": 979756,
+  "name": "Leiothlypis peregrina",
+  "en": "Tennessee Warbler",
+  "hexagons": 10511
+ },
+ {
+  "taxon": 979757,
+  "name": "Leiothlypis celata",
+  "en": "Orange-crowned Warbler",
+  "hexagons": 11181
+ },
+ {
+  "taxon": 979790,
+  "name": "Lonchura malacca",
+  "en": "Tricolored Munia",
+  "hexagons": 268
+ },
+ {
+  "taxon": 979799,
+  "name": "Phonipara canora",
+  "en": "Cuban Grassquit",
+  "hexagons": 7
+ },
+ {
+  "taxon": 979800,
+  "name": "Melanospiza bicolor",
+  "en": "Black-faced Grassquit",
+  "hexagons": 15
+ },
+ {
+  "taxon": 979853,
+  "name": "Oxypogon stuebelii",
+  "en": "Buffy Helmetcrest",
+  "hexagons": 4
+ },
+ {
+  "taxon": 979905,
+  "name": "Polioptila albiloris",
+  "en": "White-lored Gnatcatcher",
+  "hexagons": 211
+ },
+ {
+  "taxon": 979906,
+  "name": "Polioptila albiventris",
+  "en": "Yucatan Gnatcatcher",
+  "hexagons": 46
+ },
+ {
+  "taxon": 979921,
+  "name": "Psittacara brevipes",
+  "en": "Socorro Parakeet",
+  "hexagons": 3
+ },
+ {
+  "taxon": 979922,
+  "name": "Psittacara holochlorus",
+  "en": "Green Parakeet",
+  "hexagons": 709
+ },
+ {
+  "taxon": 979934,
+  "name": "Ramphocaenus melanurus",
+  "en": "Long-billed Gnatwren",
+  "hexagons": 250
+ },
+ {
+  "taxon": 979973,
+  "name": "Stilpnia larvata",
+  "en": "Golden-hooded Tanager",
+  "hexagons": 33
+ },
+ {
+  "taxon": 979976,
+  "name": "Stilpnia cyanicollis",
+  "en": "Blue-necked Tanager",
+  "hexagons": 2
+ },
+ {
+  "taxon": 979979,
+  "name": "Poecilostreptus cabanisi",
+  "en": "Azure-rumped Tanager",
+  "hexagons": 22
+ },
+ {
+  "taxon": 980033,
+  "name": "Vireo crassirostris",
+  "en": "Thick-billed Vireo",
+  "hexagons": 12
+ },
+ {
+  "taxon": 980065,
+  "name": "Horornis diphone",
+  "en": "Japanese Bush Warbler",
+  "hexagons": 1
+ },
+ {
+  "taxon": 980257,
+  "name": "Zosterops simplex",
+  "en": "Swinhoe's White-eye",
+  "hexagons": 43
+ },
+ {
+  "taxon": 980262,
+  "name": "Zosterops japonicus",
+  "en": "Warbling White-eye",
+  "hexagons": 2
+ },
+ {
+  "taxon": 1188207,
+  "name": "Setophaga aestiva",
+  "en": "Northern Yellow Warbler",
+  "hexagons": 11706
+ },
+ {
+  "taxon": 1188213,
+  "name": "Numenius hudsonicus",
+  "en": "Hudsonian Whimbrel",
+  "hexagons": 12572
+ },
+ {
+  "taxon": 1286833,
+  "name": "Basileuterus delattrii",
+  "en": "Chestnut-capped Warbler",
+  "hexagons": 44
+ },
+ {
+  "taxon": 1286843,
+  "name": "Cistothorus stellaris",
+  "en": "Sedge Wren",
+  "hexagons": 3382
+ },
+ {
+  "taxon": 1286901,
+  "name": "Saltator grandis",
+  "en": "Cinnamon-bellied Saltator",
+  "hexagons": 450
+ },
+ {
+  "taxon": 1286913,
+  "name": "Saxicola stejnegeri",
+  "en": "Amur Stonechat",
+  "hexagons": 41
+ },
+ {
+  "taxon": 1286930,
+  "name": "Cynanthus doubledayi",
+  "en": "Turquoise-crowned Hummingbird",
+  "hexagons": 35
+ },
+ {
+  "taxon": 1286932,
+  "name": "Euphonia godmani",
+  "en": "West Mexican Euphonia",
+  "hexagons": 169
+ },
+ {
+  "taxon": 1286941,
+  "name": "Formicarius moniliger",
+  "en": "Mayan Antthrush",
+  "hexagons": 145
+ },
+ {
+  "taxon": 1286964,
+  "name": "Larus brachyrhynchus",
+  "en": "Short-billed Gull",
+  "hexagons": 3574
+ },
+ {
+  "taxon": 1287000,
+  "name": "Polioptila bilineata",
+  "en": "White-browed Gnatcatcher",
+  "hexagons": 128
+ },
+ {
+  "taxon": 1289367,
+  "name": "Amphispizopsis quinquestriata",
+  "en": "Five-striped Sparrow",
+  "hexagons": 234
+ },
+ {
+  "taxon": 1289370,
+  "name": "Chlorophonia elegantissima",
+  "en": "Elegant Euphonia",
+  "hexagons": 360
+ },
+ {
+  "taxon": 1289371,
+  "name": "Amandava subflava",
+  "en": "Orange-breasted Waxbill",
+  "hexagons": 1
+ },
+ {
+  "taxon": 1289379,
+  "name": "Chloebia gouldiae",
+  "en": "Gouldian Finch",
+  "hexagons": 14
+ },
+ {
+  "taxon": 1289388,
+  "name": "Corthylio calendula",
+  "en": "Ruby-crowned Kinglet",
+  "hexagons": 10115
+ },
+ {
+  "taxon": 1289407,
+  "name": "Pterorhinus courtoisi",
+  "en": "Blue-crowned Laughingthrush",
+  "hexagons": 7,
+  "why": "restricted species: xeno-canto withholds its recordings"
+ },
+ {
+  "taxon": 1289500,
+  "name": "Helopsaltes ochotensis",
+  "en": "Middendorff's Grasshopper Warbler",
+  "hexagons": 233
+ },
+ {
+  "taxon": 1289523,
+  "name": "Ramphotrigon flammulatum",
+  "en": "Flammulated Flycatcher",
+  "hexagons": 111
+ },
+ {
+  "taxon": 1289538,
+  "name": "Dendroma rufa",
+  "en": "Buff-fronted Foliage-gleaner",
+  "hexagons": 1
+ },
+ {
+  "taxon": 1289578,
+  "name": "Pteroglossus beauharnaisii",
+  "en": "Curl-crested Araçari",
+  "hexagons": 7
+ },
+ {
+  "taxon": 1289591,
+  "name": "Leucocarbo atriceps",
+  "en": "Imperial Shag",
+  "hexagons": 95
+ },
+ {
+  "taxon": 1289601,
+  "name": "Nannopterum brasilianum",
+  "en": "Neotropic Cormorant",
+  "hexagons": 2167
+ },
+ {
+  "taxon": 1289604,
+  "name": "Gulosus aristotelis",
+  "en": "European Shag",
+  "hexagons": 13
+ },
+ {
+  "taxon": 1289605,
+  "name": "Urile pelagicus",
+  "en": "Pelagic Cormorant",
+  "hexagons": 693
+ },
+ {
+  "taxon": 1289606,
+  "name": "Urile urile",
+  "en": "Red-faced Cormorant",
+  "hexagons": 173
+ },
+ {
+  "taxon": 1289607,
+  "name": "Urile penicillatus",
+  "en": "Brandt's Cormorant",
+  "hexagons": 311
+ },
+ {
+  "taxon": 1289609,
+  "name": "Hydrobates microsoma",
+  "en": "Least Storm-Petrel",
+  "hexagons": 134,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1289613,
+  "name": "Hydrobates melania",
+  "en": "Black Storm-Petrel",
+  "hexagons": 217,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1289614,
+  "name": "Hydrobates tethys",
+  "en": "Wedge-rumped Storm-Petrel",
+  "hexagons": 343
+ },
+ {
+  "taxon": 1289617,
+  "name": "Hydrobates castro",
+  "en": "Band-rumped Storm-Petrel",
+  "hexagons": 89
+ },
+ {
+  "taxon": 1289618,
+  "name": "Hydrobates homochroa",
+  "en": "Ashy Storm-Petrel",
+  "hexagons": 44
+ },
+ {
+  "taxon": 1289621,
+  "name": "Hydrobates socorroensis",
+  "en": "Townsend's Storm-Petrel",
+  "hexagons": 16,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1289622,
+  "name": "Hydrobates leucorhous",
+  "en": "Leach's Storm-Petrel",
+  "hexagons": 1033
+ },
+ {
+  "taxon": 1289624,
+  "name": "Hydrobates furcatus",
+  "en": "Fork-tailed Storm-Petrel",
+  "hexagons": 870
+ },
+ {
+  "taxon": 1289631,
+  "name": "Chlorestes eliciae",
+  "en": "Blue-throated Goldentail",
+  "hexagons": 118
+ },
+ {
+  "taxon": 1289632,
+  "name": "Chlorestes candida",
+  "en": "White-bellied Emerald",
+  "hexagons": 242
+ },
+ {
+  "taxon": 1289634,
+  "name": "Polyerata amabilis",
+  "en": "Blue-chested Hummingbird",
+  "hexagons": 7
+ },
+ {
+  "taxon": 1289656,
+  "name": "Saucerottia cyanura",
+  "en": "Blue-tailed Hummingbird",
+  "hexagons": 107
+ },
+ {
+  "taxon": 1289657,
+  "name": "Saucerottia beryllina",
+  "en": "Berylline Hummingbird",
+  "hexagons": 474
+ },
+ {
+  "taxon": 1289658,
+  "name": "Saucerottia hoffmanni",
+  "en": "Blue-vented Hummingbird",
+  "hexagons": 3
+ },
+ {
+  "taxon": 1289659,
+  "name": "Saucerottia cyanocephala",
+  "en": "Azure-crowned Hummingbird",
+  "hexagons": 263
+ },
+ {
+  "taxon": 1289666,
+  "name": "Eupherusa ridgwayi",
+  "en": "Mexican Woodnymph",
+  "hexagons": 33
+ },
+ {
+  "taxon": 1289669,
+  "name": "Microchera cupreiceps",
+  "en": "Coppery-headed Emerald",
+  "hexagons": 7
+ },
+ {
+  "taxon": 1289670,
+  "name": "Pampa rufa",
+  "en": "Rufous Sabrewing",
+  "hexagons": 16
+ },
+ {
+  "taxon": 1289672,
+  "name": "Pampa curvipennis",
+  "en": "Wedge-tailed Sabrewing",
+  "hexagons": 222
+ },
+ {
+  "taxon": 1289673,
+  "name": "Basilinna xantusii",
+  "en": "Xantus's Hummingbird",
+  "hexagons": 87
+ },
+ {
+  "taxon": 1289674,
+  "name": "Basilinna leucotis",
+  "en": "White-eared Hummingbird",
+  "hexagons": 449
+ },
+ {
+  "taxon": 1289675,
+  "name": "Cynanthus canivetii",
+  "en": "Canivet's Emerald",
+  "hexagons": 284
+ },
+ {
+  "taxon": 1289676,
+  "name": "Cynanthus forficatus",
+  "en": "Cozumel Emerald",
+  "hexagons": 11
+ },
+ {
+  "taxon": 1289677,
+  "name": "Cynanthus auriceps",
+  "en": "Golden-crowned Emerald",
+  "hexagons": 240
+ },
+ {
+  "taxon": 1289682,
+  "name": "Phaeoptila sordida",
+  "en": "Dusky Hummingbird",
+  "hexagons": 171
+ },
+ {
+  "taxon": 1289683,
+  "name": "Selasphorus ellioti",
+  "en": "Wine-throated Hummingbird",
+  "hexagons": 23
+ },
+ {
+  "taxon": 1289684,
+  "name": "Selasphorus heloisa",
+  "en": "Bumblebee Hummingbird",
+  "hexagons": 152
+ },
+ {
+  "taxon": 1289698,
+  "name": "Canachites canadensis",
+  "en": "Spruce Grouse",
+  "hexagons": 5384
+ },
+ {
+  "taxon": 1425255,
+  "name": "Cynanthus lawrencei",
+  "en": "Tres Marías Hummingbird",
+  "hexagons": 17,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1432779,
+  "name": "Daptrius chimachima",
+  "en": "Yellow-headed Caracara",
+  "hexagons": 17,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1437051,
+  "name": "Emberiza personata",
+  "en": "Masked Bunting",
+  "hexagons": 25,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1440169,
+  "name": "Silvicultrix frontalis",
+  "en": "Crowned Chat-Tyrant",
+  "hexagons": 8
+ },
+ {
+  "taxon": 1441511,
+  "name": "Contopus bogotensis",
+  "en": "Northern Tropical Pewee",
+  "hexagons": 220,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1454382,
+  "name": "Nannopterum auritum",
+  "en": "Double-crested Cormorant",
+  "hexagons": 7802
+ },
+ {
+  "taxon": 1455918,
+  "name": "Spilopelia chinensis",
+  "en": "Spotted Dove",
+  "hexagons": 35
+ },
+ {
+  "taxon": 1456513,
+  "name": "Sturnella lilianae",
+  "en": "Chihuahuan Meadowlark",
+  "hexagons": 947,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505518,
+  "name": "Hesperoburhinus bistriatus",
+  "en": "Double-striped Thick-knee",
+  "hexagons": 310,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505627,
+  "name": "Anarhynchus veredus",
+  "en": "Oriental Plover",
+  "hexagons": 29,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505629,
+  "name": "Anarhynchus leschenaultii",
+  "en": "Greater Sand-Plover",
+  "hexagons": 21,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505633,
+  "name": "Anarhynchus wilsonia",
+  "en": "Wilson's Plover",
+  "hexagons": 462,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505639,
+  "name": "Anarhynchus bicinctus",
+  "en": "Double-banded Plover",
+  "hexagons": 10,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505645,
+  "name": "Anarhynchus collaris",
+  "en": "Collared Plover",
+  "hexagons": 344,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505648,
+  "name": "Anarhynchus montanus",
+  "en": "Mountain Plover",
+  "hexagons": 2098,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505663,
+  "name": "Anarhynchus nivosus",
+  "en": "Snowy Plover",
+  "hexagons": 2330,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1505781,
+  "name": "Anarhynchus mongolus",
+  "en": "Siberian Sand-Plover",
+  "hexagons": 620,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1506025,
+  "name": "Ramosomyia viridifrons",
+  "en": "Green-fronted Hummingbird",
+  "hexagons": 179,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1506026,
+  "name": "Ramosomyia violiceps",
+  "en": "Violet-crowned Hummingbird",
+  "hexagons": 454,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1506156,
+  "name": "Periporphyrus celaeno",
+  "en": "Crimson-collared Grosbeak",
+  "hexagons": 112,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1506200,
+  "name": "Melopyrrha taylori",
+  "en": "Grand Cayman Bullfinch",
+  "hexagons": 2,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1506929,
+  "name": "Delichon lagopodum",
+  "en": "Siberian House Martin",
+  "hexagons": 856
+ },
+ {
+  "taxon": 1507566,
+  "name": "Automolus cervinigularis",
+  "en": "Fawn-throated Foliage-gleaner",
+  "hexagons": 68,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1578442,
+  "name": "Troglodytes musculus",
+  "en": "Southern House Wren",
+  "hexagons": 295,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1578443,
+  "name": "Troglodytes beani",
+  "en": "Cozumel Wren",
+  "hexagons": 4,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1578489,
+  "name": "Larus smithsonianus",
+  "en": "American Herring Gull",
+  "hexagons": 12509
+ },
+ {
+  "taxon": 1578501,
+  "name": "Sula brewsteri",
+  "en": "Cocos Booby",
+  "hexagons": 293,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1578502,
+  "name": "Tyto furcata",
+  "en": "American Barn Owl",
+  "hexagons": 4794
+ },
+ {
+  "taxon": 1578718,
+  "name": "Colaptes mexicanoides",
+  "en": "Guatemalan Flicker",
+  "hexagons": 22,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1578960,
+  "name": "Botaurus exilis",
+  "en": "Least Bittern",
+  "hexagons": 4688,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1579012,
+  "name": "Astur bicolor",
+  "en": "Bicolored Hawk",
+  "hexagons": 218,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1579015,
+  "name": "Astur gentilis",
+  "en": "Eurasian Goshawk",
+  "hexagons": 17,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1579016,
+  "name": "Astur atricapillus",
+  "en": "American Goshawk",
+  "hexagons": 6439,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1579017,
+  "name": "Astur cooperii",
+  "en": "Cooper's Hawk",
+  "hexagons": 6468,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1580267,
+  "name": "Anthus japonicus",
+  "en": "Siberian Pipit",
+  "hexagons": 351,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1580336,
+  "name": "Thinornis dubius",
+  "en": "Little Ringed Plover",
+  "hexagons": 47,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1582884,
+  "name": "Tachyspiza gularis",
+  "en": "Japanese Sparrowhawk",
+  "hexagons": 6,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1583491,
+  "name": "Laterallus flaviventer",
+  "en": "Yellow-breasted Crake",
+  "hexagons": 293
+ },
+ {
+  "taxon": 1584194,
+  "name": "Cyanocorax morio",
+  "en": "Brown Jay",
+  "hexagons": 308,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1584283,
+  "name": "Cyanocorax formosus",
+  "en": "White-throated Magpie-Jay",
+  "hexagons": 324,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1584359,
+  "name": "Cyanocorax colliei",
+  "en": "Black-throated Magpie-Jay",
+  "hexagons": 361,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1584760,
+  "name": "Antiurus maculicaudus",
+  "en": "Spot-tailed Nightjar",
+  "hexagons": 50,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1585192,
+  "name": "Campylorhynchus humilis",
+  "en": "Russet-naped Wren",
+  "hexagons": 100
+ },
+ {
+  "taxon": 1586402,
+  "name": "Driophlox fuscicauda",
+  "en": "Red-throated Ant-Tanager",
+  "hexagons": 274,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1586803,
+  "name": "Xenops mexicanus",
+  "en": "Northern Plain-Xenops",
+  "hexagons": 157,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1647128,
+  "name": "Piaya mexicana",
+  "en": "Mexican Squirrel-Cuckoo",
+  "hexagons": 272,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1649784,
+  "name": "Gygis candida",
+  "en": "Blue-billed White-Tern",
+  "hexagons": 2,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1650406,
+  "name": "Hesperiphona abeillei",
+  "en": "Hooded Grosbeak",
+  "hexagons": 431
+ },
+ {
+  "taxon": 1650411,
+  "name": "Hesperiphona vespertina",
+  "en": "Evening Grosbeak",
+  "hexagons": 7656
+ },
+ {
+  "taxon": 1651486,
+  "name": "Leuconotopicus borealis",
+  "en": "Red-cockaded Woodpecker",
+  "hexagons": 404
+ },
+ {
+  "taxon": 1651487,
+  "name": "Leuconotopicus villosus",
+  "en": "Hairy Woodpecker",
+  "hexagons": 8457
+ },
+ {
+  "taxon": 1651488,
+  "name": "Leuconotopicus albolarvatus",
+  "en": "White-headed Woodpecker",
+  "hexagons": 291
+ },
+ {
+  "taxon": 1651491,
+  "name": "Leuconotopicus fumigatus",
+  "en": "Smoky-brown Woodpecker",
+  "hexagons": 253
+ },
+ {
+  "taxon": 1651497,
+  "name": "Leuconotopicus stricklandi",
+  "en": "Strickland's Woodpecker",
+  "hexagons": 29
+ },
+ {
+  "taxon": 1651498,
+  "name": "Leuconotopicus arizonae",
+  "en": "Arizona Woodpecker",
+  "hexagons": 204
+ },
+ {
+  "taxon": 1651595,
+  "name": "Trogon ambiguus",
+  "en": "Coppery-tailed Trogon",
+  "hexagons": 608,
+  "why": "no recordings under this name"
+ },
+ {
+  "taxon": 1652206,
+  "name": "Vireo swainsoni",
+  "en": "Western Warbling Vireo",
+  "hexagons": 3450,
+  "why": "no recordings under this name"
+ }
+]

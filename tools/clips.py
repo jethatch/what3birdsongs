@@ -3,7 +3,7 @@
 For each recording in <data>/xc/chosen.json found in <data>/xc/audio/,
 writes <data>/clips/<taxon>.mp3: about six seconds, mono, chosen where the
 bird is loudest (or where an annotation says it sings), high-passed to take
-out rumble, brought to an even loudness, faded in and out, and encoded as a
+out rumble, brought to an even loudness (with a limiter so no clip peaks above -2 dB), faded in and out, and encoded as a
 40 kbit/s MP3. Writes <data>/clips/clips.json with the window used.
 
 Usage: .venv/bin/python tools/clips.py <data folder>
@@ -85,7 +85,7 @@ def main(data):
         subprocess.run(
             ["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-t", f"{length:.3f}", "-i", source,
              "-ac", "1", "-ar", str(RATE),
-             "-af", f"highpass=f=250,loudnorm=I=-18:TP=-2:LRA=11,afade=t=in:d=0.02,afade=t=out:st={max(0, length - fade):.3f}:d={fade:.3f}",
+             "-af", f"highpass=f=250,loudnorm=I=-18:TP=-2:LRA=11,alimiter=limit=0.8:level=false,afade=t=in:d=0.02,afade=t=out:st={max(0, length - fade):.3f}:d={fade:.3f}",
              "-c:a", "libmp3lame", "-b:a", "40k", target],
             check=True,
         )
