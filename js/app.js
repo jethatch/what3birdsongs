@@ -1007,7 +1007,7 @@ function openBird(index) {
   $("bird-sci").textContent = bird.sci;
   setImage($("bird-photo"), bird.photo);
   const rows = [
-    ["Recording", `<a href="https://xeno-canto.org/${encodeURIComponent(rec.xc)}" target="_blank" rel="noopener">XC${escapeHTML(rec.xc)}</a> by ${escapeHTML(rec.by || "unknown")}${rec.type ? ` (${escapeHTML(rec.type)})` : ""}. ${rec.where ? `Made in ${escapeHTML(rec.where)}, ` : "Made "}wherever the recordist was, not at this place: one recording stands in for the species everywhere.`],
+    ["Recording", `<a href="https://xeno-canto.org/${encodeURIComponent(rec.xc)}" target="_blank" rel="noopener">XC${escapeHTML(rec.xc)}</a> by ${escapeHTML(rec.by || "unknown")}${rec.type ? ` (${escapeHTML(rec.type)})` : ""}. ${rec.where ? `Made in ${escapeHTML(rec.where)}, not at this place` : "Not made at this place"}: this one recording stands in for the species everywhere.`],
     ["Licence", `<a href="${escapeHTML(rec.licUrl || licenceUrl(rec.lic))}" target="_blank" rel="noopener">${escapeHTML(licenceName(rec.lic))}</a>. Cut to a few seconds and re-encoded here.`],
   ];
   if (bird.photo) {
