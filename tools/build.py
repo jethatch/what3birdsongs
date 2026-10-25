@@ -28,9 +28,26 @@ import sys
 from collections import defaultdict
 
 import h3
+from PIL import Image
 
 VERSION = "1.0"
 TILE_RES = 2
+PHOTO_SIZE = 240  # pixels, longest side
+PHOTO_QUALITY = 70
+
+
+def copy_photo(source, target_stem, licence):
+    """A photo for the page. "No derivatives" photos are copied exactly as
+    iNaturalist serves them; the rest are re-saved smaller, to keep the site
+    small. Returns the file name used."""
+    if "nd" in (licence or ""):
+        target = target_stem + os.path.splitext(source)[1].lower()
+        shutil.copyfile(source, target)
+        return os.path.basename(target)
+    image = Image.open(source).convert("RGB")
+    image.thumbnail((PHOTO_SIZE, PHOTO_SIZE))
+    image.save(target_stem + ".jpg", "JPEG", quality=PHOTO_QUALITY, optimize=True, progressive=True)
+    return os.path.basename(target_stem) + ".jpg"
 
 
 def load(path):
@@ -97,8 +114,9 @@ def main(data, repo):
             },
         }
         if taxon in photo_files and photo.get("photo"):
-            shutil.copyfile(os.path.join(data, "inat", "photos", photo_files[taxon]), os.path.join(image_dir, photo_files[taxon]))
-            entry["photo"] = f"../img/birds/{photo_files[taxon]}"
+            name = copy_photo(os.path.join(data, "inat", "photos", photo_files[taxon]),
+                              os.path.join(image_dir, str(taxon)), photo["photo"].get("licence"))
+            entry["photo"] = f"../img/birds/{name}"
             entry["photoBy"] = photo["photo"].get("attribution")
             entry["photoLic"] = photo["photo"].get("licence")
             entry["inat"] = photo.get("inat")

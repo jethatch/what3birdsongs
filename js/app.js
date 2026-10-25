@@ -392,7 +392,7 @@ function setPlace(which, place, { move = true } = {}) {
   setStatus(which, "");
   setMarker(which);
   hideArrival();
-  if (spot) spot.popup.remove();
+  closeSpot();
   if (place && move && !(state.start && state.end)) {
     map.flyTo({ center: [place.lng, clampToMap(place.lat)], zoom: Math.max(map.getZoom(), 10), duration: 900 });
   }
@@ -980,9 +980,17 @@ function openBird(index) {
 // Clicking the map: hear one spot
 // ---------------------------------------------------------------------------
 
+// Closes the spot popup, or forgets one still waiting for its birds.
+function closeSpot() {
+  if (!spot) return;
+  if (spot.popup) spot.popup.remove();
+  spot = null;
+}
+
 function highlightSpot(which) {
   if (!spot) return;
-  const cards = spot.popup.getElement() ? spot.popup.getElement().querySelectorAll(".bird-card") : [];
+  const element = spot.popup && spot.popup.getElement();
+  const cards = element ? element.querySelectorAll(".bird-card") : [];
   cards.forEach((card, i) => card.classList.toggle("on", which === -1 ? false : which === 3 || i === which));
 }
 
@@ -1005,7 +1013,7 @@ async function playSpot() {
 }
 
 async function openSpot(lat, lng, autoplay) {
-  if (spot) spot.popup.remove();
+  closeSpot();
   const content = document.createElement("div");
   content.className = "spot";
   const opened = { popup: null, birds: [] };
@@ -1080,7 +1088,7 @@ function startLive() {
   }
   stopPlayback();
   hideArrival();
-  if (spot && spot.popup) spot.popup.remove();
+  closeSpot();
   // Unlock audio while this click still counts; the first bird has to wait
   // for a position.
   Tone.start();

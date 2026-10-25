@@ -4,7 +4,7 @@ For each recording in <data>/xc/chosen.json found in <data>/xc/audio/,
 writes <data>/clips/<taxon>.mp3: about six seconds, mono, chosen where the
 bird is loudest (or where an annotation says it sings), high-passed to take
 out rumble, brought to an even loudness, faded in and out, and encoded as a
-48 kbit/s MP3. Writes <data>/clips/clips.json with the window used.
+40 kbit/s MP3. Writes <data>/clips/clips.json with the window used.
 
 Usage: .venv/bin/python tools/clips.py <data folder>
 Needs ffmpeg on the PATH.
@@ -86,7 +86,7 @@ def main(data):
             ["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-t", f"{length:.3f}", "-i", source,
              "-ac", "1", "-ar", str(RATE),
              "-af", f"highpass=f=250,loudnorm=I=-18:TP=-2:LRA=11,afade=t=in:d=0.02,afade=t=out:st={max(0, length - fade):.3f}:d={fade:.3f}",
-             "-c:a", "libmp3lame", "-b:a", "48k", target],
+             "-c:a", "libmp3lame", "-b:a", "40k", target],
             check=True,
         )
         made[str(bird["taxon"])] = {"xc": bird["xc"], "start": round(start, 2), "seconds": round(length, 2)}

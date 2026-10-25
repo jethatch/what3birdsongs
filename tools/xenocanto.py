@@ -144,7 +144,9 @@ def score(recording):
     # couldn't be downloaded. Take one only when there's nothing else.
     licence = recording.get("lic") or ""
     s -= 60 if "/by-sa/" in licence else 0
-    s += 5 if (recording.get("file-name") or "").lower().endswith(".mp3") else 0
+    # Uncompressed files are many times larger to download; take one only
+    # when it is clearly the better recording.
+    s -= 0 if (recording.get("file-name") or "").lower().endswith(".mp3") else 20
     return s
 
 

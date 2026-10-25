@@ -17,13 +17,13 @@
 
 - **Source.** xeno-canto, through its API (v3), with Jim Thatcher's personal API key, used only by the build script on one machine; the page itself never calls the API. Requests were made one at a time with pauses between them and identified by the project's name and address.
 - **One recording per species,** chosen by a score: songs over calls, recordings made in the US, Canada or Mexico, higher quality ratings, fewer other species in the background, no playback used, a reasonable length. The choice is automatic and has not been checked by ear.
-- **The clip** is about six seconds: where the bird is loudest (or where an annotation in the recording says it sings), high-passed, brought to an even loudness, faded in and out, and re-encoded as a 48 kbit/s mono MP3. That is a derivative of each recording.
+- **The clip** is about six seconds: where the bird is loudest (or where an annotation in the recording says it sings), high-passed, brought to an even loudness, faded in and out, and re-encoded as a 40 kbit/s mono MP3. That is a derivative of each recording.
 - **Licences.** Only Creative Commons licences that allow derivatives are used: no "no derivatives" recordings. Most recordings are non-commercial (BY-NC or BY-NC-SA).
 - **Species set aside.** Species with no recording under their iNaturalist name, or none with a usable licence, or restricted species whose recordings xeno-canto withholds, are not in the page. They are listed, with the reason, in `library/species.json` for sorting out later.
 
 ## Photos
 
-- **Source.** Each species' default photo on iNaturalist, or the first openly licensed one if the default isn't. Used at iNaturalist's own "small" size and otherwise untouched, so "no derivatives" photos are used as they are.
+- **Source.** Each species' default photo on iNaturalist, or the first openly licensed one if the default isn't, downloaded at iNaturalist's "small" size. To keep the site small, photos are re-saved at up to 240 pixels and lower JPEG quality, except those under "no derivatives" licences, which are used exactly as iNaturalist serves them.
 - **Credit** is shown when a bird is selected; most photos are CC BY-NC.
 - **Sonograms** in the credits pop-up are xeno-canto's own images of the whole recording, loaded from xeno-canto only when someone opens the pop-up. Whether they carry the recording's licence was not confirmed.
 

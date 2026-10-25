@@ -8,7 +8,7 @@ what3birdsongs grew out of [what3chords songs](https://github.com/jethatch/what3
 
 ## What it does
 
-- **Three birds for every place.** The area is divided into H3 resolution-4 hexagons (about 1,770 km²), each with the list of birds that iNaturalist's range maps expect there. Within its hexagon, every spot under a square metre gets three different birds from that list, picked by shuffling the finer part of its H3 address, the way what3chords picks chords. Click the map to hear a spot.
+- **Three birds for every place.** The area is divided into H3 resolution-4 hexagons (about 1,770 km²), each with the list of birds that iNaturalist's range maps expect there. Within its hexagon, each spot gets three different birds from that list, picked by shuffling the finer part of its H3 address, the way what3chords picks chords: spots a few metres apart usually share their first bird, while the third changes with almost every step. Click the map to hear a spot.
 - **Trips.** Start and end by name (Nominatim, with Photon as a fallback), `lat, lng`, a map click or by dragging the pins. The route is a chain of hexagons: a greedy hex walk worked out in the browser, or the hexagons along a driving route from the public OSRM server. Short, medium or long.
 - **The song.** A marker travels the route while each stop's three birds sing in turn, or all together. The pace sets how long each turn lasts. Stops outside the area or out at sea stay quiet.
 - **Credits on demand.** Each bird in the player shows its photo and name; selecting it shows who recorded it and took the photo, the licences, a link to the recording on xeno-canto, and xeno-canto's sonogram.
