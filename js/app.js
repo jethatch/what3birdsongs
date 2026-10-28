@@ -19,6 +19,10 @@ const MAP_COLOURS = {
   dark: { hex: "#ffe14d", played: "#ff4d8d", current: "#ffe14d", track: "rgba(255,255,255,0.55)", casing: "#0d0d0f" },
   light: { hex: "#17160f", played: "#d6004f", current: "#ffd60a", track: "rgba(23,22,15,0.5)", casing: "#fffdf8" },
 };
+// The map stays on the area the birds cover (the US, Canada and Mexico,
+// with the Aleutians past the 180th meridian and the Arctic islands), as
+// the New Zealand site does: no panning or zooming out beyond it.
+const AREA_BOUNDS = [[-190, 10], [-45, 84]];
 const LENGTHS = {
   short: { name: "Short", stops: 10, explain: "About 10 stops at most. Big hexagons, a quick sketch of the trip." },
   medium: { name: "Medium", stops: 28, explain: "About 28 stops at most. A proper song." },
@@ -243,6 +247,7 @@ function initMap() {
       style: BASEMAPS[theme],
       ...view,
       maxZoom: 22,
+      maxBounds: AREA_BOUNDS,
       attributionControl: { compact: true },
     });
     mapParts = maplibregl;
