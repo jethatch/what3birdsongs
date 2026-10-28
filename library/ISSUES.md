@@ -44,3 +44,9 @@
 
 - The same address problem as what3chords: a grid laid over everything from outside, and a vocabulary someone else chose. Here the vocabulary is drawn from the place, but through a model's prediction, one taxonomy's names and one site's recordings.
 - English names only.
+
+## Added 28 October 2026 (to review)
+
+- **Species found under other names.** 24 species xeno-canto files under a different genus (for example Cooper's Hawk as *Accipiter cooperii*, where iNaturalist has *Astur cooperii*) were matched by their English names and added, taking the most common xeno-canto name among the results. Each match was accepted without being checked by hand, so the site now has 1,599 birds; the list is in the build data (`xc/byname-used.json`). Adding birds changes every address whose hexagon expects one of them.
+- **Waves at sea.** Stops out at sea, or outside the area, now play one turn of waves instead of silence. The recording is generic, "Ocean Waves on a Tropical Beach" by Jarrod Stanley (CC0, Wikimedia Commons), not from these coasts; xeno-canto had no surf recordings from the US or Canada. Its page also names "J.D. Savanyu" in the description, so the attribution needs checking. Land beyond the borders (Cuba, Guatemala) also gets waves for now, and a large coastal hexagon on a short route can pick its spot offshore and play waves.
+- **Disclaimer.** A first draft, written by Claude, is in "How it works", linked from the launch notice; it is to be reviewed and updated.

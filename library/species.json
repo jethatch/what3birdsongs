@@ -2064,8 +2064,7 @@
   "taxon": 4788,
   "name": "Eudromias morinellus",
   "en": "Eurasian Dotterel",
-  "hexagons": 70,
-  "why": "no recordings under this name"
+  "hexagons": 70
  },
  {
   "taxon": 4793,
@@ -4701,8 +4700,7 @@
   "taxon": 10446,
   "name": "Euthlypis lachrymosa",
   "en": "Fan-tailed Warbler",
-  "hexagons": 648,
-  "why": "no recordings under this name"
+  "hexagons": 648
  },
  {
   "taxon": 10459,
@@ -8793,8 +8791,7 @@
   "taxon": 508909,
   "name": "Mustelirallus erythrops",
   "en": "Paint-billed Crake",
-  "hexagons": 27,
-  "why": "no recordings under this name"
+  "hexagons": 27
  },
  {
   "taxon": 508920,
@@ -8836,8 +8833,7 @@
   "taxon": 514125,
   "name": "Oressochen jubatus",
   "en": "Orinoco Goose",
-  "hexagons": 14,
-  "why": "no recordings under this name"
+  "hexagons": 14
  },
  {
   "taxon": 515239,
@@ -9658,8 +9654,7 @@
   "taxon": 1432779,
   "name": "Daptrius chimachima",
   "en": "Yellow-headed Caracara",
-  "hexagons": 17,
-  "why": "no recordings under this name"
+  "hexagons": 17
  },
  {
   "taxon": 1437051,
@@ -9704,15 +9699,13 @@
   "taxon": 1505518,
   "name": "Hesperoburhinus bistriatus",
   "en": "Double-striped Thick-knee",
-  "hexagons": 310,
-  "why": "no recordings under this name"
+  "hexagons": 310
  },
  {
   "taxon": 1505627,
   "name": "Anarhynchus veredus",
   "en": "Oriental Plover",
-  "hexagons": 29,
-  "why": "no recordings under this name"
+  "hexagons": 29
  },
  {
   "taxon": 1505629,
@@ -9725,36 +9718,31 @@
   "taxon": 1505633,
   "name": "Anarhynchus wilsonia",
   "en": "Wilson's Plover",
-  "hexagons": 462,
-  "why": "no recordings under this name"
+  "hexagons": 462
  },
  {
   "taxon": 1505639,
   "name": "Anarhynchus bicinctus",
   "en": "Double-banded Plover",
-  "hexagons": 10,
-  "why": "no recordings under this name"
+  "hexagons": 10
  },
  {
   "taxon": 1505645,
   "name": "Anarhynchus collaris",
   "en": "Collared Plover",
-  "hexagons": 344,
-  "why": "no recordings under this name"
+  "hexagons": 344
  },
  {
   "taxon": 1505648,
   "name": "Anarhynchus montanus",
   "en": "Mountain Plover",
-  "hexagons": 2098,
-  "why": "no recordings under this name"
+  "hexagons": 2098
  },
  {
   "taxon": 1505663,
   "name": "Anarhynchus nivosus",
   "en": "Snowy Plover",
-  "hexagons": 2330,
-  "why": "no recordings under this name"
+  "hexagons": 2330
  },
  {
   "taxon": 1505781,
@@ -9767,22 +9755,19 @@
   "taxon": 1506025,
   "name": "Ramosomyia viridifrons",
   "en": "Green-fronted Hummingbird",
-  "hexagons": 179,
-  "why": "no recordings under this name"
+  "hexagons": 179
  },
  {
   "taxon": 1506026,
   "name": "Ramosomyia violiceps",
   "en": "Violet-crowned Hummingbird",
-  "hexagons": 454,
-  "why": "no recordings under this name"
+  "hexagons": 454
  },
  {
   "taxon": 1506156,
   "name": "Periporphyrus celaeno",
   "en": "Crimson-collared Grosbeak",
-  "hexagons": 112,
-  "why": "no recordings under this name"
+  "hexagons": 112
  },
  {
   "taxon": 1506200,
@@ -9848,15 +9833,13 @@
   "taxon": 1578960,
   "name": "Botaurus exilis",
   "en": "Least Bittern",
-  "hexagons": 4688,
-  "why": "no recordings under this name"
+  "hexagons": 4688
  },
  {
   "taxon": 1579012,
   "name": "Astur bicolor",
   "en": "Bicolored Hawk",
-  "hexagons": 218,
-  "why": "no recordings under this name"
+  "hexagons": 218
  },
  {
   "taxon": 1579015,
@@ -9876,8 +9859,7 @@
   "taxon": 1579017,
   "name": "Astur cooperii",
   "en": "Cooper's Hawk",
-  "hexagons": 6468,
-  "why": "no recordings under this name"
+  "hexagons": 6468
  },
  {
   "taxon": 1580267,
@@ -9890,15 +9872,13 @@
   "taxon": 1580336,
   "name": "Thinornis dubius",
   "en": "Little Ringed Plover",
-  "hexagons": 47,
-  "why": "no recordings under this name"
+  "hexagons": 47
  },
  {
   "taxon": 1582884,
   "name": "Tachyspiza gularis",
   "en": "Japanese Sparrowhawk",
-  "hexagons": 6,
-  "why": "no recordings under this name"
+  "hexagons": 6
  },
  {
   "taxon": 1583491,
@@ -9910,29 +9890,25 @@
   "taxon": 1584194,
   "name": "Cyanocorax morio",
   "en": "Brown Jay",
-  "hexagons": 308,
-  "why": "no recordings under this name"
+  "hexagons": 308
  },
  {
   "taxon": 1584283,
   "name": "Cyanocorax formosus",
   "en": "White-throated Magpie-Jay",
-  "hexagons": 324,
-  "why": "no recordings under this name"
+  "hexagons": 324
  },
  {
   "taxon": 1584359,
   "name": "Cyanocorax colliei",
   "en": "Black-throated Magpie-Jay",
-  "hexagons": 361,
-  "why": "no recordings under this name"
+  "hexagons": 361
  },
  {
   "taxon": 1584760,
   "name": "Antiurus maculicaudus",
   "en": "Spot-tailed Nightjar",
-  "hexagons": 50,
-  "why": "no recordings under this name"
+  "hexagons": 50
  },
  {
   "taxon": 1585192,

@@ -4,7 +4,7 @@ import {
   stopsToGeoJSON, wrapLng,
 } from "./routing.js";
 import { GRIDS } from "./grid.js";
-import { loadBirds, prepareBirds, prepareCells, birdsFor, birdsAt, spotIn, catalogueInfo } from "./birds.js";
+import { loadBirds, prepareBirds, prepareCells, birdsFor, birdsAt, spotIn, inArea, catalogueInfo } from "./birds.js";
 import { Aviary, Player, LiveRecorder, renderSong, songSeconds } from "./audio.js";
 import { combine, licenceName, licenceUrl } from "./licences.js";
 import { LiveSession, liveSupport, paceName } from "./live.js";
@@ -43,6 +43,26 @@ const EXAMPLE = {
 };
 const SECTIONS = ["more-route"];
 const QUIET = "No birds here: outside the US, Canada and Mexico, or out at sea.";
+
+// The waves heard at stops out at sea: a generic recording, not from these
+// coasts (none was found on xeno-canto). Cut and re-encoded by hand; see
+// README.
+const SEA_SOURCE = {
+  title: "Ocean Waves on a Tropical Beach",
+  by: "Jarrod Stanley",
+  lic: "cc0",
+  url: "https://commons.wikimedia.org/wiki/File:Ocean_Waves_on_a_Tropical_Beach.ogg",
+};
+// A stop out at sea plays waves instead of silence: that one recording,
+// heard like a bird for one turn.
+const SEA = {
+  index: "sea",
+  sea: true,
+  name: "Waves",
+  clip: new URL("./audio/sea.mp3", location.href).href,
+  rec: SEA_SOURCE,
+};
+const SEA_TEXT = "Out at sea: waves.";
 
 const $ = (id) => document.getElementById(id);
 const escapeHTML = (text) => String(text).replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
@@ -492,6 +512,7 @@ async function giveBirds(stops) {
     const found = birdsAt(spots[i]);
     stop.birds = found ? found.birds : [];
     stop.local = found ? found.local : 0;
+    stop.sea = !found && !inArea(spots[i]);
   });
 }
 
@@ -506,9 +527,11 @@ async function pathRoute() {
     if (!entry.birds) {
       entry.birds = stop.birds;
       entry.local = stop.local;
+      entry.sea = stop.sea;
     }
     stop.birds = entry.birds;
     stop.local = entry.local;
+    stop.sea = Boolean(entry.sea);
   });
   return route;
 }
@@ -648,7 +671,9 @@ function renderRoute() {
   if (quiet === route.stops.length) {
     notes.push("None of these stops has any birds: the area is the US, Canada and Mexico, on land and near the coast.");
   } else if (quiet) {
-    notes.push(`${quiet} ${quiet === 1 ? "stop is" : "stops are"} outside the area or out at sea: a short quiet turn each.`);
+    const sea = route.stops.filter((stop) => stop.sea).length;
+    if (sea) notes.push(`${sea} ${sea === 1 ? "stop is" : "stops are"} out at sea: a turn of waves each.`);
+    if (quiet > sea) notes.push(`${quiet - sea} ${quiet - sea === 1 ? "stop has" : "stops have"} fewer than three birds: a quiet turn each.`);
   }
   summary.innerHTML = `<strong>${count}</strong> · ${escapeHTML(facts)}` +
     notes.map((text) => `<span class="note">${escapeHTML(text)}</span>`).join("");
@@ -666,9 +691,9 @@ function renderChart() {
     button.type = "button";
     const names = stop.birds.length
       ? stop.birds.map((bird, which) => `<span class="c" data-which="${which}">${escapeHTML(bird.name)}</span>`).join("")
-      : '<span class="c quiet">no birds</span>';
+      : `<span class="c quiet">${stop.sea ? "waves" : "no birds"}</span>`;
     button.innerHTML = `<span class="n">${i + 1}</span>${names}`;
-    button.setAttribute("aria-label", `Stop ${i + 1}: ${stop.birds.length ? stop.birds.map((bird) => bird.name).join(", ") : "no birds"}`);
+    button.setAttribute("aria-label", `Stop ${i + 1}: ${stop.birds.length ? stop.birds.map((bird) => bird.name).join(", ") : stop.sea ? "waves, out at sea" : "no birds"}`);
     button.tabIndex = i === 0 ? 0 : -1;
     button.addEventListener("click", () => jumpToStop(i));
     li.append(button);
@@ -723,7 +748,8 @@ function renderSongInfo(position) {
 // ---------------------------------------------------------------------------
 
 // The song: each stop takes three turns (birds in turn) or one (all
-// together); a stop with no birds takes one quiet turn either way.
+// together); a stop with no birds takes one turn either way, of waves if
+// it is out at sea and of quiet otherwise.
 // barAt() says which stop and bird a turn is, and which of its stop's turns.
 function makeSong(per = state.perStop) {
   const stops = state.route.stops;
@@ -744,7 +770,7 @@ function makeSong(per = state.perStop) {
       const stop = owner[bar];
       const turn = bar - first[stop];
       const birds = stops[stop].birds;
-      if (!birds.length) return { birds: [], stop, which: -1, turn: 0, turns: 1 };
+      if (!birds.length) return { birds: stops[stop].sea ? [SEA] : [], stop, which: -1, turn: 0, turns: 1 };
       if (per === 1) return { birds, stop, which: -1, turn: 0, turns: 1 };
       return { birds: [birds[turn]], stop, which: turn, turn, turns: 3 };
     },
@@ -981,7 +1007,7 @@ function birdCard(bird, className = "") {
 // The three birds of the stop under the playhead.
 function renderNow(stop, which, sounding) {
   if (!stop.birds.length) {
-    $("now").innerHTML = `<p class="now-quiet">${escapeHTML(QUIET)}</p>`;
+    $("now").innerHTML = `<p class="now-quiet">${escapeHTML(stop.sea ? SEA_TEXT : QUIET)}</p>`;
     return;
   }
   $("now").innerHTML = stop.birds.map((bird, i) => {
@@ -1360,6 +1386,10 @@ function creditsText(title, birds, licence) {
   ];
   for (const bird of birds) {
     const rec = bird.rec;
+    if (bird.sea) {
+      lines.push(`- Waves, for stops out at sea: "${rec.title}" by ${rec.by}, ${rec.url}, ${licenceName(rec.lic)} (${licenceUrl(rec.lic)})`);
+      continue;
+    }
     lines.push(`- ${bird.name} (${bird.sci}): XC${rec.xc} by ${rec.by || "unknown"}, https://xeno-canto.org/${rec.xc}, ${licenceName(rec.lic)} (${rec.licUrl || licenceUrl(rec.lic)})`);
   }
   lines.push("", "Which birds a place gets comes from iNaturalist's open range maps (CC BY 4.0).");
@@ -1587,6 +1617,11 @@ function bindControls() {
   $("download").addEventListener("click", downloadSong);
   $("share-cancel").addEventListener("click", () => $("share-dialog").close());
   $("notice-ok").addEventListener("click", () => $("notice").close());
+  $("notice-disclaimer").addEventListener("click", () => {
+    $("notice").close();
+    $("about").showModal();
+    $("disclaimer").scrollIntoView();
+  });
   $("download-dialog").addEventListener("close", releaseUrls);
   $("share-confirm").addEventListener("click", () => {
     $("share-dialog").close();
