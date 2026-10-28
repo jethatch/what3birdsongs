@@ -970,13 +970,13 @@ dialog.small input { margin-top: 12px; font: 500 13px var(--font-mono); }
     min-height: 100dvh;
   }
   #panel { display: contents; }
-  .masthead, #trip, #band, .credits { margin: 0 12px; }
+  .masthead, #trip, #sound, .credits { margin: 0 12px; }
   .masthead { order: 1; margin-top: 14px; }
   #trip { order: 2; margin-top: 12px; }
   #stage { order: 3; height: 58vh; min-height: 340px; margin-top: 12px; }
   .no-map #stage { height: auto; min-height: 0; }
   .no-map #map-missing { position: static; transform: none; width: auto; margin: 0 12px; }
-  #band { order: 4; margin-top: 12px; }
+  #sound { order: 4; margin-top: 12px; }
   .credits { order: 5; margin-top: 12px; margin-bottom: 14px; }
   #deck {
     order: 6;
